@@ -1,0 +1,3258 @@
+' 0:< Initial VM: Avail 134213360 MB, Used 18 MB, Peak 57; RAM: Avail 4221 MB, Used 42 MB, Peak 57 
+'C 15-Dec-2021 14:01:48.599;   0:< started recording journal file 
+' Build: 20130308_1515(x64)
+Dim Jrn
+Set Jrn = CrsJournalScript
+' 0:<  ->desktop InitApplication 
+' 0:<  <-desktop InitApplication 
+' 0:<  ->desktop InitNativeInstance 
+' 0:< Options::loadOptions: m_strDataLibraryLocations=Imperial Library=C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\,Imperial Detail Library=C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Detail Items (defaultLib==\Library) 
+' 0:< ::0:: Delta VM: Avail -56 -> 134213304 MB, Used +6 -> 25 MB; RAM: Avail -24 -> 4198 MB, Used +18 -> 60 MB, Peak +18 -> 60 MB 
+'C 15-Dec-2021 14:01:49.036;   0:< License initialization complete 
+' 0:< ::0:: Delta VM: Avail -1043 -> 134212262 MB, Used +169 -> 194 MB, Peak +136 -> 194 MB; RAM: Avail -173 -> 4025 MB, Used +197 -> 257 MB, Peak +197 -> 257 MB 
+' 0:< Autodesk Revit 2014 
+' 0:< 64-bit load point = C:\Program Files\Autodesk\Revit 2014 
+' 0:< this journal = C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt 
+' 0:< ::0:: Delta VM: Avail -54 -> 134212208 MB, Used +8 -> 202 MB, Peak +40 -> 234 MB; RAM: Avail -14 -> 4012 MB, Used +12 -> 270 MB, Peak +16 -> 274 MB 
+' 0:< Journal Init 
+' 0:< Log Summary 
+' 0:< .Count 
+' 0:< ...CloseHiddenWindowsInAllDocuments = 1 
+' 0:< ...onUpdateWindowCloseHidden = 1 
+' 0:< ...ProjectRecsCreated = 1 
+' 0:< .ThreadPool 
+' 0:< ...ActivePoolSize = 21 
+' 0:< ...ConfiguredPoolSize = automatic 
+' 0:< ...ParallelCores = 8 
+' 0:< ...RequestedPoolSize = automatic 
+' 0:< .Tuning 
+' 0:< ...ElemTable = 1 (Serial except when multithreaded) 
+' 0:< ...Global = 0 (Scalable) 
+' 0:< ...PoolGlobal = 1 (Pool) 
+' 0:< ...PoolLocking = 1 (Locking) 
+' 0:< ...PoolScalable = 1 (Pool) 
+' 0:< ...PoolTreeNodes = 0 (Allocator) 
+' 0:< ...Scalable = 0 (Scalable) 
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Data "JournalDefaultTemplate"  _
+        , "Construction Template=$AllUsersAppData\Templates\US Imperial\Construction-Default.rte, Architectural Template=$AllUsersAppData\Templates\US Imperial\default.rte, Structural Template=$AllUsersAppData\Templates\US Imperial\Structural Analysis-Default.rte, Mechanical Template=$AllUsersAppData\Templates\US Imperial\Mechanical-Default.rte"
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Data "JournalDefaultViewDiscipline"  _
+        , "Coordination"
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "Version"  _
+        , "2014.000", "2.143"
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "Username"  _
+        , "sandeep reddy"
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "CategoryDisciplineFilter"  _
+        , -1
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "DisciplineOption"  _
+        , 7677
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "TabDisplayOptions"  _
+        , "StayOnModifyInProject", 0
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "TabDisplayOptions"  _
+        , "StayOnModifyInFamily", 1
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "TabDisplayOptions"  _
+        , "ActiveCtOnSelection", 1
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "AllowLinkSelection"  _
+        , 1
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "AllowFaceSelection"  _
+        , 0
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "AllowUnderlaySelection"  _
+        , 1
+'H 15-Dec-2021 14:01:52.839;   0:< 
+Jrn.Directive "AllowPinnedSelection"  _
+        , 1
+' 0:< ::0:: Delta VM: Avail -19 -> 134212190 MB, Used 202 MB; RAM: Avail -26 -> 3986 MB, Used +1 -> 271 MB, Peak +4 -> 278 MB 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(a9bdf0fd-2632-429e-bc35-50ebc2b824d2); VendorId(ADSK); Description(Navisworks Export Service) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(de6db8de-dea6-40bd-9503-4ffe62ff6143); VendorId(ADSK); Description(The external service to view and modify code checking parameter in analytical elements.) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(d8b95737-f943-414c-9ad7-86785bf1acbc); VendorId(ADSK); Description(IFC) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(d8b95737-f943-414c-9ad7-86785bf1acbc); ServerId(ef8d0493-7f36-42b5-b9aa-8aaac716482b); Name(Default IFC); VendorId(ADSK); Description(Default IFC) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(98d317e2-e943-4cc0-a3da-2edf32a5d942); VendorId(ADSK); Description(IFC) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(98d317e2-e943-4cc0-a3da-2edf32a5d942); ServerId(660a7370-f6d6-43c8-8456-6b2eea785110); Name(Default IFC); VendorId(ADSK); Description(Default IFC) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(785d0bd7-3088-489a-af7a-593fc32e2540); VendorId(ADSK); Description(Duct fitting and accessory pressure drop service) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(b8656566-e4ef-4e6a-bedb-9ecc6b5a2780); VendorId(ADSK); Description(Pipe fitting and accessory pressure drop service) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(8c707bd6-ecd6-4150-a0df-bd6c85dd9bb0); VendorId(ADSK); Description(Duct Straight Segment Pressure Drop Calculation) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(62d13e0c-9fe1-4d8e-a0c7-1f93d24cf3f3); VendorId(ADSK); Description(Pipe Straight Segment Pressure Drop Calculation) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(bf0da776-5307-4747-8285-f358e92a90d0); VendorId(ADSK); Description(Convert Fixture Units to Flow for Plumbing Fixtures, which is applicable to Domestic Water System Flow Calculation) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(52009bda-c817-4aef-aa31-36dc3742516e); VendorId(ADSK); Description(Duct fitting and accessory pressure drop UI service) } 
+' 0:< API_SUCCESS { Registered an external service.: ServiceId(1931b323-1d29-4083-b1ce-bfdcddd011af); VendorId(ADSK); Description(Pipe fitting and accessory pressure drop UI service) } 
+' 0:< ::0:: Delta VM: Avail -77 -> 134212113 MB, Used +19 -> 222 MB; RAM: Avail -30 -> 3957 MB, Used +25 -> 297 MB, Peak +19 -> 297 MB 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(bf0da776-5307-4747-8285-f358e92a90d0); ServerId(56121d7d-e1d7-42a3-bed8-f4d1d32058c8); Name(Plumbing Fixture Flow); VendorId(ADSK); Description(Calculation of flow using the Plumbing Fixture Flow method.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(62d13e0c-9fe1-4d8e-a0c7-1f93d24cf3f3); ServerId(ea275fb1-5d7b-47d6-b828-bf856df9bfd5); Name(Pipe Pressure Drop); VendorId(ADSK); Description(Calculation of pressure drop using Darcy-Weisbach method.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(8c707bd6-ecd6-4150-a0df-bd6c85dd9bb0); ServerId(042a10e0-8d24-46a4-9596-d192b3125d0c); Name(Duct Pressure Drop); VendorId(ADSK); Description(Calculation of duct pressure drop using Darcy method.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(785d0bd7-3088-489a-af7a-593fc32e2540); ServerId(76eff5da-2e71-45f7-b940-cc5716328ba0); Name(Not Defined); VendorId(ADSK); Description(The Pressure Drop on the fitting will be treated as 0.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(785d0bd7-3088-489a-af7a-593fc32e2540); ServerId(8baf7d75-8b9b-46d0-b8ce-3ad1c19e6b19); Name(Coefficient from ASHRAE Table); VendorId(ADSK); Description(Version 5.0.0 of the ASHRAE duct fitting database has been implemented for duct fittings. When using this calculation method, the duct fitting coefficient will be read from the mapped ASHRAE table.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(785d0bd7-3088-489a-af7a-593fc32e2540); ServerId(5a598293-1504-46cc-a9c0-de55c82848b9); Name(Specific Coefficient); VendorId(ADSK); Description(Customize the Loss Coefficient on the fitting, then using the following method to calculate duct fitting pressure drop. this method only available for two connector fittings, like elbow, transitions, etc.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(785d0bd7-3088-489a-af7a-593fc32e2540); ServerId(46245996-eebb-4536-ac17-9c1cd917d8cf); Name(Specific Loss); VendorId(ADSK); Description(Customize the Pressure Drop on the fitting, this method only available for two connector fittings, like elbow, transitions, etc.) } 
+' 0:< ::0:: Delta VM: Avail 134212113 MB, Used +0 -> 223 MB; RAM: Avail +10 -> 3968 MB, Used 297 MB 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(b8656566-e4ef-4e6a-bedb-9ecc6b5a2780); ServerId(61e7b8e1-16d1-4fe4-82f0-327af736323f); Name(Not Defined); VendorId(ADSK); Description(The Pressure Drop on the fitting will be treated as 0.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(b8656566-e4ef-4e6a-bedb-9ecc6b5a2780); ServerId(51dd5e98-a9dd-464b-b286-4a37953610bf); Name(K Coefficient from Table); VendorId(ADSK); Description(CIBSE/ASHRAE/Crane standards are used for pipe fitting loss definition based on the pipe fitting types.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(b8656566-e4ef-4e6a-bedb-9ecc6b5a2780); ServerId(32d58662-b467-4f7b-b728-f6ad7b7ba5e3); Name(Specific Coefficient); VendorId(ADSK); Description(Customize the Loss Coefficient on the fitting, then using the following method to calculate pipe fitting pressure drop. This method only available for two connector fittings, like elbow, transitions, etc.) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(b8656566-e4ef-4e6a-bedb-9ecc6b5a2780); ServerId(16f4f7be-0ac0-461d-a9a4-1d3511cd280e); Name(Specific Loss); VendorId(ADSK); Description(Customize the Pressure Drop on the fitting, this method only available for two connector fittings, like elbow, transitions, etc.) } 
+' 0:< ::0:: Delta VM: Avail -5 -> 134212109 MB, Used +1 -> 225 MB; RAM: Avail -14 -> 3955 MB, Used +2 -> 299 MB, Peak +2 -> 300 MB 
+' 0:< Added new API external application RaaS, class Autodesk.RaaS.RevitAddin.EApplication, assembly RaaSApplication.dll, vendorId ADSK, vendor description Autodesk, www.autodesk.com. 
+' 0:< API registering ApplicationClosing event by application RaaS (d4f6554b-5d68-4a13-beec-4a0647c34408). 
+' 0:< API_SUCCESS { Replacing command id 'ID_PHOTO_RENDER_IN_CLOUD' Executed implementation with implementation from application 'RaaS' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\RaaSForRevit\RaaSApplication.dll'. } 
+' 0:< API_SUCCESS { API registering command  Executed event by application RaaS (d4f6554b-5d68-4a13-beec-4a0647c34408). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_PHOTO_RENDER_IN_CLOUD' CanExecute implementation with implementation from application 'RaaS' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\RaaSForRevit\RaaSApplication.dll'. } 
+' 0:< API_SUCCESS { API registering command  CanExecute event by application RaaS (d4f6554b-5d68-4a13-beec-4a0647c34408). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_PHOTO_RENDER_GALLERY' Executed implementation with implementation from application 'RaaS' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\RaaSForRevit\RaaSApplication.dll'. } 
+' 0:< API_SUCCESS { API registering command  Executed event by application RaaS (d4f6554b-5d68-4a13-beec-4a0647c34408). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_PHOTO_RENDER_GALLERY' CanExecute implementation with implementation from application 'RaaS' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\RaaSForRevit\RaaSApplication.dll'. } 
+' 0:< API_SUCCESS { API registering command  CanExecute event by application RaaS (d4f6554b-5d68-4a13-beec-4a0647c34408). } 
+' 0:< ::0:: Delta VM: Avail -1 -> 134212108 MB, Used -6 -> 219 MB; RAM: Avail +12 -> 3967 MB, Used -5 -> 295 MB, Peak +1 -> 302 MB 
+' 0:< Added new API external application AutoLoad, class AutoLoader.AutoLoader, assembly AutoLoader.dll, vendorId ADSK, vendor description . 
+'H 15-Dec-2021 14:01:53.962;   0:< 
+Jrn.Directive "IdleTimeTaskSymbol"  _
+        , "0.ExternalEvent"
+' 0:< Added new API external application FittingAndAccessoryCalculationUIServers, class FittingAndAccessoryCalculationUIServers.ServerApp, assembly FittingAndAccessoryCalculationUIServers.dll, vendorId ADSK, vendor description Autodesk, www.autodesk.com. 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(52009bda-c817-4aef-aa31-36dc3742516e); ServerId(607992d7-359d-4593-b497-8aa238e2c564); Name(Duct not defined pressure drop UI server); VendorId(ADSK); Description(Duct not defined pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(52009bda-c817-4aef-aa31-36dc3742516e); ServerId(9641a039-441e-42e2-93a6-c0e2177cc23c); Name(Duct specific coefficient pressure drop UI server); VendorId(ADSK); Description(Duct specific coefficient pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(52009bda-c817-4aef-aa31-36dc3742516e); ServerId(d3b5e81d-9b8c-40da-8efb-99dd37fda611); Name(Duct specific loss pressure drop UI server); VendorId(ADSK); Description(Duct specific loss pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(52009bda-c817-4aef-aa31-36dc3742516e); ServerId(25fa8de2-67c4-47d1-91f6-bd6f0803a5ed); Name(Duct coefficient from table pressure drop UI server); VendorId(ADSK); Description(Duct coefficient from table pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(1931b323-1d29-4083-b1ce-bfdcddd011af); ServerId(62917391-e14d-4897-ad0c-05342d71e4f9); Name(Pipe not defined pressure drop UI server); VendorId(ADSK); Description(Pipe not defined pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(1931b323-1d29-4083-b1ce-bfdcddd011af); ServerId(247265b6-7b71-4147-97c6-cc52b39c12aa); Name(Pipe specific coefficient pressure drop UI server); VendorId(ADSK); Description(Pipe specific coefficient pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(1931b323-1d29-4083-b1ce-bfdcddd011af); ServerId(5978b92a-3f0b-4691-bbc8-caf2fae20a71); Name(Pipe specific loss pressure drop UI server); VendorId(ADSK); Description(Pipe specific loss pressure drop UI server) } 
+' 0:< API_SUCCESS { An external server has been registered.: ServiceId(1931b323-1d29-4083-b1ce-bfdcddd011af); ServerId(cda19b6f-fbd5-4725-a0ce-f159bf5d02fe); Name(Pipe K coefficient from table pressure drop UI server); VendorId(ADSK); Description(Pipe K coefficient from table pressure drop UI server) } 
+' 0:< Added new API external application PressureLossReport, class PressureLossReport.PressureLossReportApplication, assembly PressureLossReport.dll, vendorId ADSK, vendor description Autodesk, www.autodesk.com. 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_DUCT_PRESSURE_LOSS_REPORT' CanExecute implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Duct Pressure Loss Report CanExecute event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_DUCT_PRESSURE_LOSS_REPORT' Executed implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Duct Pressure Loss Report Executed event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_PIPE_PRESSURE_LOSS_REPORT' CanExecute implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Pipe Pressure Loss Report CanExecute event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_PIPE_PRESSURE_LOSS_REPORT' Executed implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Pipe Pressure Loss Report Executed event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_SELECT_DUCT_PRESSURE_LOSS_REPORT' CanExecute implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Duct Pressure Loss Report CanExecute event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_SELECT_DUCT_PRESSURE_LOSS_REPORT' Executed implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Duct Pressure Loss Report Executed event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_SELECT_PIPE_PRESSURE_LOSS_REPORT' CanExecute implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Pipe Pressure Loss Report CanExecute event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+' 0:< API_SUCCESS { Replacing command id 'ID_MEP_SELECT_PIPE_PRESSURE_LOSS_REPORT' Executed implementation with implementation from application 'PressureLossReport' dll 'C:\Program Files\Autodesk\Revit 2014\AddIns\MEPCalculation\PressureLossReport.dll'. } 
+' 0:< API_SUCCESS { API registering command Pipe Pressure Loss Report Executed event by application PressureLossReport (b00d3753-d3bc-4255-9c97-e389de87a5d6). } 
+'C 15-Dec-2021 14:01:54.295;   0:< ->processShellCommand 
+ 'E 15-Dec-2021 14:01:54.296;   0:< 
+ Jrn.Command "Internal" , "Show or hide recent files , ID_STARTUP_PAGE"
+' 0:< ::1:: Delta VM: Avail -15 -> 134212094 MB, Used +1 -> 221 MB; RAM: Avail -13 -> 3955 MB, Used +5 -> 300 MB, Peak +1 -> 303 MB 
+'C 15-Dec-2021 14:01:54.654;   0:< <-processShellCommand 
+' 0:<  ->DesktopMFCApp::doStartupWarnings 
+'C 15-Dec-2021 14:01:54.655;   0:< manage licensing 
+' 0:< ::1:: Delta VM: Avail -32848 -> 134179246 MB, Used +12 -> 233 MB; RAM: Avail -114 -> 3841 MB, Used +38 -> 339 MB, Peak +37 -> 341 MB 
+' 0:< License mode: Standalone 
+' 0:< Status: There are 25 days left in your free trial. 
+' 0:< Type: Standalone - Locked 
+' 0:< Usage: In Trial 
+' 0:< Behavior: Unregistered Version 
+' 0:< Expiration: Sunday, January 09, 2022 
+'C 15-Dec-2021 14:07:45.834;   0:< manage involvement 
+'C 15-Dec-2021 14:07:45.834;   0:< manage debug modes 
+'C 15-Dec-2021 14:07:45.834;   0:< MFCApp::testGraphicsHardware 
+' 0:< ::1:: Delta VM: Avail -41 -> 134179205 MB, Used +2 -> 235 MB, Peak +0 -> 235 MB; RAM: Avail +5 -> 3846 MB, Used +5 -> 345 MB, Peak +3 -> 345 MB 
+' 0:< Revit Graphics Information 
+' 0:< 	Current Mode : DirectX Hardware 
+' 0:< 	Use Hardware: ON 
+' 0:< 	Use Overlays : ON 
+' 0:< useNullDevice=false 
+' 0:< START CanUseHardware(forced) 
+' 1:< ::1:: Delta VM: Avail -167 -> 134179039 MB, Used +85 -> 321 MB, Peak +86 -> 322 MB; RAM: Avail -38 -> 3809 MB, Used +19 -> 364 MB, Peak +20 -> 366 MB 
+' 1:< DX Device: DirectX 11, Hardware 
+'C 15-Dec-2021 14:07:47.094;   1:< START video card certification 
+' 1:< 
+'Current driver version: 25.20.100.6617
+'Certified driver(s):  
+' 1:< VIDEO CARD ENVIRONMENT: CARD="NVIDIA GeForce GTX 1650" ManufacturerID="10DE" DeviceID="1F91" osID="8000" DRIVER="25.20.100.6617" DEVICE="DX11" FL_Caps="50" (Shader Model) 
+'C 15-Dec-2021 14:07:47.162;   1:< FINISH video card certification 
+'  1.267371   1:<<<CanUseHardware(forced) 
+' 0:< 
+'Can use hardware=y
+'Hardware support flags:
+'FeatureLevelLow=n
+'DrvOlderThanTested=n
+'DrvNewerThanTested=n
+'CardIsNotListed=y
+'NotCertifiedEnv=n
+'3GBSwitchIsOn=n
+'SoftwareModeForced=n 
+' 0:< FINISH CanUseHardware(forced) 
+'C 15-Dec-2021 14:07:47.162;   0:< postConditionalWarnings 
+'C 15-Dec-2021 14:07:47.162;   0:< giveAtomRegistrationWarnings 
+'C 15-Dec-2021 14:07:47.162;   0:< warnings->consumeAll 
+'C 15-Dec-2021 14:07:47.163;   0:< Process result of DebugModes-Changed Task Dialog 
+'C 15-Dec-2021 14:07:47.163;   0:< isMaterialLibraryAvailable 
+'C 15-Dec-2021 14:07:47.164;   0:< start up warnings for AddIns 
+' 0:<  <-DesktopMFCApp::doStartupWarnings 
+' 0:<  <-desktop InitNativeInstance 
+' 0:<  ->desktop InitManagedInstance 
+' 0:<  <-desktop InitManagedInstance 
+'C 15-Dec-2021 14:07:47.178;   0:< appPriv idle 
+' 0:< ::1:: Delta VM: Avail -4 -> 134179035 MB, Used +1 -> 322 MB, Peak +3 -> 326 MB; RAM: Avail -17 -> 3792 MB, Used +3 -> 367 MB, Peak +3 -> 370 MB 
+' 0:< OPERATING SYSTEM INFORMATION:  
+' 0:<    BuildNumber : 19043 
+' 0:<    BuildType : Multiprocessor Free 
+' 0:<    Caption : Microsoft Windows 10 Home Single Language 
+' 0:<    CodeSet : 1252 
+' 0:<    CountryCode : 1 
+' 0:<    FreePhysicalMemory : 3883808 
+' 0:<    FreeSpaceInPagingFiles : 1277436 
+' 0:<    FreeVirtualMemory : 3547144 
+' 0:<    MaxProcessMemorySize : 137438953344 
+' 0:<    OSLanguage : 1033 
+' 0:<    OSType : 18 
+' 0:<    ServicePackMajorVersion : 0 
+' 0:<    ServicePackMinorVersion : 0 
+' 0:<    TotalVirtualMemorySize : 9548296 
+' 0:<    TotalVisibleMemorySize : 8237576 
+' 0:<    Version : 10.0.19043 
+' 0:<    Process affinity mask : FF 
+' 0:<    System affinity mask : FF 
+' 0:< PROCESSOR INFORMATION:  
+' 0:<    AddressWidth : 64 
+' 0:<    Architecture : 9 
+' 0:<    Availability : 3 
+' 0:<    Caption : Intel64 Family 6 Model 158 Stepping 13 
+' 0:<    CurrentClockSpeed : 2400 
+' 0:<    DataWidth : 64 
+' 0:<    Description : Intel64 Family 6 Model 158 Stepping 13 
+' 0:<    Family : 205 
+' 0:<    L2CacheSize : 1024 
+' 0:<    Level : 6 
+' 0:<    Manufacturer : GenuineIntel 
+' 0:<    MaxClockSpeed : 2400 
+' 0:<    Name : Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz 
+' 0:<    ProcessorType : 3 
+' 0:<    Role : CPU 
+' 0:<    SocketDesignation : U3E1 
+' 0:<    StatusInfo : 3 
+' 0:<    Version :  
+' 0:< VIDEO CONTROLLER INFORMATION:  
+' 0:<    AdapterCompatibility : Intel Corporation 
+' 0:<    AdapterDACType : Internal 
+' 0:<    AdapterRAM : 1073741824 
+' 0:<    Caption : Intel(R) UHD Graphics 630 
+' 0:<    CurrentBitsPerPixel : 32 
+' 0:<    CurrentHorizontalResolution : 1920 
+' 0:<    CurrentNumberOfColors : 4294967296 
+' 0:<    CurrentRefreshRate : 59 
+' 0:<    CurrentVerticalResolution : 1080 
+' 0:<    Description : Intel(R) UHD Graphics 630 
+' 0:<    DriverDate : 20190308000000.000000-000 
+' 0:<    DriverVersion : 25.20.100.6617 
+' 0:<    MaxRefreshRate : 59 
+' 0:<    MinRefreshRate : 59 
+' 0:<    Monochrome : 0 
+' 0:<    Name : Intel(R) UHD Graphics 630 
+' 0:<    VideoArchitecture : 5 
+' 0:<    VideoMemoryType : 2 
+' 0:<    VideoModeDescription : 1920 x 1080 x 4294967296 colors 
+' 0:<    VideoProcessor : Intel(R) UHD Graphics Family 
+' 0:< VIDEO CONTROLLER INFORMATION:  
+' 0:<    AdapterCompatibility : NVIDIA 
+' 0:<    AdapterDACType : Integrated RAMDAC 
+' 0:<    AdapterRAM : -1048576 
+' 0:<    Caption : NVIDIA GeForce GTX 1650 
+' 0:<    Description : NVIDIA GeForce GTX 1650 
+' 0:<    DriverDate : 20210506000000.000000-000 
+' 0:<    DriverVersion : 27.21.14.6259 
+' 0:<    Monochrome : 0 
+' 0:<    Name : NVIDIA GeForce GTX 1650 
+' 0:<    VideoArchitecture : 5 
+' 0:<    VideoMemoryType : 2 
+' 0:<    VideoProcessor : GeForce GTX 1650 
+' 0:<    AdapterCompatibility : Citrix Systems Inc. 
+' 0:<    Caption : Citrix Indirect Display Adapter 
+' 0:<    Description : Citrix Indirect Display Adapter 
+' 0:<    DriverDate : 20190123000000.000000-000 
+' 0:<    DriverVersion : 12.40.44.247 
+' 0:<    Monochrome : 0 
+' 0:<    Name : Citrix Indirect Display Adapter 
+' 0:<    VideoArchitecture : 5 
+' 0:<    VideoMemoryType : 2 
+ 'E 15-Dec-2021 14:07:48.455;   0:< 
+ Jrn.Command "StartupPage" , " , ID_FILE_NEW_WITH_TEMPLATE3"
+ ' 0:< Create project with template C:\ProgramData\Autodesk\RVT 2014\Templates\US Imperial\Structural Analysis-Default.rte 
+ 'H 15-Dec-2021 14:07:48.464;   0:< 
+ Jrn.Directive "DocSymbol"  _
+         , "[Project1]"
+ 'C 15-Dec-2021 14:07:48.464;   1:< File: Open 
+ ' 2:< DataStorageInterface created 0x0000000013C65170 
+ ' 2:< Connecting session [$bcc08904] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+ '  0.000326     3:<<<WorksharingLog::getSlog [] 
+ ' 2:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+ ' 3:< MasterLocks 0x0000000045564BD0 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000013C65170 m_pDataStorage 0x0000000013C65170 
+ ' 3:< DataStorageInterface created 0x0000000013C651F0 
+ ' 3:< DataStorageInterface destroyed 0x0000000013C65170 
+ ' 3:< MasterLocks 0x0000000045564BD0 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000013C651F0 m_pDataStorage 0x0000000013C651F0 
+ '  0.001525---- 3:<<acquireFileLock 
+ ' 3:< MasterLocks 0x0000000045564BD0 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000013C651F0 m_pDataStorage 0x0000000013C651F0 
+ ' 3:< DataStorageInterface created 0x0000000013C65170 
+ ' 3:< DataStorageInterface destroyed 0x0000000013C651F0 
+ ' 3:< MasterLocks 0x0000000045564BD0 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000013C65170 m_pDataStorage 0x0000000013C65170 
+ ' 3:< MasterLocks 0x0000000045564BD0 DummyStorage stole m_oDataStorage 0x0000000013C65170 but left m_pDataStorage 0x0000000013C65170 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x13891bb0, plpRootStg=0x13891c78, lpRootStg=0x13f0c9b0 
+ '  0.001122     3:<<acquireFileLock 
+ '  0.004440    2:<<OpenDocumentTask::acquireFileLock 
+ '  0.080632       5:<<<DictionaryAnalysis::initialize 
+ '  0.014424       5:<<<loadAllClasses 
+ '  0.001853       5:<<<RegisterPreDocLoadCallback::invokeCallbacks 
+ '  0.000748        6:<<<LoadModel DSI 
+ '  0.000837       5:<<loading DocumentStorageIndex 
+  'E 15-Dec-2021 14:07:48.568;   5:< 
+  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2014 (Build: 20130123_1540(x64)) Rvt.Attr.LastSavePath: C:\CCDP\CCDPServer\Workspace\17027ff20cedcdcc\I_P_RegenAll\Structural Analysis-Default.rte Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
+  ' 6:< [ISL] On open, Adler Checksum: 0xbe4d5617 [C:\ProgramData\Autodesk\RVT 2014\Templates\US Imperial\Structural Analysis-Default.rte] 
+  '  0.007468        6:<<<Checking Checksum 
+  ' 5:< [ISL] Read last modification time: 01-Feb-2013 16:50:42 (UTC: 01-Feb-2013 11:20:42) 
+  '  0.013267        6:<<<app infos and other global data 
+  ' 5:< File was saved in Autodesk Revit 2014 (Build: 20130123_1540(x64)) 
+  ' 6:< ::3:: Delta VM: Avail -21 -> 134179015 MB, Used +16 -> 339 MB, Peak +13 -> 339 MB; RAM: Avail -15 -> 3778 MB, Used +15 -> 383 MB, Peak +13 -> 383 MB 
+  '  0.000365         7:<<<ET::repairModificationDatesOutOfSequence 
+  ' 6:< Loaded ElemTable: Size=40470 
+  '  0.033367        6:<<ElemTable 
+  '  0.000068        6:<<<ContentDocuments 
+  '  0.001589        6:<<<History 
+  '  0.000502        6:<<<increment table 
+  '  0.000509        6:<<<WorksetTable 
+  '  0.000028        6:<<<partitionStorageLock.open 
+  '  0.000488         7:<<<loadLatestVersionsEstimate 
+  ' 7:< ::3:: Delta VM: Avail -98 -> 134178918 MB, Used +34 -> 374 MB, Peak +34 -> 374 MB; RAM: Avail -45 -> 3733 MB, Used +38 -> 422 MB, Peak +38 -> 422 MB 
+  ' 7:< Loaded elemStream#236: uncompSize=22190502, compSize=3915900, count=40470 
+  '  0.071346         7:<<<loadLatestVersion 
+  '  0.005237          8:<<<ElementReceiver::commitSwapouts()  
+  '  0.005279         7:<<els.commit 
+  '  0.077285        6:<<loadSelectedPartitions 
+  '  0.139935       5:<<DocumentStorageIndexImpl::loadDocument()  
+  ' 6:< Current project ADocument version:2659 
+  ' 7:< ::3:: Delta VM: Avail +4 -> 134178922 MB, Used -4 -> 371 MB; RAM: Avail -15 -> 3718 MB, Used +12 -> 435 MB, Peak +15 -> 437 MB 
+  '  0.139478          8:<<<updating dependencies in delayed deletion 
+  '  0.001183          8:<<<getAllNonexistentParents in delayed deletion 
+  '  0.011911          8:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.152773         7:<<delayed deletion 
+  '  0.001714         7:<<<forceResetOfElemRecOwnerCache 
+  '  0.178042        6:<<ADocumentUpgrade::docUpgrade 
+  '  0.418257     3:<<LoadSerialize 
+  '  0.418525    2:<<LoadFromStorage 
+  ' 2:< LPSTORAGE RELEASED: plpRootStg=0x13891c78, lpRootStg=0x13f0c9b0 
+  ' 2:< DummyStorage destroying DataStorageInterface 0x0000000013C65170 
+  ' 2:< DataStorageInterface destroyed 0x0000000013C65170 
+  ' 2:< AFTER RELEASE: plpRootStg=0x13891c78, lpRootStg=0x00000000 
+  '  0.000596    2:<<<relinquishAllLocks 
+  '  0.003800     3:<<<forceResetOfElemRecOwnerCache 
+  ' 3:< Unnecessary nesting;Document\PostLoadDocument.cpp;160;String_Revit_DelayedPropagatoinRegen ;N++E(N); 
+  ' 4:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 4:< RAM Statistics:     3721 /     8044       431=InUse      437=Peak  
+  ' 4:< VM  Statistics: 134178926 / 134217727       371=InUse      374=Peak  
+  ' 4:< 000000000F146210 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 4:< 000000000F146260 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 4:< 000000000F146238 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 4:< 000000000F1462D8 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 4:< 000000000F146288 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 4:< 000000000F146328 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146300 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F1462B0 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 4:< Element Expansion Statistics: 
+  ' 4:<  0% Opening Plans                    (0) 
+  ' 4:<  0% Opening RC Plans                 (0) 
+  ' 4:<  0% Opening 3d Views                 (0) 
+  ' 4:<  0% Opening Elevations and Sections  (0) 
+  ' 4:<  0% In Regnerate                     (0) 
+  ' 4:<  0% In Autojoin                      (0) 
+  ' 4:<  0% In Overlap Checking              (0) 
+  ' 4:<  0% Reviewing PostedWarnings         (0) 
+  ' 4:<  100% Other                            (1023853) 
+  ' 4:< total bytes expanded: 1023853 
+  ' 4:< ;EES;0;0;0;0;0;0;0;0;100; 
+  '  0.000006       5:<<<ppg constructor 
+  '  0.000005       5:<<<updating dependencies in dp 
+  '  0.000001        6:<<<updating dependencies in delayed deletion 
+  '  0.001244        6:<<<getAllNonexistentParents in delayed deletion 
+  '  0.012428        6:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.013772       5:<<delayed deletion 
+  '  0.034487      4:<<ADocumentMerge::delayedPropagation 
+  '  0.000111       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000014       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000002        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  ' 5:< Connecting session [$d9d1c31d] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+  '  0.000010        6:<<<WorksharingLog::getSlog [] 
+  ' 5:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+  '  0.000011         7:<<<;PERF;MISC;regenerating 
+  '  0.000950       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000928/TurnOff_GAPs 3% 
+  ' 4:< ::3:: Delta VM: Avail +20 -> 134178942 MB, Used 371 MB; RAM: Avail +2 -> 3721 MB, Used -5 -> 430 MB 
+  '  0.001629       5:<<<ElemTable::expandElementsInParallel 
+  '  0.003311      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000607/TurnOff_GAPs 2% 
+  '  0.041272     3:<<delayed propagation on open 
+  '  0.000004     3:<<<updating dependencies on open 
+  '  0.000003       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002         7:<<<;PERF;MISC;regenerating 
+  '  0.000071       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000068/TurnOff_GAPs 36% 
+  '  0.000253      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000178/TurnOff_GAPs 2% 
+  '  0.000302     3:<<reloadLinkedInstances [0/0] 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000003      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000066      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000064/TurnOff_GAPs 35% 
+  '  0.000204     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000135/TurnOff_GAPs 3% 
+  ' 2:< Unnecessary nesting;Document\PostLoadDocument.cpp;398;ID_SETTINGS_SNAPPING ;N++E(N); 
+  '  0.000003      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000068      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000066/TurnOff_GAPs 36% 
+  '  0.000211     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000139/TurnOff_GAPs 2% 
+  '  0.060236     3:<<<pKeynoteTable->readFile 
+  '  0.001817      4:<<;PERF;MISC;regenerating 
+  '  0.000008      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000716      4:<<<EndOrAbortUndoTransaction()--docChangingElemsOverlapCheck;DOPT; 
+  '  0.000142      4:<<<EndOrAbortUndoTransaction()--deleteChildlessSlaveSymbols;DOPT; 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000237      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000234/TurnOff_GAPs 11% 
+  '  0.001502     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000398/TurnOff_GAPs 1% 
+  ' 2:< Document save history --> : 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20130123_1540(x64) 
+  ' 2:< Document save history <-- 
+  '  0.111030    2:<<[Cloud]postLoadDocument 
+  '  0.535944   1:<<DocumentStorage::onOpenDocument [C:\ProgramData\Autodesk\RVT 2014\Templates\US Imperial\Structural Analysis-Default.rte] 
+  ' 1:< ::3:: Delta VM: Avail -17 -> 134178926 MB, Used +1 -> 372 MB; RAM: Avail -6 -> 3715 MB, Used +2 -> 433 MB 
+  'H 15-Dec-2021 14:07:49.080;   1:< 
+  Jrn.Directive "GlobalToProj"  _
+          , "[Project1]", "Structural Plan: Level 2" _
+          , 0.01041666666667 _
+          , 1.00000000000000, 0.00000000000000, -0.00000000000000 _
+          , -0.00000000000000, 1.00000000000000, 0.00000000000000 _
+          , 0.00000000000000, 0.00000000000000, 1.00000000000000 _
+          , 0.00000000000000, 0.00000000000000, 0.00000000000000
+  'H 15-Dec-2021 14:07:49.081;   1:< 
+  Jrn.Directive "ProjToPage"  _
+          , "[Project1]", "Structural Plan: Level 2" _
+          , 1.00000000000000 _
+          , 1.00000000000000, 0.00000000000000, 0.00000000000000 _
+          , 0.00000000000000, 1.00000000000000, 0.00000000000000 _
+          , 0.00000000000000, 0.00000000000000, 1.00000000000000 _
+          , 0.00000000000000, 0.00000000000000, 0.00000000000000
+  'H 15-Dec-2021 14:07:49.081;   1:< 
+  Jrn.Directive "WindowSize"  _
+          , "[Project1]", "Structural Plan: Level 2" _
+          , 1572, 575
+  ' 1:< Before : Create Display Manager 
+  ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 1:< RAM Statistics:     3714 /     8044       433=InUse      437=Peak  
+  ' 1:< VM  Statistics: 134178926 / 134217727       372=InUse      374=Peak  
+  ' 1:< Revit Graphics Information 
+  ' 1:< 	Current Mode : DirectX Hardware 
+  ' 1:< 	Use Hardware: ON 
+  ' 1:< 	Use Overlays : ON 
+  ' 1:< After : Create Display Manager 
+  ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 1:< RAM Statistics:     3714 /     8044       433=InUse      437=Peak  
+  ' 1:< VM  Statistics: 134178926 / 134217727       372=InUse      374=Peak  
+  'H 15-Dec-2021 14:07:49.151;   1:< 
+  Jrn.Directive "ScreenResolution"  _
+          , 194, 1080
+   ' 1:< Activate "[Project1]" , Structural Plan: Level 2 
+   ' 1:< View Open: Element expansion used 0.000000 seconds averaging 0.000000 seconds/hit for 0 hits. 
+ ' 1:< ::3:: Delta VM: Avail -10 -> 134178917 MB, Used +20 -> 392 MB, Peak +18 -> 392 MB; RAM: Avail -27 -> 3688 MB, Used +24 -> 457 MB, Peak +20 -> 458 MB 
+ 'H 15-Dec-2021 14:07:49.635;   1:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1599, 756
+' 1:< ::3:: Delta VM: Avail -2 -> 134178915 MB, Used +3 -> 396 MB, Peak +7 -> 400 MB; RAM: Avail -8 -> 3680 MB, Used +5 -> 463 MB, Peak +10 -> 468 MB 
+'C 15-Dec-2021 14:07:49.718;   1:< Protein : Register Preview Factories 
+'C 15-Dec-2021 14:07:49.719;   1:< Protein : Initialize Renderer Module 
+'C 15-Dec-2021 14:07:49.720;   1:< Protein : Load the MR Renderer plug-in 
+' 1:< ::3:: Delta VM: Avail -27 -> 134178888 MB, Used +2 -> 398 MB; RAM: Avail +1 -> 3682 MB, Used +1 -> 464 MB 
+'C 15-Dec-2021 14:07:49.791;   1:< Protein : initialize RPC plug-ins 
+'C 15-Dec-2021 14:07:49.831;   1:< Protein : Open Protein content Libraries 
+' 1:< ::3:: Delta VM: Avail -25 -> 134178864 MB, Used +11 -> 410 MB, Peak +10 -> 411 MB; RAM: Avail -10 -> 3672 MB, Used +13 -> 478 MB, Peak +11 -> 479 MB 
+'C 15-Dec-2021 14:07:49.894;   1:< Protein : Load Library:  
+' 1:< C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\2014\assetlibrary_base.adsklib 
+'C 15-Dec-2021 14:07:49.894;   1:< Protein : Texture Path:  
+' 1:< C:/Program Files (x86)/Common Files/Autodesk Shared/Materials/Textures/ 
+' 1:< Protein Build       4.0.32.600 
+' 1:< MSI Version         4.0.32.600 
+' 1:< Version Control DLL 4.0.0.0 
+'C 15-Dec-2021 14:07:51.957;   1:< Protein: RPC Message 
+' 1:< This plugin is unable to acquire a license.
+'Only demo content will be fully functional. 
+'C 15-Dec-2021 14:07:53.411;   1:< Protein : Notify Plugins to load the content on the asset library 
+'C 15-Dec-2021 14:07:53.411;   1:< Protein : Register the Protein RenderingAsset Manager 
+ 'H 15-Dec-2021 14:07:53.414;   1:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1578, 735
+'  4.413291!!! 2:!!!BIG_GAP [Cloud]openOntoDesktop 
+' 1:< DBG_INFO: Detected unfrozen change of selection.: line 571 of n:\build\2014_ship_x64_inst_20130308_1515\source\revit\revitui\modscope\ModScope.cpp. 
+' 1:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: 
+'Category: 0
+'Bar list: 
+'	
+'Presenter list: 
+'	
+'Product: Unknown
+'
+'
+'Edit mode context, but no edit mode set.
+'<<End build CT>> 
+ ' 1:< ::3:: Delta VM: Avail +4 -> 134178868 MB, Used +1 -> 411 MB, Peak +1 -> 412 MB; RAM: Avail -12 -> 3661 MB, Used +2 -> 480 MB, Peak +2 -> 481 MB 
+ 'H 15-Dec-2021 14:07:54.078;   1:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1603, 760
+  'H 15-Dec-2021 14:07:54.080;   1:< 
+  Jrn.Directive "WindowSize"  _
+          , "[Project1]", "Structural Plan: Level 2" _
+          , 1578, 735
+  ' 1:< View Open: Element expansion used 0.000000 seconds averaging 0.000000 seconds/hit for 0 hits. 
+  '  5.065076   1:<<[Cloud]openOntoDesktop 
+' 0:< PRINTER INFORMATION:  
+' 0:<    Caption : OneNote for Windows 10 
+' 0:<    Default : 0 
+' 0:<    DeviceID : OneNote for Windows 10 
+' 0:<    Direct : 0 
+' 0:<    DriverName : Microsoft Software Printer Driver 
+' 0:<    EnableBIDI : 0 
+' 0:<    EnableDevQueryPrint : 0 
+' 0:<    HorizontalResolution : 300 
+' 0:<    Local : -1 
+' 0:<    Name : OneNote for Windows 10 
+' 0:<    Network : 0 
+' 0:<    PortName : Microsoft.Office.OneNote_16001.14326.20588.0_x64__8wekyb3d8bbwe_microsoft.onenoteim_S-1-5-21-3643394904-271119665-3376910533-1002 
+' 0:<    PrintJobDataType : RAW 
+' 0:<    PrintProcessor : winprint 
+' 0:<    RawOnly : 0 
+' 0:<    Shared : 0 
+' 0:<    SpoolEnabled : -1 
+' 0:<    VerticalResolution : 300 
+ ' 0:< ::3:: Delta VM: Avail +39 -> 134178907 MB, Used -5 -> 406 MB; RAM: Avail +4 -> 3665 MB, Used -11 -> 470 MB 
+ 'E 15-Dec-2021 14:07:54.317;   0:< 
+ Jrn.Size        0 ,   1604 ,    761
+ 'H 15-Dec-2021 14:07:54.317;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1604, 761
+ 'E 15-Dec-2021 14:07:54.318;   0:< 
+ Jrn.Size        0 ,   1579 ,    736
+ 'H 15-Dec-2021 14:07:54.318;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1579, 736
+ 'E 15-Dec-2021 14:07:54.323;   0:< 
+ Jrn.Size        0 ,   1603 ,    760
+ 'H 15-Dec-2021 14:07:54.323;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1603, 760
+ 'E 15-Dec-2021 14:07:54.323;   0:< 
+ Jrn.Size        0 ,   1578 ,    735
+ 'H 15-Dec-2021 14:07:54.323;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1578, 735
+' 0:< PRINTER INFORMATION:  
+' 0:<    Caption : OneNote (Desktop) 
+' 0:<    Default : 0 
+' 0:<    DeviceID : OneNote (Desktop) 
+' 0:<    Direct : 0 
+' 0:<    DriverName : Send to Microsoft OneNote 16 Driver 
+' 0:<    EnableBIDI : 0 
+' 0:<    EnableDevQueryPrint : 0 
+' 0:<    HorizontalResolution : 600 
+' 0:<    Local : -1 
+' 0:<    Name : OneNote (Desktop) 
+' 0:<    Network : 0 
+' 0:<    PortName : nul: 
+' 0:<    PrintJobDataType : RAW 
+' 0:<    PrintProcessor : winprint 
+' 0:<    RawOnly : 0 
+' 0:<    Shared : 0 
+' 0:<    SpoolEnabled : -1 
+' 0:<    VerticalResolution : 600 
+' 0:<    Caption : Microsoft XPS Document Writer 
+' 0:<    Default : 0 
+' 0:<    DeviceID : Microsoft XPS Document Writer 
+' 0:<    Direct : 0 
+' 0:<    DriverName : Microsoft XPS Document Writer v4 
+' 0:<    EnableBIDI : 0 
+' 0:<    EnableDevQueryPrint : 0 
+' 0:<    HorizontalResolution : 600 
+' 0:<    Local : -1 
+' 0:<    Name : Microsoft XPS Document Writer 
+' 0:<    Network : 0 
+' 0:<    PortName : PORTPROMPT: 
+' 0:<    PrintJobDataType : RAW 
+' 0:<    PrintProcessor : winprint 
+' 0:<    RawOnly : 0 
+' 0:<    Shared : 0 
+' 0:<    SpoolEnabled : -1 
+' 0:<    VerticalResolution : 600 
+' 0:<    Caption : Microsoft Print to PDF 
+' 0:<    Default : -1 
+' 0:<    DeviceID : Microsoft Print to PDF 
+' 0:<    Direct : 0 
+' 0:<    DriverName : Microsoft Print To PDF 
+' 0:<    EnableBIDI : 0 
+' 0:<    EnableDevQueryPrint : 0 
+' 0:<    HorizontalResolution : 600 
+' 0:<    Local : -1 
+' 0:<    Name : Microsoft Print to PDF 
+' 0:<    Network : 0 
+' 0:<    PortName : PORTPROMPT: 
+' 0:<    PrintJobDataType : RAW 
+' 0:<    PrintProcessor : winprint 
+' 0:<    RawOnly : 0 
+' 0:<    Shared : 0 
+' 0:<    SpoolEnabled : -1 
+' 0:<    VerticalResolution : 600 
+' 0:<    Caption : Fax 
+' 0:<    Default : 0 
+' 0:<    DeviceID : Fax 
+' 0:<    Direct : 0 
+' 0:<    DriverName : Microsoft Shared Fax Driver 
+' 0:<    EnableBIDI : 0 
+' 0:<    EnableDevQueryPrint : 0 
+' 0:<    HorizontalResolution : 200 
+' 0:<    Local : -1 
+' 0:<    Name : Fax 
+' 0:<    Network : 0 
+' 0:<    PortName : SHRFAX: 
+' 0:<    PrintJobDataType : RAW 
+' 0:<    PrintProcessor : winprint 
+' 0:<    RawOnly : 0 
+' 0:<    Shared : 0 
+' 0:<    SpoolEnabled : -1 
+' 0:<    VerticalResolution : 200 
+ 'E 15-Dec-2021 14:07:54.394;   0:< 
+ Jrn.LButtonUp    0 ,      2 ,     73
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000000000000 0000000000000000 0000000000000000 
+ 'H 15-Dec-2021 14:07:54.394;   0:< 
+ Jrn.Data "DroppedMouseAction"  _
+         , "no active editor"
+'H 15-Dec-2021 14:07:54.411;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[Project1]", "Structural Plan: Level 2" _
+        , 411.18452158662512 _
+        , 411.18452158662512, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 411.18452158662512, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 411.18452158662512 _
+        , 0.00000000000000, 0.00000000000000, 0.00000000000000
+'H 15-Dec-2021 14:07:54.411;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[Project1]", "Structural Plan: Level 2" _
+        , 411.18452158662512 _
+        , 411.18452158662512, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 411.18452158662512, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 411.18452158662512 _
+        , 909.26654531269764, -436.89186146199199, 0.00000000000000
+' 0:< ::8:: Delta VM: Avail -75 -> 134178833 MB, Used +53 -> 460 MB, Peak +47 -> 460 MB; RAM: Avail -17 -> 3649 MB, Used +25 -> 495 MB, Peak +13 -> 495 MB 
+'  0.606422   1:<<<;PERF;MISC;drawing 
+'C 15-Dec-2021 14:07:55.037;   0:< idle0_doc 
+'H 15-Dec-2021 14:07:55.038;   0:< 
+Jrn.Directive "AllowPressAndDrag"  _
+        , 1
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+' 0:< PRINTER CONFIGURATION INFORMATION:  
+' 0:<    Color : 2 
+' 0:<    Copies : 1 
+' 0:<    Description : OneNote for Windows 10 
+' 0:<    DriverVersion : 1539 
+' 0:<    Orientation : 1 
+' 0:<    PaperLength : 2794 
+' 0:<    PaperSize : Letter 8 1/2 x 11 in 
+' 0:<    PaperWidth : 2159 
+' 0:<    PrintQuality : 300 
+' 0:<    SpecificationVersion : 1025 
+' 0:<    XResolution : 300 
+' 0:<    YResolution : 300 
+' 0:< PRINTER CONFIGURATION INFORMATION:  
+' 0:<    Color : 2 
+' 0:<    Copies : 1 
+' 0:<    Description : OneNote (Desktop) 
+' 0:<    DriverVersion : 1539 
+' 0:<    Orientation : 1 
+' 0:<    PaperLength : 2794 
+' 0:<    PaperSize : Letter 8 1/2 x 11 in 
+' 0:<    PaperWidth : 2159 
+' 0:<    PrintQuality : 600 
+' 0:<    SpecificationVersion : 1025 
+' 0:<    XResolution : 600 
+' 0:<    YResolution : 600 
+' 0:<    Color : 2 
+' 0:<    Copies : 1 
+' 0:<    Description : Microsoft XPS Document Writer 
+' 0:<    DriverVersion : 1539 
+' 0:<    Orientation : 1 
+' 0:<    PaperLength : 2794 
+' 0:<    PaperSize : Letter 8 1/2 x 11 in 
+' 0:<    PaperWidth : 2159 
+' 0:<    PrintQuality : 600 
+' 0:<    SpecificationVersion : 1025 
+' 0:<    XResolution : 600 
+' 0:<    YResolution : 600 
+' 0:<    Color : 2 
+' 0:<    Copies : 1 
+' 0:<    Description : Microsoft Print to PDF 
+' 0:<    DriverVersion : 1539 
+' 0:<    Orientation : 1 
+' 0:<    PaperLength : 2794 
+' 0:<    PaperSize : Letter 8 1/2 x 11 in 
+' 0:<    PaperWidth : 2159 
+' 0:<    PrintQuality : 600 
+' 0:<    SpecificationVersion : 1025 
+' 0:<    XResolution : 600 
+' 0:<    YResolution : 600 
+' 0:<    Color : 1 
+' 0:<    Description : Fax 
+' 0:<    DriverVersion : 1024 
+' 0:<    Duplex : 0 
+' 0:<    Orientation : 1 
+' 0:<    PaperLength : 2794 
+' 0:<    PaperSize : Letter 8 1/2 x 11 in 
+' 0:<    PaperWidth : 2159 
+' 0:<    PrintQuality : 200 
+' 0:<    SpecificationVersion : 1025 
+' 0:<    XResolution : 200 
+' 0:<    YResolution : 200 
+ ' 0:< ::8:: Delta VM: Avail 134178833 MB, Used +5 -> 465 MB, Peak +6 -> 467 MB; RAM: Avail +24 -> 3673 MB, Used +15 -> 510 MB, Peak +16 -> 512 MB 
+ 'E 15-Dec-2021 14:08:08.047;   0:< 
+ Jrn.MouseMove    0 ,   1360 ,      0
+ 'E 15-Dec-2021 14:08:08.047;   0:< 
+ Jrn.AppButtonEvent 1 , "Application Menu is opening"
+ ' 0:< ::10:: Delta VM: Avail -42 -> 134178791 MB, Used +25 -> 490 MB, Peak +23 -> 491 MB; RAM: Avail +30 -> 3704 MB, Used +27 -> 538 MB, Peak +26 -> 538 MB 
+ 'E 15-Dec-2021 14:08:11.176;   0:< 
+ Jrn.AppButtonEvent 0 , "Application Menu is closing"
+ 'E 15-Dec-2021 14:08:11.216;   0:< 
+ Jrn.Command "Internal" , "Open an existing project , ID_REVIT_FILE_OPEN"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_REVIT_FILE_OPEN ;N++EB(NB); 
+ ' 0:< ::12:: Delta VM: Avail -13 -> 134178778 MB, Used +1 -> 491 MB, Peak +4 -> 495 MB; RAM: Avail +105 -> 3810 MB, Used +3 -> 542 MB, Peak +5 -> 544 MB 
+ 'H 15-Dec-2021 14:08:15.142;   0:< 
+ Jrn.Data "File Name"  _
+         , "IDCANCEL", ""
+'C 15-Dec-2021 14:08:15.180;   0:< idle0_doc 
+ ' 0:< ::12:: Delta VM: Avail -6 -> 134178773 MB, Used +1 -> 493 MB, Peak +12 -> 507 MB; RAM: Avail -2 -> 3808 MB, Used +3 -> 545 MB, Peak +2 -> 547 MB 
+ 'E 15-Dec-2021 14:08:22.771;   0:< 
+ Jrn.MouseMove    0 ,     14 ,    307
+ 'E 15-Dec-2021 14:08:22.771;   0:< 
+ Jrn.Command "Internal" , "Select objects to modify , ID_BUTTON_SELECT"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_BUTTON_SELECT ;N++EB(NB); 
+ 'E 15-Dec-2021 14:08:24.272;   0:< 
+ Jrn.AppButtonEvent 1 , "Application Menu is opening"
+ ' 0:< ::15:: Delta VM: Avail -2 -> 134178771 MB, Used +8 -> 502 MB; RAM: Avail -13 -> 3795 MB, Used +9 -> 555 MB, Peak +9 -> 556 MB 
+ 'E 15-Dec-2021 14:08:31.367;   0:< 
+ Jrn.AppButtonEvent 0 , "Application Menu is closing"
+ 'E 15-Dec-2021 14:08:31.405;   0:< 
+ Jrn.Command "Internal" , "Open an existing project , ID_APPMENU_PROJECT_OPEN"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_APPMENU_PROJECT_OPEN ;N++EB(NB); 
+ ' 0:< ::17:: Delta VM: Avail +2 -> 134178774 MB, Used -11 -> 491 MB; RAM: Avail +4 -> 3800 MB, Used -18 -> 538 MB 
+ 'H 15-Dec-2021 14:08:38.354;   0:< 
+ Jrn.Data "File Name"  _
+         , "IDOK", "..\..\..\..\..\..\Documents\sandeep project.rvt"
+ 'H 15-Dec-2021 14:08:38.354;   0:< 
+ Jrn.Data "WorksetConfig"  _
+         , "Custom", 0
+ ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 1:< RAM Statistics:     3800 /     8044       538=InUse      556=Peak  
+ ' 1:< VM  Statistics: 134178774 / 134217727       491=InUse      507=Peak  
+ 'C 15-Dec-2021 14:08:38.365;   2:< File: Open 
+ ' 3:< DataStorageInterface created 0x0000000045FB1B70 
+ ' 3:< Connecting session [$ae5f5959] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+ '  0.000009      4:<<<WorksharingLog::getSlog [] 
+ ' 3:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+ ' 4:< MasterLocks 0x000000004641D370 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FB1B70 m_pDataStorage 0x0000000045FB1B70 
+ ' 4:< DataStorageInterface created 0x0000000045FB0EF0 
+ ' 4:< DataStorageInterface destroyed 0x0000000045FB1B70 
+ ' 4:< MasterLocks 0x000000004641D370 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FB0EF0 m_pDataStorage 0x0000000045FB0EF0 
+ ' 4:< MasterLocks 0x000000004641D370 DummyStorage stole m_oDataStorage 0x0000000045FB0EF0 but left m_pDataStorage 0x0000000045FB0EF0 
+ ' 4:< LPSTORAGE ACQUIRED: DocumentStorage=0x455c6730, plpRootStg=0x455c67f8, lpRootStg=0x4632d5e0 
+ '  0.001121      4:<<acquireFileLock 
+ '  0.001694     3:<<OpenDocumentTask::acquireFileLock 
+ '  0.015277        6:<<<loadAllClasses 
+ '  0.000019        6:<<<RegisterPreDocLoadCallback::invokeCallbacks 
+ '  0.000031         7:<<<LoadModel DSI 
+ '  0.000068        6:<<loading DocumentStorageIndex 
+  'E 15-Dec-2021 14:08:38.382;   6:< 
+  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2014 (Build: 20130308_1515(x64)) Rvt.Attr.LastSavePath: C:\Users\sandeep reddy\Documents\sandeep project.rvt Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
+  ' 7:< [ISL] On open, Adler Checksum: 0x97fc295f [C:\Users\sandeep reddy\Documents\sandeep project.rvt] 
+  '  0.005679         7:<<<Checking Checksum 
+  ' 6:< [ISL] Read last modification time: 10-Dec-2021 17:56:46 (UTC: 10-Dec-2021 12:26:46) 
+  '  0.005657         7:<<<app infos and other global data 
+  ' 6:< File was saved in Autodesk Revit 2014 (Build: 20130308_1515(x64)) 
+  ' 7:< ::18:: Delta VM: Avail -23 -> 134178751 MB, Used +16 -> 508 MB, Peak +0 -> 508 MB; RAM: Avail -2 -> 3799 MB, Used +5 -> 543 MB 
+  '  0.000200          8:<<<ET::repairModificationDatesOutOfSequence 
+  ' 7:< Loaded ElemTable: Size=23918 
+  '  0.008075         7:<<ElemTable 
+  '  0.000038         7:<<<ContentDocuments 
+  '  0.001830         7:<<<History 
+  '  0.000030         7:<<<increment table 
+  '  0.000035         7:<<<WorksetTable 
+  '  0.000004         7:<<<partitionStorageLock.open 
+  '  0.000013          8:<<<loadLatestVersionsEstimate 
+  ' 8:< ::18:: Delta VM: Avail -22 -> 134178729 MB, Used 508 MB; RAM: Avail -12 -> 3787 MB, Used +13 -> 556 MB, Peak +3 -> 559 MB 
+  ' 8:< Loaded elemStream#0: uncompSize=15911819, compSize=2791924, count=23918 
+  '  0.044204          8:<<<loadLatestVersion 
+  '  0.003208           9:<<<ElementReceiver::commitSwapouts()  
+  '  0.003242          8:<<els.commit 
+  '  0.047553         7:<<loadSelectedPartitions 
+  '  0.070394        6:<<DocumentStorageIndexImpl::loadDocument()  
+  ' 7:< Current project ADocument version:2659 
+  ' 8:< ::18:: Delta VM: Avail 134178729 MB, Used +3 -> 511 MB, Peak +3 -> 511 MB; RAM: Avail -17 -> 3771 MB, Used +6 -> 563 MB, Peak +4 -> 563 MB 
+  '  0.084662           9:<<<updating dependencies in delayed deletion 
+  '  0.000712           9:<<<getAllNonexistentParents in delayed deletion 
+  '  0.007325           9:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.092890          8:<<delayed deletion 
+  '  0.001104          8:<<<forceResetOfElemRecOwnerCache 
+  '  0.112733         7:<<ADocumentUpgrade::docUpgrade 
+  '  0.199696      4:<<LoadSerialize 
+  '  0.199768     3:<<LoadFromStorage 
+  '  0.002238      4:<<<forceResetOfElemRecOwnerCache 
+  ' 4:< Unnecessary nesting;Document\PostLoadDocument.cpp;160;String_Revit_DelayedPropagatoinRegen ;N++E(N); 
+  ' 5:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 5:< RAM Statistics:     3771 /     8044       562=InUse      564=Peak  
+  ' 5:< VM  Statistics: 134178729 / 134217727       509=InUse      511=Peak  
+  ' 5:< 000000000F146238 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 5:< 000000000F146328 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 5:< 000000000F1462B0 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 5:< 000000000F146260 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 5:< 000000000F146210 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 5:< 000000000F146300 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 5:< 000000000F1462D8 CompactMemoryManager Memory Statistics: 4 MB with 4 MB view 
+  ' 5:< 000000000F146288 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 5:< Element Expansion Statistics: 
+  ' 5:<  1% Opening Plans                    (29413) 
+  ' 5:<  0% Opening RC Plans                 (0) 
+  ' 5:<  0% Opening 3d Views                 (0) 
+  ' 5:<  0% Opening Elevations and Sections  (0) 
+  ' 5:<  0% In Regnerate                     (102) 
+  ' 5:<  0% In Autojoin                      (0) 
+  ' 5:<  0% In Overlap Checking              (0) 
+  ' 5:<  0% Reviewing PostedWarnings         (0) 
+  ' 5:<  99% Other                            (2544271) 
+  ' 5:< total bytes expanded: 2573786 
+  ' 5:< ;EES;1;0;0;0;0;0;0;0;99; 
+  '  0.000004        6:<<<ppg constructor 
+  '  0.000005        6:<<<updating dependencies in dp 
+  '  0.000001         7:<<<updating dependencies in delayed deletion 
+  '  0.000750         7:<<<getAllNonexistentParents in delayed deletion 
+  '  0.006057         7:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.006892        6:<<delayed deletion 
+  '  0.019974       5:<<ADocumentMerge::delayedPropagation 
+  '  0.000093        6:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000012        6:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000001         7:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  ' 6:< Connecting session [$da19e910] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+  '  0.000010         7:<<<WorksharingLog::getSlog [] 
+  ' 6:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+  '  0.000007          8:<<<;PERF;MISC;regenerating 
+  '  0.000612        6:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000596/TurnOff_GAPs 4% 
+  ' 5:< ::18:: Delta VM: Avail +14 -> 134178743 MB, Used -3 -> 509 MB; RAM: Avail 3771 MB, Used -4 -> 560 MB, Peak +0 -> 564 MB 
+  '  0.001076        6:<<<ElemTable::expandElementsInParallel 
+  '  0.002082       5:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000289/TurnOff_GAPs 2% 
+  '  0.023601      4:<<delayed propagation on open 
+  '  0.000003      4:<<<updating dependencies on open 
+  '  0.000004        6:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001        6:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000         7:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002          8:<<<;PERF;MISC;regenerating 
+  '  0.000070        6:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000067/TurnOff_GAPs 35% 
+  '  0.000229       5:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000154/TurnOff_GAPs 2% 
+  '  0.000275      4:<<reloadLinkedInstances [0/0] 
+  '  0.000002       5:<<<;PERF;MISC;regenerating 
+  '  0.000003       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002         7:<<<;PERF;MISC;regenerating 
+  '  0.000066       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000064/TurnOff_GAPs 35% 
+  '  0.000200      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000130/TurnOff_GAPs 2% 
+  ' 3:< Unnecessary nesting;Document\PostLoadDocument.cpp;398;ID_SETTINGS_SNAPPING ;N++E(N); 
+  '  0.000003       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002         7:<<<;PERF;MISC;regenerating 
+  '  0.000065       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000062/TurnOff_GAPs 36% 
+  '  0.000202      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000134/TurnOff_GAPs 2% 
+  '  0.050223      4:<<<pKeynoteTable->readFile 
+  '  0.000324       5:<<;PERF;MISC;regenerating 
+  '  0.000006       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002         7:<<<;PERF;MISC;regenerating 
+  '  0.000078       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000075/TurnOff_GAPs 31% 
+  '  0.000258      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000173/TurnOff_GAPs 2% 
+  ' 3:< Document save history --> : 
+  ' 3:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20130123_1540(x64) 
+  ' 3:<   Revit 2014 2014 (2014.000) : 20130308_1515(x64) 
+  ' 3:< Document save history <-- 
+  '  0.077938     3:<<[Cloud]postLoadDocument 
+  '  0.280031    2:<<DocumentStorage::onOpenDocument [C:\Users\sandeep reddy\Documents\sandeep project.rvt] 
+  'H 15-Dec-2021 14:08:38.645;   1:< 
+  Jrn.Directive "DocSymbol"  _
+          , "[sandeep project.rvt]"
+  'H 15-Dec-2021 14:08:38.691;   2:< 
+  Jrn.Directive "GlobalToProj"  _
+          , "[sandeep project.rvt]", "3D View: {3D}" _
+          , 0.01041666666667 _
+          , 0.70710678118655, -0.40824829046386, 0.57735026918963 _
+          , 0.70710678118655, 0.40824829046386, -0.57735026918963 _
+          , 0.00000000000000, 0.81649658092773, 0.57735026918963 _
+          , 11.40991546771876, -26.78086545684669, -8.86940721975884
+  'H 15-Dec-2021 14:08:38.692;   2:< 
+  Jrn.Directive "ProjToPage"  _
+          , "[sandeep project.rvt]", "3D View: {3D}" _
+          , 1.00000000000000 _
+          , 1.00000000000000, 0.00000000000000, 0.00000000000000 _
+          , 0.00000000000000, 1.00000000000000, 0.00000000000000 _
+          , 0.00000000000000, 0.00000000000000, 1.00000000000000 _
+          , 0.00000000000000, 0.00000000000000, 0.00000000000000
+  'H 15-Dec-2021 14:08:38.692;   2:< 
+  Jrn.Directive "WindowSize"  _
+          , "[sandeep project.rvt]", "3D View: {3D}" _
+          , 1357, 485
+  ' 2:< Before : Create Display Manager 
+  ' 2:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 2:< RAM Statistics:     3770 /     8044       562=InUse      564=Peak  
+  ' 2:< VM  Statistics: 134178737 / 134217727       510=InUse      511=Peak  
+  ' 2:< Revit Graphics Information 
+  ' 2:< 	Current Mode : DirectX Hardware 
+  ' 2:< 	Use Hardware: ON 
+  ' 2:< 	Use Overlays : ON 
+  ' 2:< After : Create Display Manager 
+  ' 2:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 2:< RAM Statistics:     3763 /     8044       562=InUse      564=Peak  
+  ' 2:< VM  Statistics: 134178737 / 134217727       510=InUse      511=Peak  
+   ' 2:< Activate "[sandeep project.rvt]" , 3D View: {3D} 
+ 'H 15-Dec-2021 14:08:38.842;   2:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1578, 735
+' 2:< View Open: Element expansion used 0.017610 seconds averaging 0.000027 seconds/hit for 650 hits. 
+' 2:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: 
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'Presenter list: 
+'	
+'Product: Unknown
+'
+'
+'Edit mode context, but no edit mode set.
+'<<End build CT>> 
+ 'H 15-Dec-2021 14:08:39.277;   2:< 
+ Jrn.Directive "WindowSize"  _
+         , "[Project1]", "Structural Plan: Level 2" _
+         , 1576, 579
+  'H 15-Dec-2021 14:08:39.278;   2:< 
+  Jrn.Directive "WindowSize"  _
+          , "[Project1]", "Structural Plan: Level 2" _
+          , 1551, 554
+   'H 15-Dec-2021 14:08:39.282;   2:< 
+   Jrn.Directive "WindowSize"  _
+           , "[sandeep project.rvt]", "3D View: {3D}" _
+           , 1603, 760
+    'H 15-Dec-2021 14:08:39.283;   2:< 
+    Jrn.Directive "WindowSize"  _
+            , "[sandeep project.rvt]", "3D View: {3D}" _
+            , 1578, 735
+    ' 2:< View Open: Element expansion used 0.000000 seconds averaging 0.000000 seconds/hit for 0 hits. 
+    '  0.647292    2:<<[Cloud]openOntoDesktop 
+    ' 1:< DBG_INFO: When constructing ElementRecord, elem 0 not found: line 24 of n:\build\2014_ship_x64_inst_20130308_1515\source\revit\revitdb\elemtable\ElementRecord.cpp. 
+    ' 1:<  0 ModelServerState "Created": Current server = "Not Queried", Model server = "", Model server state = "Not Applicable" 
+    ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+    ' 1:< RAM Statistics:     3773 /     8044       560=InUse      564=Peak  
+    ' 1:< VM  Statistics: 134178741 / 134217727       513=InUse      513=Peak  
+    ' 1:< 000000000F1462D8 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+    ' 1:< 000000000F146238 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+    ' 1:< 000000000F146260 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+    ' 1:< 000000000F146328 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+    ' 1:< 000000000F146288 CompactMemoryManager Memory Statistics: 4 MB with 2 MB view 
+    ' 1:< 000000000F146210 CompactMemoryManager Memory Statistics: 4 MB with 2 MB view 
+    ' 1:< 000000000F146300 CompactMemoryManager Memory Statistics: 4 MB with 2 MB view 
+    ' 1:< 000000000F1462B0 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+    ' 1:< Element Expansion Statistics: 
+    ' 1:<  1% Opening Plans                    (29413) 
+    ' 1:<  0% Opening RC Plans                 (0) 
+    ' 1:<  20% Opening 3d Views                 (678660) 
+    ' 1:<  0% Opening Elevations and Sections  (0) 
+    ' 1:<  0% In Regnerate                     (226) 
+    ' 1:<  0% In Autojoin                      (0) 
+    ' 1:<  0% In Overlap Checking              (0) 
+    ' 1:<  0% Reviewing PostedWarnings         (0) 
+    ' 1:<  80% Other                            (2770029) 
+    ' 1:< total bytes expanded: 3478328 
+    ' 1:< ;EES;1;0;20;0;0;0;0;0;80; 
+    ' 1:<  0 ModelServerState "Destroyed": Current server = "Not Queried", Model server = "", Model server state = "Not Applicable" 
+    ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+    ' 1:< RAM Statistics:     3774 /     8044       560=InUse      564=Peak  
+    ' 1:< VM  Statistics: 134178741 / 134217727       513=InUse      513=Peak  
+    '  1.370998-- 1:<<[Cloud]standardOpenDocumentFile 
+     'E 15-Dec-2021 14:08:39.731;   0:< 
+     ' [Jrn.File Input Information] COMMON.FILE_INPUT.FILE_TYPE: .rvt 03129344.000000
+ 'E 15-Dec-2021 14:08:39.734;   0:< 
+ Jrn.Size        0 ,   1604 ,    761
+ 'H 15-Dec-2021 14:08:39.734;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1604, 761
+ 'E 15-Dec-2021 14:08:39.735;   0:< 
+ Jrn.Size        0 ,   1579 ,    736
+ 'H 15-Dec-2021 14:08:39.735;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1579, 736
+ 'E 15-Dec-2021 14:08:39.738;   0:< 
+ Jrn.Size        0 ,   1603 ,    760
+ 'H 15-Dec-2021 14:08:39.738;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1603, 760
+ 'E 15-Dec-2021 14:08:39.739;   0:< 
+ Jrn.Size        0 ,   1578 ,    735
+ 'H 15-Dec-2021 14:08:39.739;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1578, 735
+'H 15-Dec-2021 14:08:39.768;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1532.91349224639320 _
+        , 1532.91349224639320, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1532.91349224639320, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1532.91349224639320 _
+        , 0.00000000000000, 0.00000000000000, 0.00000000000000
+'H 15-Dec-2021 14:08:39.768;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1532.91349224639320 _
+        , 1532.91349224639320, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1532.91349224639320, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1532.91349224639320 _
+        , 728.18750318616287, -309.50023670584130, 0.00000000000000
+' 0:< ::23:: Delta VM: Avail -85 -> 134178658 MB, Used +56 -> 566 MB, Peak +54 -> 566 MB; RAM: Avail -20 -> 3752 MB, Used +25 -> 586 MB, Peak +22 -> 586 MB 
+'  0.199462   1:<<<;PERF;MISC;drawing 
+'C 15-Dec-2021 14:08:39.997;   0:< idle0_doc 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ ' 0:< ::23:: Delta VM: Avail +36 -> 134178695 MB, Used -21 -> 545 MB, Peak +5 -> 571 MB; RAM: Avail -2 -> 3750 MB, Used -4 -> 582 MB, Peak +4 -> 590 MB 
+ 'E 15-Dec-2021 14:08:51.015;   0:< 
+ Jrn.MouseMove    0 ,   1359 ,     28
+ 'E 15-Dec-2021 14:08:51.015;   0:< 
+ Jrn.LButtonDown    1 ,   1494 ,    100
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000005106FAA0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:08:51.215;   0:< 
+ Jrn.MouseMove    1 ,   1494 ,    100
+ 'E 15-Dec-2021 14:08:51.215;   0:< 
+ Jrn.LButtonUp    0 ,   1494 ,    100
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000005106FAA0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:08:52.204;   0:< 
+ Jrn.LButtonDown    1 ,   1494 ,    100
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000005106FAA0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:08:52.373;   0:< 
+ Jrn.LButtonUp    0 ,   1494 ,    100
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000005106FAA0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:08:52.383;   0:< 
+ Jrn.LButtonDblClk    1 ,   1494 ,    100
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000005106FAA0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:08:52.598;   0:< 
+ Jrn.LButtonUp    0 ,   1494 ,    100
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000005106FAA0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+' 0:< AutoCam: View Cube FACE_TOP clicked. 
+ ' 0:< ::31:: Delta VM: Avail 134178695 MB, Used +27 -> 573 MB, Peak +8 -> 579 MB; RAM: Avail +6 -> 3756 MB, Used +0 -> 583 MB 
+ 'E 15-Dec-2021 14:08:54.888;   0:< 
+ Jrn.MouseMove    0 ,   1478 ,     93
+'H 15-Dec-2021 14:08:54.888;   0:< 
+Jrn.Directive "AutoCamCamera"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 18.47604714866482, 39.04572639159545, -29.22616549017089 _
+        , 18.47604714866482, 4.50000000000000, -29.22616549017089 _
+        , 1.00000000000000, 0.00000000000000, 0.00000000000000 _
+        , 18.47604714866482, 4.50000000000000, -29.22616549017089 _
+        , 58.00000000000000, 58.00000000000000, 58.00000000000000 _
+        , 58.00000000000000, 125.79531529209579, 58.59287499346667 _
+        , 1, 0
+'H 15-Dec-2021 14:08:54.888;   0:< 
+Jrn.Directive "GlobalToProj"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 0.01041666666667 _
+        , 1.00000000000000, 0.00000000000000, -0.00000000000000 _
+        , -0.00000000000000, 1.00000000000000, -0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1.00000000000000 _
+        , 29.22616549017089, -18.47604714866482, -39.04572639159544
+'H 15-Dec-2021 14:08:54.889;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1204.24198348122990 _
+        , 1204.24198348122990, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1204.24198348122990, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1204.24198348122990 _
+        , 728.18750318616287, -309.50023670584130, 0.00000000000000
+'H 15-Dec-2021 14:08:55.380;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1204.24198348122990 _
+        , 1204.24198348122990, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1204.24198348122990, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1204.24198348122990 _
+        , 789.00000000000000, -367.50000000000006, 0.00000000000000
+ 'E 15-Dec-2021 14:08:58.354;   0:< 
+ Jrn.MouseMove    0 ,   1474 ,    184
+ 'E 15-Dec-2021 14:08:58.354;   0:< 
+ Jrn.Browser "Activate" _
+         , " "
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'	PP_Elements_Are_In_ModScope
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ 'E 15-Dec-2021 14:08:58.380;   0:< 
+ Jrn.Browser "SelChange" _
+         , ">>Views (all)>>Floor Plans>>Level 1>>"
+ 'E 15-Dec-2021 14:08:58.560;   0:< 
+ Jrn.Browser "LButtonDblClk" _
+         , ">>Views (all)>>Floor Plans>>Level 1>>"
+'H 15-Dec-2021 14:08:58.605;   0:< 
+Jrn.Directive "GlobalToProj"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 0.01041666666667 _
+        , 1.00000000000000, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 0.00000000000000
+'H 15-Dec-2021 14:08:58.605;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 1.00000000000000 _
+        , 1.00000000000000, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 0.00000000000000
+'H 15-Dec-2021 14:08:58.605;   0:< 
+Jrn.Directive "WindowSize"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 1357, 485
+'H 15-Dec-2021 14:08:58.635;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 288.66295307011120 _
+        , 288.66295307011120, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 288.66295307011120, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 288.66295307011120 _
+        , 0.00000000000000, 0.00000000000000, 0.00000000000000
+'H 15-Dec-2021 14:08:58.636;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 288.66295307011120 _
+        , 288.66295307011120, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 288.66295307011120, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 288.66295307011120 _
+        , 690.88317888186509, -247.80937477658679, 0.00000000000000
+' 0:< Browser Deactivate 
+ 'H 15-Dec-2021 14:08:58.644;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1361, 489
+  'H 15-Dec-2021 14:08:58.644;   0:< 
+  Jrn.Directive "WindowSize"  _
+          , "[sandeep project.rvt]", "3D View: {3D}" _
+          , 1336, 464
+   'H 15-Dec-2021 14:08:58.646;   0:< 
+   Jrn.Directive "WindowSize"  _
+           , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+           , 1599, 756
+    'H 15-Dec-2021 14:08:58.648;   0:< 
+    Jrn.Directive "WindowSize"  _
+            , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+            , 1578, 735
+     ' 0:< Activate "[sandeep project.rvt]" , Floor Plan: Level 1 
+   ' 0:< View Open: Element expansion used 0.001457 seconds averaging 0.000056 seconds/hit for 26 hits. 
+ 'E 15-Dec-2021 14:08:58.673;   0:< 
+ Jrn.Size        0 ,   1604 ,    761
+ 'H 15-Dec-2021 14:08:58.673;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 1604, 761
+ 'E 15-Dec-2021 14:08:58.675;   0:< 
+ Jrn.Size        0 ,   1579 ,    736
+ 'H 15-Dec-2021 14:08:58.675;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 1579, 736
+ 'E 15-Dec-2021 14:08:58.680;   0:< 
+ Jrn.Size        0 ,   1603 ,    760
+ 'H 15-Dec-2021 14:08:58.680;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 1603, 760
+ 'E 15-Dec-2021 14:08:58.680;   0:< 
+ Jrn.Size        0 ,   1578 ,    735
+ 'H 15-Dec-2021 14:08:58.681;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 1578, 735
+'H 15-Dec-2021 14:08:58.711;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 437.45828970418955 _
+        , 437.45828970418955, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 437.45828970418955, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 437.45828970418955 _
+        , 690.88317888186509, -247.80937477658679, 0.00000000000000
+'H 15-Dec-2021 14:08:58.711;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+        , 437.45828970418955 _
+        , 437.45828970418955, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 437.45828970418955, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 437.45828970418955 _
+        , 807.76626077973322, -375.54616589853856, 0.00000000000000
+'C 15-Dec-2021 14:08:58.720;   0:< idle0_doc 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ ' 0:< ::40:: Delta VM: Avail -17 -> 134178679 MB, Used +23 -> 597 MB, Peak +22 -> 601 MB; RAM: Avail +2 -> 3758 MB, Used +9 -> 592 MB, Peak +11 -> 601 MB 
+ 'E 15-Dec-2021 14:09:00.744;   0:< 
+ Jrn.MouseMove    0 ,    853 ,    203
+ 'E 15-Dec-2021 14:09:00.744;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:09:00.843;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1143 ,    421
+ 'E 15-Dec-2021 14:09:01.020;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1143 ,    421
+ 'E 15-Dec-2021 14:09:01.098;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1143 ,    421
+ 'E 15-Dec-2021 14:09:01.163;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1143 ,    421
+ 'E 15-Dec-2021 14:09:01.276;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ 'E 15-Dec-2021 14:09:02.256;   0:< 
+ Jrn.MouseMove    0 ,    625 ,    217
+ 'E 15-Dec-2021 14:09:02.256;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:09:02.277;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:02.310;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:02.368;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:02.413;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:02.483;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:02.548;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ ' 0:< ::55:: Delta VM: Avail +9 -> 134178688 MB, Used -31 -> 567 MB; RAM: Avail +6 -> 3764 MB, Used 592 MB 
+ 'E 15-Dec-2021 14:09:02.870;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:09:02.879;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:02.963;   0:< 
+ Jrn.Wheel      8 ,  120 ,    915 ,    435
+ 'E 15-Dec-2021 14:09:03.026;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ ' 0:< ::59:: Delta VM: Avail -2 -> 134178687 MB, Used +7 -> 574 MB; RAM: Avail +30 -> 3795 MB, Used +9 -> 602 MB, Peak +2 -> 603 MB 
+ 'E 15-Dec-2021 14:10:33.440;   0:< 
+ Jrn.MouseMove    0 ,   1122 ,     10
+ 'E 15-Dec-2021 14:10:33.440;   0:< 
+ Jrn.RibbonEvent "TabActivated:Modify"
+ 'E 15-Dec-2021 14:10:35.581;   0:< 
+ Jrn.RibbonEvent "TabActivated:Manage"
+ ' 0:< ::62:: Delta VM: Avail -3 -> 134178684 MB, Used +12 -> 586 MB; RAM: Avail -12 -> 3784 MB, Used +13 -> 616 MB, Peak +14 -> 618 MB 
+ 'E 15-Dec-2021 14:10:37.855;   0:< 
+ Jrn.RibbonEvent "TabActivated:View"
+ ' 0:< ::63:: Delta VM: Avail 134178684 MB, Used +18 -> 605 MB, Peak +4 -> 606 MB; RAM: Avail -19 -> 3765 MB, Used +18 -> 635 MB, Peak +19 -> 637 MB 
+ 'E 15-Dec-2021 14:10:41.752;   0:< 
+ Jrn.Command "Internal" , "Create a default 3D orthographic view. , ID_VIEW_DEFAULT_3DVIEW"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_VIEW_DEFAULT_3DVIEW ;N++EB(NB); 
+ 'H 15-Dec-2021 14:10:41.765;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 1361, 489
+  'H 15-Dec-2021 14:10:41.765;   0:< 
+  Jrn.Directive "WindowSize"  _
+          , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+          , 1336, 464
+   'H 15-Dec-2021 14:10:41.768;   0:< 
+   Jrn.Directive "WindowSize"  _
+           , "[sandeep project.rvt]", "3D View: {3D}" _
+           , 1603, 760
+    'H 15-Dec-2021 14:10:41.769;   0:< 
+    Jrn.Directive "WindowSize"  _
+            , "[sandeep project.rvt]", "3D View: {3D}" _
+            , 1578, 735
+     ' 0:< Activate "[sandeep project.rvt]" , 3D View: {3D} 
+' 0:< ::64:: Delta VM: Avail -19 -> 134178666 MB, Used +9 -> 615 MB, Peak +9 -> 615 MB; RAM: Avail -6 -> 3759 MB, Used +9 -> 644 MB, Peak +6 -> 644 MB 
+'C 15-Dec-2021 14:10:41.851;   0:< idle0_doc 
+ ' 0:< ::64:: Delta VM: Avail +11 -> 134178677 MB, Used 615 MB, Peak +4 -> 620 MB; RAM: Avail +2 -> 3761 MB, Used -9 -> 635 MB 
+ 'E 15-Dec-2021 14:10:44.655;   0:< 
+ Jrn.MouseMove    0 ,   1452 ,     46
+ 'E 15-Dec-2021 14:10:44.655;   0:< 
+ Jrn.LButtonDown    1 ,   1452 ,     46
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000510B0550 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:10:44.883;   0:< 
+ Jrn.LButtonUp    0 ,   1452 ,     46
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000510B0550 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+' 0:< ::67:: Delta VM: Avail +10 -> 134178687 MB, Used -10 -> 606 MB; RAM: Avail +0 -> 3762 MB, Used 635 MB 
+' 0:< AutoCam: View Cube BUTTON_HOME clicked. 
+ ' 0:< ::67:: Delta VM: Avail -19 -> 134178669 MB, Used +15 -> 621 MB, Peak +11 -> 631 MB; RAM: Avail +3 -> 3765 MB, Used -4 -> 631 MB 
+ 'E 15-Dec-2021 14:10:46.965;   0:< 
+ Jrn.MouseMove    0 ,   1440 ,     45
+'H 15-Dec-2021 14:10:46.965;   0:< 
+Jrn.Directive "AutoCamCamera"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , -15.35256500140725, 38.32861215007208, 4.60244665990119 _
+        , 18.47604714866482, 4.50000000000000, -29.22616549017089 _
+        , 0.40824829046386, 0.81649658092773, -0.40824829046386 _
+        , 18.47604714866482, 4.50000000000000, -29.22616549017089 _
+        , 58.00000000000000, 58.00000000000000, 58.00000000000000 _
+        , 58.00000000000000, 125.79531529209575, 58.59287499346665 _
+        , 1, 0
+'H 15-Dec-2021 14:10:46.965;   0:< 
+Jrn.Directive "GlobalToProj"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 0.01041666666667 _
+        , 0.70710678118655, -0.40824829046386, 0.57735026918963 _
+        , 0.70710678118655, 0.40824829046386, -0.57735026918963 _
+        , -0.00000000000000, 0.81649658092773, 0.57735026918963 _
+        , 7.60148157783682, -23.14858137532313, -33.65006589684743
+'H 15-Dec-2021 14:10:46.965;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1204.24198348123010 _
+        , 1204.24198348123010, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1204.24198348123010, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1204.24198348123010 _
+        , 789.00000000000000, -367.50000000000006, 0.00000000000000
+'H 15-Dec-2021 14:10:47.469;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1532.91349224639450 _
+        , 1532.91349224639450, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1532.91349224639450, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1532.91349224639450 _
+        , 789.00000000000000, -367.49999999999994, 0.00000000000000
+' 0:< AutoCam: View Cube BUTTON_HOME clicked. 
+ 'E 15-Dec-2021 14:10:50.107;   0:< 
+ Jrn.MouseMove    0 ,   1440 ,     45
+'H 15-Dec-2021 14:10:50.107;   0:< 
+Jrn.Directive "AutoCamCamera"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , -15.35256500140725, 38.32861215007208, 4.60244665990119 _
+        , 18.47604714866482, 4.50000000000000, -29.22616549017089 _
+        , 0.40824829046386, 0.81649658092773, -0.40824829046386 _
+        , 18.47604714866482, 4.50000000000000, -29.22616549017089 _
+        , 58.00000000000000, 58.00000000000000, 58.00000000000000 _
+        , 58.00000000000000, 125.79531529209575, 58.59287499346665 _
+        , 1, 0
+'H 15-Dec-2021 14:10:50.107;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1204.24198348123010 _
+        , 1204.24198348123010, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1204.24198348123010, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1204.24198348123010 _
+        , 789.00000000000000, -367.49999999999994, 0.00000000000000
+'H 15-Dec-2021 14:10:50.605;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1532.91349224639480 _
+        , 1532.91349224639480, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1532.91349224639480, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1532.91349224639480 _
+        , 789.00000000000000, -367.49999999999994, 0.00000000000000
+'H 15-Dec-2021 14:10:50.605;   0:< 
+Jrn.Directive "ProjToPage"  _
+        , "[sandeep project.rvt]", "3D View: {3D}" _
+        , 1532.91349224639480 _
+        , 1532.91349224639480, 0.00000000000000, 0.00000000000000 _
+        , 0.00000000000000, 1532.91349224639480, 0.00000000000000 _
+        , 0.00000000000000, 0.00000000000000, 1532.91349224639480 _
+        , 789.00000000000000, -367.49999999999989, 0.00000000000000
+ 'E 15-Dec-2021 14:10:52.435;   0:< 
+ Jrn.MouseMove    0 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:52.435;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:10:52.437;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1352 ,    452
+ 'E 15-Dec-2021 14:10:52.470;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1352 ,    452
+ 'E 15-Dec-2021 14:10:52.562;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1352 ,    452
+ ' 0:< ::74:: Delta VM: Avail 134178669 MB, Used -13 -> 609 MB; RAM: Avail +3 -> 3769 MB, Used -2 -> 630 MB 
+ 'E 15-Dec-2021 14:10:52.817;   0:< 
+ Jrn.MouseMove    8 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:52.817;   0:< 
+ Jrn.Wheel      8 ,  120 ,   1352 ,    452
+ 'E 15-Dec-2021 14:10:53.079;   0:< 
+ Jrn.MouseMove    8 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:53.079;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ 'E 15-Dec-2021 14:10:54.283;   0:< 
+ Jrn.MouseMove    0 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:54.283;   0:< 
+ Jrn.LButtonDown    1 ,   1062 ,    234
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000510B0550 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 190085 (-27.149483, +40.851047, +5.000000) 190085-14-FACE (-27.149483, +40.851047, +5.000000)  
+ 'H 15-Dec-2021 14:10:54.288;   0:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 84
+ 'H 15-Dec-2021 14:10:54.303;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: Walls : Basic Wall : 9"""
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_BUTTON_SELECT
+ 'Category: 1
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ '	Dialog_Revit_FamilyBar
+ '	Dialog_Essentials_FilterSelectionNew
+ '	Dialog_HostObj_SketchEditElevation
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ '	PP_Elements_Are_In_ModScope
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ 'CT [Modify | Walls]:
+ '	{1} spacer_shr
+ '	{10} Dialog_HostObj_SketchEditElevation_a
+ '	{20} Dialog_HostObj_SketchEditElevation_b
+ '
+ 'Cache:
+ '
+ '***********************************************************
+ '<<End build CT>> 
+ ' 0:< ::80:: Delta VM: Avail -13 -> 134178656 MB, Used +20 -> 629 MB, Peak +4 -> 635 MB; RAM: Avail -1 -> 3768 MB, Used +1 -> 632 MB 
+ 'E 15-Dec-2021 14:10:54.510;   0:< 
+ Jrn.MouseMove    1 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:54.510;   0:< 
+ Jrn.LButtonUp    0 ,   1062 ,    234
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000510B0550 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 190085 (-27.149483, +40.851047, +5.000000) 190085-14-FACE (-27.149483, +40.851047, +5.000000)  
+ 'E 15-Dec-2021 14:10:54.610;   0:< 
+ Jrn.MouseMove    0 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:54.610;   0:< 
+ Jrn.Key    4 , "VK_SHIFT" , 42
+ 'E 15-Dec-2021 14:10:55.973;   0:< 
+ Jrn.MouseMove    4 ,   1062 ,    234
+ 'E 15-Dec-2021 14:10:55.973;   0:< 
+ Jrn.Key   12 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:10:56.323;   0:< 
+ Jrn.Key    4 , "VK_CONTROL" , 49181
+ 'E 15-Dec-2021 14:10:57.468;   0:< 
+ Jrn.MouseMove    4 ,   1068 ,    252
+ 'E 15-Dec-2021 14:10:57.468;   0:< 
+ Jrn.Key   12 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:10:57.471;   0:< 
+ Jrn.Key    4 , "VK_CONTROL" , 49181
+ 'E 15-Dec-2021 14:10:58.088;   0:< 
+ Jrn.MouseMove    4 ,   1058 ,    252
+ 'E 15-Dec-2021 14:10:58.088;   0:< 
+ Jrn.Key    0 , "VK_SHIFT" , 49194
+ ' 0:< ::92:: Delta VM: Avail +10 -> 134178667 MB, Used -10 -> 620 MB; RAM: Avail +1 -> 3769 MB, Used 632 MB 
+ 'E 15-Dec-2021 14:11:00.065;   0:< 
+ Jrn.MouseMove    0 ,   1149 ,    185
+ 'E 15-Dec-2021 14:11:00.065;   0:< 
+ Jrn.LButtonDown    1 ,   1149 ,    185
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000510B0550 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'H 15-Dec-2021 14:11:00.069;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: <empty>"
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_BUTTON_SELECT
+ 'Category: 0
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ '	Dialog_Essentials_FilterSelectionNew
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ '***********************************************************
+ '<<End build CT>> 
+ 'E 15-Dec-2021 14:11:00.290;   0:< 
+ Jrn.MouseMove    1 ,   1149 ,    185
+ 'E 15-Dec-2021 14:11:00.290;   0:< 
+ Jrn.LButtonUp    0 ,   1149 ,    185
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000510B0550 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'E 15-Dec-2021 14:11:01.190;   0:< 
+ Jrn.MouseMove    0 ,    937 ,    232
+ 'E 15-Dec-2021 14:11:01.191;   0:< 
+ Jrn.Key    4 , "VK_SHIFT" , 42
+ 'E 15-Dec-2021 14:11:01.579;   0:< 
+ Jrn.MButtonDown    6 ,    937 ,    232
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D170 00000000510B0550 0000000045CD7040 
+ ' 0:< ::99:: Delta VM: Avail 134178667 MB, Used -10 -> 611 MB, Peak +9 -> 645 MB; RAM: Avail -107 -> 3663 MB, Used -1 -> 631 MB 
+ 'E 15-Dec-2021 14:11:24.948;   0:< 
+ Jrn.MouseMove    6 ,    713 ,    435
+ 'E 15-Dec-2021 14:11:24.948;   0:< 
+ Jrn.MButtonUp    4 ,    713 ,    435
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D170 00000000510B0550 0000000045CD7040 
+ 'H 15-Dec-2021 14:11:24.961;   0:< 
+ Jrn.Data "ViewManipPanFlag"  _
+         , 0
+ 'H 15-Dec-2021 14:11:24.961;   0:< 
+ Jrn.Data "ViewManipZoomFlag"  _
+         , 0
+ 'H 15-Dec-2021 14:11:24.961;   0:< 
+ Jrn.Data "ViewManipRotateFlag"  _
+         , 1
+ 'H 15-Dec-2021 14:11:24.961;   0:< 
+ Jrn.Data "ViewManipRotate"  _
+         , 0.01041666666667, 1.00503602438908, 23.72893780212280 _
+         , 54.41599537992392, -0.17119219219797, 0.98523765322406 _
+         , -0.00000000000000, -0.83933615054639, -0.14584074728858 _
+         , 0.52368435418320
+ 'H 15-Dec-2021 14:11:24.961;   0:< 
+ Jrn.Directive "GlobalToProj"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 0.01041666666667 _
+         , -0.17119219219797, -0.83933615054639, 0.51595354414562 _
+         , 0.98523765322406, -0.14584074728858, 0.08965067261240 _
+         , -0.00000000000000, 0.52368435418320, 0.85191237647056 _
+         , -23.20658867341004, -24.19259630847464, -49.00352707523787
+ 'E 15-Dec-2021 14:11:25.037;   0:< 
+ Jrn.MouseMove    4 ,    713 ,    435
+ 'E 15-Dec-2021 14:11:25.037;   0:< 
+ Jrn.Key    0 , "VK_SHIFT" , 49194
+ ' 0:< ::103:: Delta VM: Avail -2 -> 134178665 MB, Used +5 -> 616 MB; RAM: Avail -12 -> 3651 MB, Used 631 MB 
+ 'E 15-Dec-2021 14:11:27.361;   0:< 
+ Jrn.MouseMove    0 ,   1371 ,    377
+ 'E 15-Dec-2021 14:11:27.361;   0:< 
+ Jrn.Browser "Activate" _
+         , " "
+ ' 0:< ;PERF;MISC;ElementsGraphicCacheUpdater::updateAll() DBViewProject id=3651: 487(100%) elements need cache update 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'	PP_Elements_Are_In_ModScope
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ 'E 15-Dec-2021 14:11:27.522;   0:< 
+ Jrn.Browser "LButtonDblClk" _
+         , ">>Views (all)>>Floor Plans>>Level 1>>"
+' 0:< Browser Deactivate 
+ 'H 15-Dec-2021 14:11:27.529;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1361, 489
+  'H 15-Dec-2021 14:11:27.530;   0:< 
+  Jrn.Directive "WindowSize"  _
+          , "[sandeep project.rvt]", "3D View: {3D}" _
+          , 1336, 464
+   'H 15-Dec-2021 14:11:27.532;   0:< 
+   Jrn.Directive "WindowSize"  _
+           , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+           , 1603, 760
+    'H 15-Dec-2021 14:11:27.533;   0:< 
+    Jrn.Directive "WindowSize"  _
+            , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+            , 1578, 735
+     ' 0:< Activate "[sandeep project.rvt]" , Floor Plan: Level 1 
+'C 15-Dec-2021 14:11:27.571;   0:< idle0_doc 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ 'E 15-Dec-2021 14:11:33.072;   0:< 
+ Jrn.MouseMove    0 ,    762 ,      2
+ 'E 15-Dec-2021 14:11:33.072;   0:< 
+ Jrn.RibbonEvent "TabActivated:Architecture"
+ 'E 15-Dec-2021 14:11:36.642;   0:< 
+ Jrn.Command "Internal" , "Create an instance of a component type , ID_OBJECTS_FAMSYM"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_OBJECTS_FAMSYM ;N++EB(NB); 
+ ' 0:< Unnecessary nesting;InsertableInstUI_6;-1;ID_CHANGE_SYMBOL ;N++EB(NB); 
+ ' 0:< OS_FIC1 initDummy: err:0, m_basePlaneType(UI):1, freeInstType(DB):0 
+ ' 0:< OS_FIC createFamilyInstance: freeInstType(DB):0, es:2, famInst:1, err:0 
+ ' 4:< FaultyAtomsCheckLog - Comparasion difference found :  
+ ' 7:< REGEN_DOC_CONTEXT_INFO: Known attempt to modify wrong element during regeneration 
+ '12:< Snapshot is constant 
+ '12:< Snapshot is constant and really did nothing 
+ ' 4:< ::109:: Delta VM: Avail -3 -> 134178662 MB, Used -8 -> 609 MB; RAM: Avail -17 -> 3634 MB, Used +10 -> 641 MB 
+ ' 4:< REGEN_DOC_CONTEXT_INFO: Changing wrong atom in regeneration 
+ ' 0:< OS_FIC finishFamilyInstance: freeInstType(DB):0, es:2, err:0 
+ ' 1:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 487 elements need cache update 
+ 'H 15-Dec-2021 14:11:36.749;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Set up Placement Tool"
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_OBJECTS_FAMSYM
+ 'Category: 0
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ '	Dialog_Revit_FamilyBar
+ '	Dialog_Family_ManyInstDbar
+ '	Dialog_Essentials_FreeInstCreateDbar
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ 'CT [Modify | Place Component]:
+ '	{1} spacer_shr
+ '	{500} layout_diffuser_on_duct
+ '	{10} Dialog_Family_ManyInstDbar
+ '
+ 'Cache:
+ '
+ '***********************************************************
+ '<<End build CT>> 
+' 2:< OS_FIC1 onNewRef: m_basePlaneType(UI):1, freeInstType(DB):0 
+' 2:< OS_FIC createFamilyInstance: freeInstType(DB):0, es:1, famInst:1, err:0 
+ ' 0:< ::109:: Delta VM: Avail -5 -> 134178658 MB, Used +17 -> 627 MB; RAM: Avail +14 -> 3649 MB, Used +5 -> 646 MB, Peak +3 -> 647 MB 
+ 'E 15-Dec-2021 14:11:38.764;   0:< 
+ Jrn.MouseMove    0 ,    454 ,      5
+ 'E 15-Dec-2021 14:11:38.766;   0:< 
+ Jrn.PushButton "ToolBar , {}{} , Dialog_Family_ManyInstDbar" _
+          , "Load..., Control_Family_FamilyLoad"
+ ' 0:< ::111:: Delta VM: Avail 134178658 MB, Used -2 -> 626 MB; RAM: Avail -117 -> 3532 MB, Used -2 -> 645 MB 
+ 'H 15-Dec-2021 14:11:59.082;   0:< 
+ Jrn.Data "File Name"  _
+         , "IDOK", "$AllUsersAppData\Libraries\US Imperial\Furniture\Beds\Bed-Standard.rfa"
+ 'H 15-Dec-2021 14:11:59.082;   0:< 
+ Jrn.Data "FileExternalTypes"  _
+         , ""
+ 'C 15-Dec-2021 14:11:59.083;   1:< File: Open 
+ ' 2:< DataStorageInterface created 0x0000000045FC6B70 
+ ' 2:< Connecting session [$6143b003] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+ '  0.000013     3:<<<WorksharingLog::getSlog [] 
+ ' 2:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+ ' 3:< MasterLocks 0x000000005128DC90 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FC6B70 m_pDataStorage 0x0000000045FC6B70 
+ ' 3:< DataStorageInterface created 0x0000000045FC6170 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FC6B70 
+ ' 3:< MasterLocks 0x000000005128DC90 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FC6170 m_pDataStorage 0x0000000045FC6170 
+ '  0.000759---- 3:<<acquireFileLock 
+ ' 3:< MasterLocks 0x000000005128DC90 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FC6170 m_pDataStorage 0x0000000045FC6170 
+ ' 3:< DataStorageInterface created 0x0000000045FC6470 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FC6170 
+ ' 3:< MasterLocks 0x000000005128DC90 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FC6470 m_pDataStorage 0x0000000045FC6470 
+ ' 3:< MasterLocks 0x000000005128DC90 DummyStorage stole m_oDataStorage 0x0000000045FC6470 but left m_pDataStorage 0x0000000045FC6470 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x50fb1480, plpRootStg=0x50fb1548, lpRootStg=0x50dd3770 
+ '  0.002803     3:<<acquireFileLock 
+ '  0.004489    2:<<OpenDocumentTask::acquireFileLock 
+ '  0.018998       5:<<<loadAllClasses 
+ '  0.000065       5:<<<RegisterPreDocLoadCallback::invokeCallbacks 
+ '  0.000041        6:<<<LoadModel DSI 
+ '  0.000080       5:<<loading DocumentStorageIndex 
+  'E 15-Dec-2021 14:11:59.107;   5:< 
+  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2014 (Build: 20130123_1540(x64)) Rvt.Attr.LastSavePath: \\shacng035wqry\CCDP\App_Data\User\guanq\Requests\f256f732e4eb9bc6\O_P_SaveAsRfa\Imperial\Library\Furniture\Beds\Bed-Standard.rfa Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
+  ' 6:< [ISL] On open, Adler Checksum: 0xc422c040 [C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Furniture\Beds\Bed-Standard.rfa] 
+  '  0.000380        6:<<<Checking Checksum 
+  ' 5:< [ISL] Read last modification time: 01-Feb-2013 16:50:06 (UTC: 01-Feb-2013 11:20:06) 
+  '  0.004273        6:<<<app infos and other global data 
+  ' 5:< File was saved in Autodesk Revit 2014 (Build: 20130123_1540(x64)) 
+  ' 6:< ::112:: Delta VM: Avail -17 -> 134178641 MB, Used +16 -> 642 MB; RAM: Avail -3 -> 3529 MB, Used +1 -> 646 MB 
+  '  0.000013         7:<<<ET::repairModificationDatesOutOfSequence 
+  ' 6:< Loaded ElemTable: Size=1583 
+  '  0.001252        6:<<ElemTable 
+  '  0.000033        6:<<<ContentDocuments 
+  '  0.000273        6:<<<History 
+  '  0.000138        6:<<<increment table 
+  '  0.000039        6:<<<WorksetTable 
+  '  0.000005        6:<<<partitionStorageLock.open 
+  '  0.000018         7:<<<loadLatestVersionsEstimate 
+  ' 7:< ::112:: Delta VM: Avail -10 -> 134178631 MB, Used 642 MB; RAM: Avail +1 -> 3531 MB, Used +0 -> 647 MB 
+  ' 7:< Loaded elemStream#54: uncompSize=660349, compSize=103324, count=1583 
+  '  0.007603         7:<<<loadLatestVersion 
+  '  0.000195          8:<<<ElementReceiver::commitSwapouts()  
+  '  0.000223         7:<<els.commit 
+  '  0.007952        6:<<loadSelectedPartitions 
+  '  0.015708       5:<<DocumentStorageIndexImpl::loadDocument()  
+  ' 6:< Current family ADocument version:2659 
+  '  0.020539          8:<<updating dependencies in delayed deletion 
+  '  0.000054          8:<<<getAllNonexistentParents in delayed deletion 
+  '  0.001247          8:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.021987         7:<<delayed deletion 
+  '  0.000435         7:<<<forceResetOfElemRecOwnerCache 
+  '  0.027783        6:<<ADocumentUpgrade::docUpgrade 
+  '  0.063114     3:<<LoadSerialize 
+  '  0.063202    2:<<LoadFromStorage 
+  ' 2:< LPSTORAGE RELEASED: plpRootStg=0x50fb1548, lpRootStg=0x50dd3770 
+  ' 2:< DummyStorage destroying DataStorageInterface 0x0000000045FC6470 
+  ' 2:< DataStorageInterface destroyed 0x0000000045FC6470 
+  ' 2:< AFTER RELEASE: plpRootStg=0x50fb1548, lpRootStg=0x00000000 
+  '  0.000512    2:<<<relinquishAllLocks 
+  '  0.000433     3:<<<forceResetOfElemRecOwnerCache 
+  ' 3:< Unnecessary nesting;Document\PostLoadDocument.cpp;160;String_Revit_DelayedPropagatoinRegen ;N++E(N); 
+  ' 4:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 4:< RAM Statistics:     3530 /     8044       646=InUse      647=Peak  
+  ' 4:< VM  Statistics: 134178632 / 134217727       642=InUse      645=Peak  
+  ' 4:< 000000000F146210 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< 000000000F146328 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< 000000000F146238 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F1462B0 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F1462D8 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146300 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146288 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146260 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< Element Expansion Statistics: 
+  ' 4:<  1% Opening Plans                    (57672) 
+  ' 4:<  0% Opening RC Plans                 (0) 
+  ' 4:<  15% Opening 3d Views                 (679087) 
+  ' 4:<  0% Opening Elevations and Sections  (0) 
+  ' 4:<  10% In Regnerate                     (450104) 
+  ' 4:<  0% In Autojoin                      (0) 
+  ' 4:<  0% In Overlap Checking              (0) 
+  ' 4:<  0% Reviewing PostedWarnings         (0) 
+  ' 4:<  75% Other                            (3483017) 
+  ' 4:< total bytes expanded: 4669880 
+  ' 4:< ;EES;1;0;15;0;10;0;0;0;75; 
+  '  0.000006       5:<<<ppg constructor 
+  '  0.000006       5:<<<updating dependencies in dp 
+  '  0.000002        6:<<<updating dependencies in delayed deletion 
+  '  0.000077        6:<<<getAllNonexistentParents in delayed deletion 
+  '  0.001986        6:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.002309       5:<<delayed deletion 
+  '  0.007345      4:<<ADocumentMerge::delayedPropagation 
+  '  0.000005       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000001        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  ' 5:< Connecting session [$753c31ae] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+  '  0.000010        6:<<<WorksharingLog::getSlog [] 
+  ' 5:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+  '  0.000006         7:<<<;PERF;MISC;regenerating 
+  '  0.000625       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000608/TurnOff_GAPs 5% 
+  '  0.000803      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000172/TurnOff_GAPs 4% 
+  '  0.008436     3:<<delayed propagation on open 
+  '  0.000003     3:<<<updating dependencies on open 
+  '  0.000002       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000003         7:<<<;PERF;MISC;regenerating 
+  '  0.000077       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000074/TurnOff_GAPs 32% 
+  '  0.000244      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000165/TurnOff_GAPs 2% 
+  '  0.000294     3:<<reloadLinkedInstances [0/0] 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000068      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000066/TurnOff_GAPs 34% 
+  '  0.000200     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000130/TurnOff_GAPs 3% 
+  ' 2:< Unnecessary nesting;Document\PostLoadDocument.cpp;398;ID_SETTINGS_SNAPPING ;N++E(N); 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000069      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000066/TurnOff_GAPs 36% 
+  '  0.000199     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000128/TurnOff_GAPs 3% 
+  ' 3:< DBG_INFO: Couldn't obtain time/date stamp for  so that cannot correct file create/access/modify time!, the GetLastError is 6: line 1951 of FileUtil.cpp. 
+  '  0.000051     3:<<<pKeynoteTable->readFile 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000069      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000067/TurnOff_GAPs 34% 
+  '  0.000205     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000133/TurnOff_GAPs 3% 
+  ' 2:< Document save history --> : 
+  ' 2:<   Revit 2013 - Preview Pre-Release 2013 (2013.000) : 20120111_1515(x64) 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20120705_2230 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20130123_1540(x64) 
+  ' 2:< Document save history <-- 
+  '  0.010426    2:<<[Cloud]postLoadDocument 
+  '  0.078938   1:<<DocumentStorage::onOpenDocument [C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Furniture\Beds\Bed-Standard.rfa] 
+  ' 5:< Before : Create Display Manager for Occlusion Culling 
+  ' 5:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 5:< RAM Statistics:     3535 /     8044       648=InUse      649=Peak  
+  ' 5:< VM  Statistics: 134178632 / 134217727       642=InUse      645=Peak  
+  ' 5:< Revit Graphics Information 
+  ' 5:< 	Current Mode : DirectX Hardware 
+  ' 5:< 	Use Hardware: ON 
+  ' 5:< 	Use Overlays : ON 
+  ' 5:< ::112:: Delta VM: Avail -52 -> 134178579 MB, Used +8 -> 651 MB, Peak +6 -> 651 MB; RAM: Avail +6 -> 3537 MB, Used +12 -> 659 MB, Peak +11 -> 659 MB 
+  ' 5:< 	OpenGL Specific - Extensions 
+  ' 5:< GL_WIN_swap_hint GL_EXT_bgra GL_EXT_paletted_texture 
+  ' 5:< 	Used Extensions 
+  ' 5:< 	Model Overlay Type : Texture method 
+  ' 5:< 	Anno/Temp Overlay Type : Texture method 
+  ' 5:< 	Support Partial Update : YES 
+  ' 5:< 	Occlusion Culling Type : None 
+  ' 5:< After : Create Display Manager for Occlusion Culling 
+  ' 5:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 5:< RAM Statistics:     3533 /     8044       659=InUse      659=Peak  
+  ' 5:< VM  Statistics: 134178579 / 134217727       651=InUse      652=Peak  
+  '  0.220961    2:<<;PERF;MISC;regenerating 
+  ' 0:< Before : Destroy Display Manager 
+  ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 0:< RAM Statistics:     3533 /     8044       660=InUse      660=Peak  
+  ' 0:< VM  Statistics: 134178579 / 134217727       652=InUse      653=Peak  
+  ' 0:< After : Destroy Display Manager 
+  ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 0:< RAM Statistics:     3533 /     8044       660=InUse      660=Peak  
+  ' 0:< VM  Statistics: 134178579 / 134217727       652=InUse      653=Peak  
+  ' 0:< ::112:: Delta VM: Avail +10 -> 134178589 MB, Used +0 -> 652 MB, Peak +1 -> 653 MB; RAM: Avail -4 -> 3533 MB, Used 659 MB, Peak +1 -> 660 MB 
+  ' 0:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 492 elements need cache update 
+  'H 15-Dec-2021 14:11:59.487;   1:< 
+  Jrn.Data "Transaction Successful"  _
+          , "Load Family"
+ 'E 15-Dec-2021 14:11:59.495;   0:< 
+ Jrn.LButtonUp    0 ,    443 ,    195
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000000000000 0000000000000000 0000000000000000 
+ 'H 15-Dec-2021 14:11:59.495;   0:< 
+ Jrn.Data "DroppedMouseAction"  _
+         , "no active editor"
+'C 15-Dec-2021 14:11:59.545;   0:< idle0_doc 
+' 0:< Unnecessary nesting;InsertableInstUI_6;-1;ID_CHANGE_SYMBOL ;N++EB(NB); 
+' 1:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 492 elements need cache update 
+'H 15-Dec-2021 14:11:59.615;   1:< 
+Jrn.Data "Transaction Successful"  _
+        , "Set up Placement Tool"
+ 'E 15-Dec-2021 14:12:02.361;   0:< 
+ Jrn.MouseMove    0 ,    626 ,    268
+ 'E 15-Dec-2021 14:12:02.361;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:12:02.424;   0:< 
+ Jrn.Wheel      8 ,  120 ,    916 ,    486
+ 'E 15-Dec-2021 14:12:02.530;   0:< 
+ Jrn.Wheel      8 ,  120 ,    916 ,    486
+ 'E 15-Dec-2021 14:12:02.678;   0:< 
+ Jrn.MouseMove    8 ,    626 ,    268
+ 'E 15-Dec-2021 14:12:02.678;   0:< 
+ Jrn.Wheel      8 ,  120 ,    916 ,    486
+ 'E 15-Dec-2021 14:12:02.874;   0:< 
+ Jrn.MouseMove    8 ,    626 ,    268
+ 'E 15-Dec-2021 14:12:02.874;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ ' 0:< ::121:: Delta VM: Avail +0 -> 134178590 MB, Used -6 -> 647 MB, Peak +4 -> 657 MB; RAM: Avail -110 -> 3424 MB, Used +0 -> 660 MB, Peak +0 -> 661 MB 
+ 'E 15-Dec-2021 14:12:10.798;   0:< 
+ Jrn.MouseMove    0 ,    633 ,    265
+ 'E 15-Dec-2021 14:12:10.799;   0:< 
+ Jrn.Key    0 , " " , 0
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(185161-5-5L [185161-5-FACE])Snap(184953-5-2L [184953-5-FACE])] MoveElemSnap[Snap(185161-5-5L [185161-5-FACE])] MoveElemSnap[Snap(184953-5-2L [184953-5-FACE])] NoSnap  
+ 'E 15-Dec-2021 14:12:11.687;   0:< 
+ Jrn.MouseMove    0 ,    633 ,    265
+ 'E 15-Dec-2021 14:12:11.687;   0:< 
+ Jrn.Key    0 , " " , 0
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(185266-6-6L [185266-6-FACE])] NoSnap  
+ ' 0:< ::125:: Delta VM: Avail +1 -> 134178591 MB, Used 647 MB; RAM: Avail +13 -> 3437 MB, Used -1 -> 659 MB 
+ 'E 15-Dec-2021 14:12:21.906;   0:< 
+ Jrn.MouseMove    0 ,    641 ,    240
+ 'E 15-Dec-2021 14:12:21.906;   0:< 
+ Jrn.LButtonDown    1 ,    641 ,    240
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578F5B0 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184302-5-2L [184302-5-FACE])Snap(184506-5-0L [184506-5-FACE])] MoveElemSnap[Snap(184302-5-2L [184302-5-FACE])] MoveElemSnap[Snap(184506-5-0L [184506-5-FACE])] NoSnap  
+ 'E 15-Dec-2021 14:12:21.926;   0:< 
+ Jrn.LButtonUp    0 ,    641 ,    240
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578F5B0 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184302-5-2L [184302-5-FACE])Snap(184506-5-0L [184506-5-FACE])] MoveElemSnap[Snap(184302-5-2L [184302-5-FACE])] MoveElemSnap[Snap(184506-5-0L [184506-5-FACE])] NoSnap  
+ ' 0:< OS_FIC finishFamilyInstance: freeInstType(DB):0, es:0, err:0 
+ 'H 15-Dec-2021 14:12:21.946;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Component"
+ 'H 15-Dec-2021 14:12:21.979;   2:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 9
+ ' 0:< ::128:: Delta VM: Avail 134178591 MB, Used +0 -> 648 MB; RAM: Avail -45 -> 3393 MB, Used -6 -> 654 MB 
+ 'E 15-Dec-2021 14:12:34.807;   0:< 
+ Jrn.MouseMove    1 ,    639 ,    248
+ 'E 15-Dec-2021 14:12:34.807;   0:< 
+ Jrn.LButtonUp    0 ,    639 ,    248
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 190770 (-37.035670, +29.315032, +2.083333) MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])Snap(190770-4-0L [190770-0-INST=190669-4])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(190770-4-0L [190770-0-INST=190669-4])] NoSnap  
+ 'E 15-Dec-2021 14:12:34.814;   0:< 
+ Jrn.LButtonDblClk    1 ,    639 ,    248
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 190770 (-37.035670, +29.315032, +2.083333) MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])Snap(190770-4-0L [190770-0-INST=190669-4])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(190770-4-0L [190770-0-INST=190669-4])] NoSnap  
+ ' 0:< Unnecessary nesting;PlaceUI_1;-1;ID_BUTTON_SELECT ;N++EB(NB); 
+ 'H 15-Dec-2021 14:12:34.816;   0:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 42
+ 'E 15-Dec-2021 14:12:35.030;   0:< 
+ Jrn.LButtonUp    0 ,    639 ,    248
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 0000000045798B70 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184302-5-5L [184302-5-FACE])Snap(184506-5-2L [184506-5-FACE])] MoveElemSnap[Snap(184302-5-5L [184302-5-FACE])] MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:12:35.043;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Modify"
+ 'E 15-Dec-2021 14:12:40.707;   0:< 
+ Jrn.MouseMove    0 ,    660 ,    313
+ 'E 15-Dec-2021 14:12:40.707;   0:< 
+ Jrn.LButtonDown    1 ,    660 ,    313
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184954-331-0L [184954-331-FACE])Snap(184506-5-6L [184506-5-FACE])] MoveElemSnap[Snap(184954-331-0L [184954-331-FACE])] MoveElemSnap[Snap(184506-5-6L [184506-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:12:40.708;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: <empty>"
+ 'E 15-Dec-2021 14:12:40.922;   0:< 
+ Jrn.MouseMove    1 ,    660 ,    313
+ 'E 15-Dec-2021 14:12:40.922;   0:< 
+ Jrn.LButtonUp    0 ,    660 ,    313
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184954-331-0L [184954-331-FACE])Snap(184506-5-6L [184506-5-FACE])] MoveElemSnap[Snap(184954-331-0L [184954-331-FACE])] MoveElemSnap[Snap(184506-5-6L [184506-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:12:40.966;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Component"
+ 'H 15-Dec-2021 14:12:41.002;   2:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 9
+ ' 0:< ::136:: Delta VM: Avail -1 -> 134178590 MB, Used +4 -> 652 MB; RAM: Avail +23 -> 3416 MB, Used 654 MB 
+ 'E 15-Dec-2021 14:12:49.727;   0:< 
+ Jrn.MouseMove    0 ,    635 ,    250
+ 'E 15-Dec-2021 14:12:49.727;   0:< 
+ Jrn.LButtonDown    1 ,    635 ,    250
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 191249-33903 (-40.242756, +24.970514, +0.000000) 191244-2147483647 (-47.045691, +32.646817, +0.000000) MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])Snap(185161-5-5L [185161-5-FACE])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(185161-5-5L [185161-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:12:49.727;   0:< 
+ Jrn.Data "Control"  _
+         , "TempDimIntoPermDimControl", 1.00000000000000
+ ' 0:< Unnecessary nesting;ACommandRouter_2;-1;ID_MAKE_TEMP_DIM_PERM_CNTR ;N++EB(NB); 
+ 'H 15-Dec-2021 14:12:49.731;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Make permanent"
+ 'E 15-Dec-2021 14:12:49.762;   0:< 
+ Jrn.LButtonUp    0 ,    635 ,    250
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])Snap(191244-2147483647-0-0L [191244-2147483647-LINE-0])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(191244-2147483647-0-0L [191244-2147483647-LINE-0])] NoSnap  
+ 'E 15-Dec-2021 14:12:58.102;   0:< 
+ Jrn.MouseMove    0 ,    631 ,    255
+ 'E 15-Dec-2021 14:12:58.102;   0:< 
+ Jrn.LButtonDown    1 ,    631 ,    255
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])Snap(191244-2147483647-0-0L [191244-2147483647-LINE-0])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(191244-2147483647-0-0L [191244-2147483647-LINE-0])] NoSnap  
+ 'H 15-Dec-2021 14:12:58.104;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: <empty>"
+ 'E 15-Dec-2021 14:12:58.306;   0:< 
+ Jrn.MouseMove    1 ,    631 ,    255
+ 'E 15-Dec-2021 14:12:58.306;   0:< 
+ Jrn.LButtonUp    0 ,    631 ,    255
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])Snap(191244-2147483647-0-0L [191244-2147483647-LINE-0])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(191244-2147483647-0-0L [191244-2147483647-LINE-0])] NoSnap  
+ 'H 15-Dec-2021 14:12:58.347;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Component"
+ 'H 15-Dec-2021 14:12:58.380;   2:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 9
+ 'E 15-Dec-2021 14:13:01.502;   0:< 
+ Jrn.MouseMove    0 ,    634 ,    311
+ 'E 15-Dec-2021 14:13:01.502;   0:< 
+ Jrn.LButtonDown    1 ,    634 ,    311
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(191179-0-0L [191179-0-INST=190669-0])Snap(191302-3-6L [191302-0-INST=190669-3])] MoveElemSnap[Snap(191179-0-0L [191179-0-INST=190669-0])] MoveElemSnap[Snap(191302-3-6L [191302-0-INST=190669-3])] NoSnap  
+ 'H 15-Dec-2021 14:13:01.503;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: <empty>"
+ 'E 15-Dec-2021 14:13:01.717;   0:< 
+ Jrn.MouseMove    1 ,    634 ,    311
+ 'E 15-Dec-2021 14:13:01.717;   0:< 
+ Jrn.LButtonUp    0 ,    634 ,    311
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578EB90 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(191179-0-0L [191179-0-INST=190669-0])Snap(191302-3-6L [191302-0-INST=190669-3])] MoveElemSnap[Snap(191179-0-0L [191179-0-INST=190669-0])] MoveElemSnap[Snap(191302-3-6L [191302-0-INST=190669-3])] NoSnap  
+ 'H 15-Dec-2021 14:13:01.732;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Component"
+ 'H 15-Dec-2021 14:13:01.764;   2:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 9
+' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184953-5-6L [184953-5-FACE])] NoSnap  
+ ' 0:< ::147:: Delta VM: Avail +3 -> 134178593 MB, Used -5 -> 647 MB; RAM: Avail -56 -> 3361 MB, Used 654 MB 
+ 'E 15-Dec-2021 14:13:05.721;   0:< 
+ Jrn.MouseMove    0 ,    858 ,    273
+ 'E 15-Dec-2021 14:13:05.721;   0:< 
+ Jrn.Command "AccelKey" , "Cancel the current operation , ID_CANCEL_EDITOR"
+ ' 0:< ::149:: Delta VM: Avail 134178593 MB, Used +5 -> 653 MB, Peak +0 -> 658 MB; RAM: Avail +86 -> 3447 MB, Used 654 MB 
+ 'E 15-Dec-2021 14:13:11.163;   0:< 
+ Jrn.MouseMove    0 ,    547 ,     79
+ 'E 15-Dec-2021 14:13:11.163;   0:< 
+ Jrn.Command "AccelKey" , "Cancel the current operation , ID_CANCEL_EDITOR"
+'C 15-Dec-2021 14:13:11.177;   0:< idle0_doc 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ 'E 15-Dec-2021 14:13:11.385;   0:< 
+ Jrn.MouseMove    0 ,    547 ,     79
+ 'E 15-Dec-2021 14:13:11.385;   0:< 
+ Jrn.Command "AccelKey" , "Cancel the current operation , ID_CANCEL_EDITOR"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_CANCEL_EDITOR ;N++EB(NB); 
+'C 15-Dec-2021 14:13:11.399;   0:< idle0_doc 
+ 'E 15-Dec-2021 14:13:13.389;   0:< 
+ Jrn.MouseMove    0 ,    654 ,    210
+ 'E 15-Dec-2021 14:13:13.389;   0:< 
+ Jrn.LButtonDown    1 ,    654 ,    210
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000512E0730 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 190770 (-33.743928, +36.065032, +2.083333)  
+ 'H 15-Dec-2021 14:13:13.390;   0:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 10
+ 'H 15-Dec-2021 14:13:13.404;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: Furniture : Bed-Standard : Double 54"" x 75"""
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_BUTTON_SELECT
+ 'Category: 1
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ '	Dialog_Revit_FamilyBar
+ '	Dialog_Essentials_FilterSelectionNew
+ '	Dialog_Family_FamInstOffsetDbar
+ '	Dialog_Revit_EditLoadedFamilyDbar
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ '	PP_Elements_Are_In_ModScope
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ 'CT [Modify | Furniture]:
+ '	{1} spacer_shr
+ '	{342} Dialog_Family_FamInstOffsetDbar
+ '	{10} Dialog_Revit_EditLoadedFamilyDbar
+ '
+ 'Cache:
+ '
+ '***********************************************************
+ '<<End build CT>> 
+ ' 0:< ::155:: Delta VM: Avail -10 -> 134178584 MB, Used +15 -> 668 MB, Peak +16 -> 675 MB; RAM: Avail +2 -> 3449 MB, Used +1 -> 655 MB 
+ 'E 15-Dec-2021 14:13:13.610;   0:< 
+ Jrn.MouseMove    1 ,    654 ,    210
+ 'E 15-Dec-2021 14:13:13.610;   0:< 
+ Jrn.LButtonUp    0 ,    654 ,    210
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000512E0730 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 190770 (-33.743928, +36.065032, +2.083333)  
+ ' 0:< ::157:: Delta VM: Avail 134178584 MB, Used 668 MB; RAM: Avail -11 -> 3439 MB, Used 655 MB 
+ 'E 15-Dec-2021 14:13:14.929;   0:< 
+ Jrn.MouseMove    0 ,    654 ,    210
+ 'E 15-Dec-2021 14:13:14.929;   0:< 
+ Jrn.Command "AccelKey" , "Delete the selection , ID_BUTTON_DELETE"
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_BUTTON_SELECT
+ 'Category: 0
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ '	Dialog_Essentials_FilterSelectionNew
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ '***********************************************************
+ '<<End build CT>> 
+ 'H 15-Dec-2021 14:13:14.945;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Delete Selection"
+ 'E 15-Dec-2021 14:13:14.962;   0:< 
+ Jrn.MouseMove    0 ,    654 ,    210
+ 'E 15-Dec-2021 14:13:14.962;   0:< 
+ Jrn.Command "AccelKey" , "Delete the selection , ID_BUTTON_DELETE"
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_BUTTON_DELETE
+ 'Category: 0
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ '***********************************************************
+ '<<End build CT>> 
+ 'E 15-Dec-2021 14:13:16.884;   0:< 
+ Jrn.MouseMove    0 ,    649 ,    311
+ 'E 15-Dec-2021 14:13:16.884;   0:< 
+ Jrn.LButtonDown    1 ,    649 ,    311
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000512A99E0 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 191179 (-34.841175, +13.815032, +2.083333) 191543 (-36.555256, +14.164623, +2.083333)  
+ 'H 15-Dec-2021 14:13:16.884;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: Furniture : Bed-Standard : Double 54"" x 75"""
+ ' 0:< ::163:: Delta VM: Avail -10 -> 134178574 MB, Used +11 -> 680 MB, Peak +11 -> 686 MB; RAM: Avail +5 -> 3445 MB, Used +2 -> 658 MB 
+ 'E 15-Dec-2021 14:13:17.105;   0:< 
+ Jrn.MouseMove    1 ,    649 ,    311
+ 'E 15-Dec-2021 14:13:17.105;   0:< 
+ Jrn.LButtonUp    0 ,    649 ,    311
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000512A99E0 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 191179 (-34.841175, +13.815032, +2.083333) 191543 (-36.555256, +14.164623, +2.083333)  
+ 'E 15-Dec-2021 14:13:17.748;   0:< 
+ Jrn.MouseMove    0 ,    649 ,    311
+ 'E 15-Dec-2021 14:13:17.748;   0:< 
+ Jrn.Command "AccelKey" , "Delete the selection , ID_BUTTON_DELETE"
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 1
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Revit_FamilyBar
+'	Dialog_Essentials_FilterSelectionNew
+'	Dialog_Family_FamInstOffsetDbar
+'	Dialog_Revit_EditLoadedFamilyDbar
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'	PP_Elements_Are_In_ModScope
+'Product: Revit
+'
+'
+'***********************************************************
+'CT [Modify | Furniture]:
+'	{1} spacer_shr
+'	{342} Dialog_Family_FamInstOffsetDbar
+'	{10} Dialog_Revit_EditLoadedFamilyDbar
+'
+'Cache:
+'
+'***********************************************************
+'<<End build CT>> 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+'H 15-Dec-2021 14:13:17.812;   1:< 
+Jrn.Data "Transaction Successful"  _
+        , "Delete Selection"
+ ' 0:< ::167:: Delta VM: Avail +22 -> 134178597 MB, Used -40 -> 640 MB; RAM: Avail -9 -> 3436 MB, Used +1 -> 659 MB 
+ 'E 15-Dec-2021 14:13:24.642;   0:< 
+ Jrn.MouseMove    0 ,    670 ,      6
+ 'E 15-Dec-2021 14:13:24.642;   0:< 
+ Jrn.Command "Internal" , "Create an instance of a component type , ID_OBJECTS_FAMSYM"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_OBJECTS_FAMSYM ;N++EB(NB); 
+ ' 0:< Unnecessary nesting;InsertableInstUI_6;-1;ID_CHANGE_SYMBOL ;N++EB(NB); 
+ ' 0:< <<Begin build CT>>
+ '
+ 'Edit mode: IDR_COMMON
+ 'Command: ID_OBJECTS_FAMSYM
+ 'Category: 0
+ 'Bar list: 
+ '	Dialog_Revit_DynamicLabelDBar
+ '	Dialog_Revit_FamilyBar
+ '	Dialog_Family_ManyInstDbar
+ '	Dialog_Essentials_FreeInstCreateDbar
+ 'Presenter list: 
+ '	PP_DebugTab_Binding_Demo
+ 'Product: Revit
+ '
+ '
+ '***********************************************************
+ 'CT [Modify | Place Component]:
+ '	{1} spacer_shr
+ '	{500} layout_diffuser_on_duct
+ '	{10} Dialog_Family_ManyInstDbar
+ '
+ 'Cache:
+ '
+ '***********************************************************
+ '<<End build CT>> 
+ 'E 15-Dec-2021 14:13:26.668;   0:< 
+ Jrn.PushButton "ToolBar , {}{} , Dialog_Family_ManyInstDbar" _
+          , "Load..., Control_Family_FamilyLoad"
+ 'H 15-Dec-2021 14:13:45.443;   0:< 
+ Jrn.Data "File Name"  _
+         , "IDOK", "$AllUsersAppData\Libraries\US Imperial\Furniture\Seating\Seating-Auditorium.rfa"
+ 'H 15-Dec-2021 14:13:45.443;   0:< 
+ Jrn.Data "FileExternalTypes"  _
+         , ""
+ 'C 15-Dec-2021 14:13:45.444;   1:< File: Open 
+ ' 2:< DataStorageInterface created 0x0000000045FCA3F0 
+ ' 2:< Connecting session [$1b1d7490] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+ '  0.000030     3:<<<WorksharingLog::getSlog [] 
+ ' 2:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+ ' 3:< MasterLocks 0x00000000458BA060 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FCA3F0 m_pDataStorage 0x0000000045FCA3F0 
+ ' 3:< DataStorageInterface created 0x0000000045FCB870 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FCA3F0 
+ ' 3:< MasterLocks 0x00000000458BA060 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FCB870 m_pDataStorage 0x0000000045FCB870 
+ '  0.000877---- 3:<<acquireFileLock 
+ ' 3:< MasterLocks 0x00000000458BA060 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FCB870 m_pDataStorage 0x0000000045FCB870 
+ ' 3:< DataStorageInterface created 0x0000000045FCB9F0 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FCB870 
+ ' 3:< MasterLocks 0x00000000458BA060 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FCB9F0 m_pDataStorage 0x0000000045FCB9F0 
+ ' 3:< MasterLocks 0x00000000458BA060 DummyStorage stole m_oDataStorage 0x0000000045FCB9F0 but left m_pDataStorage 0x0000000045FCB9F0 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x50fb1480, plpRootStg=0x50fb1548, lpRootStg=0x50dd5e30 
+ '  0.002995     3:<<acquireFileLock 
+ '  0.005969    2:<<OpenDocumentTask::acquireFileLock 
+ '  0.014341       5:<<<loadAllClasses 
+ '  0.000019       5:<<<RegisterPreDocLoadCallback::invokeCallbacks 
+ '  0.000033        6:<<<LoadModel DSI 
+ '  0.000071       5:<<loading DocumentStorageIndex 
+  'E 15-Dec-2021 14:13:45.465;   5:< 
+  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2014 (Build: 20130123_1540(x64)) Rvt.Attr.LastSavePath: \\shacng035wqry\CCDP\App_Data\User\guanq\Requests\883ae23f6e9d18be\O_P_SaveAsRfa\Imperial\Library\Furniture\Seating\Seating-Auditorium.rfa Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
+  ' 6:< [ISL] On open, Adler Checksum: 0xa92f4594 [C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Furniture\Seating\Seating-Auditorium.rfa] 
+  '  0.000414        6:<<<Checking Checksum 
+  ' 5:< [ISL] Read last modification time: 01-Feb-2013 16:50:06 (UTC: 01-Feb-2013 11:20:06) 
+  ' 5:< ::171:: Delta VM: Avail -1 -> 134178596 MB, Used -2 -> 639 MB; RAM: Avail +10 -> 3446 MB, Used -2 -> 658 MB, Peak +1 -> 663 MB 
+  '  0.004105        6:<<<app infos and other global data 
+  ' 5:< File was saved in Autodesk Revit 2014 (Build: 20130123_1540(x64)) 
+  '  0.000012         7:<<<ET::repairModificationDatesOutOfSequence 
+  ' 6:< Loaded ElemTable: Size=1604 
+  '  0.000996        6:<<ElemTable 
+  '  0.000038        6:<<<ContentDocuments 
+  '  0.000277        6:<<<History 
+  '  0.000135        6:<<<increment table 
+  '  0.000035        6:<<<WorksetTable 
+  '  0.000007        6:<<<partitionStorageLock.open 
+  '  0.000017         7:<<<loadLatestVersionsEstimate 
+  ' 7:< ::171:: Delta VM: Avail -10 -> 134178586 MB, Used 639 MB; RAM: Avail 3446 MB, Used +0 -> 659 MB 
+  ' 7:< Loaded elemStream#56: uncompSize=675293, compSize=110959, count=1604 
+  '  0.004958         7:<<<loadLatestVersion 
+  '  0.000190          8:<<<ElementReceiver::commitSwapouts()  
+  '  0.000219         7:<<els.commit 
+  '  0.005284        6:<<loadSelectedPartitions 
+  '  0.012555       5:<<DocumentStorageIndexImpl::loadDocument()  
+  ' 6:< Current family ADocument version:2659 
+  '  0.012200          8:<<<updating dependencies in delayed deletion 
+  '  0.000032          8:<<<getAllNonexistentParents in delayed deletion 
+  '  0.001272          8:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.013628         7:<<delayed deletion 
+  '  0.000344         7:<<<forceResetOfElemRecOwnerCache 
+  '  0.018716        6:<<ADocumentUpgrade::docUpgrade 
+  '  0.046110     3:<<LoadSerialize 
+  '  0.046176    2:<<LoadFromStorage 
+  ' 2:< LPSTORAGE RELEASED: plpRootStg=0x50fb1548, lpRootStg=0x50dd5e30 
+  ' 2:< DummyStorage destroying DataStorageInterface 0x0000000045FCB9F0 
+  ' 2:< DataStorageInterface destroyed 0x0000000045FCB9F0 
+  ' 2:< AFTER RELEASE: plpRootStg=0x50fb1548, lpRootStg=0x00000000 
+  '  0.000483    2:<<<relinquishAllLocks 
+  '  0.000384     3:<<<forceResetOfElemRecOwnerCache 
+  ' 3:< Unnecessary nesting;Document\PostLoadDocument.cpp;160;String_Revit_DelayedPropagatoinRegen ;N++E(N); 
+  ' 4:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 4:< RAM Statistics:     3446 /     8044       658=InUse      663=Peak  
+  ' 4:< VM  Statistics: 134178587 / 134217727       639=InUse      686=Peak  
+  ' 4:< 000000000F1462B0 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< 000000000F146210 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< 000000000F146328 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F1462D8 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146238 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146300 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146260 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146288 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< Element Expansion Statistics: 
+  ' 4:<  1% Opening Plans                    (57828) 
+  ' 4:<  0% Opening RC Plans                 (0) 
+  ' 4:<  13% Opening 3d Views                 (679087) 
+  ' 4:<  0% Opening Elevations and Sections  (0) 
+  ' 4:<  9% In Regnerate                     (453133) 
+  ' 4:<  0% In Autojoin                      (0) 
+  ' 4:<  0% In Overlap Checking              (0) 
+  ' 4:<  0% Reviewing PostedWarnings         (0) 
+  ' 4:<  77% Other                            (4003695) 
+  ' 4:< total bytes expanded: 5193743 
+  ' 4:< ;EES;1;0;13;0;9;0;0;0;77; 
+  '  0.000004       5:<<<ppg constructor 
+  '  0.000005       5:<<<updating dependencies in dp 
+  '  0.000001        6:<<<updating dependencies in delayed deletion 
+  '  0.000060        6:<<<getAllNonexistentParents in delayed deletion 
+  '  0.001295        6:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.001440       5:<<delayed deletion 
+  '  0.006302      4:<<ADocumentMerge::delayedPropagation 
+  '  0.000005       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  ' 5:< Connecting session [$de450f32] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+  '  0.000010        6:<<<WorksharingLog::getSlog [] 
+  ' 5:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+  '  0.000006         7:<<<;PERF;MISC;regenerating 
+  '  0.000592       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000576/TurnOff_GAPs 5% 
+  '  0.000760      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000162/TurnOff_GAPs 4% 
+  '  0.007321     3:<<delayed propagation on open 
+  '  0.000002     3:<<<updating dependencies on open 
+  '  0.000002       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002         7:<<<;PERF;MISC;regenerating 
+  '  0.000069       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000066/TurnOff_GAPs 35% 
+  '  0.000228      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000157/TurnOff_GAPs 2% 
+  '  0.000271     3:<<reloadLinkedInstances [0/0] 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000067      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000064/TurnOff_GAPs 35% 
+  '  0.000195     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000126/TurnOff_GAPs 3% 
+  ' 2:< Unnecessary nesting;Document\PostLoadDocument.cpp;398;ID_SETTINGS_SNAPPING ;N++E(N); 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000100      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000097/TurnOff_GAPs 28% 
+  '  0.000234     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000133/TurnOff_GAPs 2% 
+  '  0.000010     3:<<<pKeynoteTable->readFile 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000066      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000064/TurnOff_GAPs 35% 
+  '  0.000195     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000127/TurnOff_GAPs 3% 
+  ' 2:< Document save history --> : 
+  ' 2:<   Revit 2013 - Preview Pre-Release 2013 (2013.000) : 20120111_1515(x64) 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20120705_2230 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20130123_1540(x64) 
+  ' 2:< Document save history <-- 
+  '  0.009186    2:<<[Cloud]postLoadDocument 
+  '  0.062296   1:<<DocumentStorage::onOpenDocument [C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Furniture\Seating\Seating-Auditorium.rfa] 
+  ' 0:< Before : Destroy Display Manager 
+  ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 0:< RAM Statistics:     3445 /     8044       660=InUse      663=Peak  
+  ' 0:< VM  Statistics: 134178587 / 134217727       639=InUse      686=Peak  
+  ' 0:< After : Destroy Display Manager 
+  ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 0:< RAM Statistics:     3445 /     8044       660=InUse      663=Peak  
+  ' 0:< VM  Statistics: 134178587 / 134217727       639=InUse      686=Peak  
+  ' 0:< ::171:: Delta VM: Avail +11 -> 134178597 MB, Used 639 MB; RAM: Avail 3446 MB, Used +1 -> 660 MB 
+  ' 0:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 494 elements need cache update 
+  'H 15-Dec-2021 14:13:45.700;   1:< 
+  Jrn.Data "Transaction Successful"  _
+          , "Load Family"
+ 'E 15-Dec-2021 14:13:45.707;   0:< 
+ Jrn.LButtonUp    0 ,    451 ,    314
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000000000000 0000000000000000 0000000000000000 
+ 'H 15-Dec-2021 14:13:45.707;   0:< 
+ Jrn.Data "DroppedMouseAction"  _
+         , "no active editor"
+'C 15-Dec-2021 14:13:45.756;   0:< idle0_doc 
+' 0:< Unnecessary nesting;InsertableInstUI_6;-1;ID_CHANGE_SYMBOL ;N++EB(NB); 
+' 1:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 494 elements need cache update 
+'H 15-Dec-2021 14:13:45.805;   1:< 
+Jrn.Data "Transaction Successful"  _
+        , "Set up Placement Tool"
+ ' 0:< ::172:: Delta VM: Avail 134178597 MB, Used +5 -> 645 MB; RAM: Avail +11 -> 3457 MB, Used -1 -> 659 MB 
+ 'E 15-Dec-2021 14:13:47.792;   0:< 
+ Jrn.MouseMove    0 ,    622 ,    281
+ 'E 15-Dec-2021 14:13:47.792;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:13:47.803;   0:< 
+ Jrn.Wheel      8 ,  120 ,    912 ,    499
+ 'E 15-Dec-2021 14:13:47.833;   0:< 
+ Jrn.Wheel      8 ,  120 ,    912 ,    499
+ 'E 15-Dec-2021 14:13:47.868;   0:< 
+ Jrn.Wheel      8 ,  120 ,    912 ,    499
+ 'E 15-Dec-2021 14:13:47.933;   0:< 
+ Jrn.Wheel      8 ,  120 ,    912 ,    499
+ 'E 15-Dec-2021 14:13:48.078;   0:< 
+ Jrn.MouseMove    8 ,    622 ,    281
+ 'E 15-Dec-2021 14:13:48.078;   0:< 
+ Jrn.Wheel      8 ,  120 ,    912 ,    499
+ ' 0:< ::180:: Delta VM: Avail 134178597 MB, Used 645 MB; RAM: Avail -12 -> 3445 MB, Used 659 MB 
+ 'E 15-Dec-2021 14:13:48.138;   0:< 
+ Jrn.MouseMove    8 ,    622 ,    281
+ 'E 15-Dec-2021 14:13:48.138;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ ' 0:< ::182:: Delta VM: Avail -1 -> 134178596 MB, Used 645 MB; RAM: Avail -107 -> 3339 MB, Used +0 -> 660 MB 
+ 'E 15-Dec-2021 14:14:00.119;   0:< 
+ Jrn.MouseMove    0 ,    653 ,    241
+ 'E 15-Dec-2021 14:14:00.119;   0:< 
+ Jrn.Key    8 , "VK_CONTROL" , 29
+ 'E 15-Dec-2021 14:14:00.197;   0:< 
+ Jrn.Wheel      8 ,  120 ,    943 ,    459
+ 'E 15-Dec-2021 14:14:00.295;   0:< 
+ Jrn.Wheel      8 ,  120 ,    943 ,    459
+ 'E 15-Dec-2021 14:14:00.475;   0:< 
+ Jrn.Key    0 , "VK_CONTROL" , 49181
+ ' 0:< ::187:: Delta VM: Avail +2 -> 134178599 MB, Used 645 MB; RAM: Avail +78 -> 3417 MB, Used -2 -> 658 MB 
+ 'E 15-Dec-2021 14:14:09.771;   0:< 
+ Jrn.MouseMove    0 ,    652 ,    252
+ 'E 15-Dec-2021 14:14:09.772;   0:< 
+ Jrn.LButtonDown    1 ,    652 ,    252
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] NoSnap  
+ 'E 15-Dec-2021 14:14:09.991;   0:< 
+ Jrn.MouseMove    1 ,    652 ,    252
+ 'E 15-Dec-2021 14:14:09.991;   0:< 
+ Jrn.LButtonUp    0 ,    652 ,    252
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:14:10.033;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Component"
+ ' 2:< ::191:: Delta VM: Avail 134178599 MB, Used 645 MB; RAM: Avail +13 -> 3431 MB, Used 658 MB 
+ 'H 15-Dec-2021 14:14:10.066;   2:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 9
+ ' 0:< ::191:: Delta VM: Avail -1 -> 134178598 MB, Used 645 MB; RAM: Avail +59 -> 3490 MB, Used +1 -> 660 MB 
+ 'E 15-Dec-2021 14:14:38.480;   0:< 
+ Jrn.MouseMove    1 ,    659 ,    249
+ 'E 15-Dec-2021 14:14:38.481;   0:< 
+ Jrn.LButtonUp    0 ,    659 ,    249
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 192455 (-32.555256, +25.949380, +2.519488) Snap(192455-2-0L [192455-0-INST=192400-2]) Snap(192455-1-0L [192455-0-INST=192400-1]) Snap(192455-0-0L [192455-0-INST=192400-0]) Snap(184506-4-2L [184506-4-LINE]) Snap(184506-5-2L [184506-5-FACE]) Snap(184506-6-2L [184506-6-FACE]) MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])] NoSnap  
+ 'E 15-Dec-2021 14:14:41.085;   0:< 
+ Jrn.MouseMove    0 ,    656 ,    254
+ 'E 15-Dec-2021 14:14:41.085;   0:< 
+ Jrn.LButtonDown    1 ,    656 ,    254
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 192455 (-32.555256, +25.949380, +2.519488) MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] NoSnap  
+ ' 0:< Unnecessary nesting;PlaceUI_1;-1;ID_BUTTON_SELECT ;N++EB(NB); 
+ 'H 15-Dec-2021 14:14:41.087;   0:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 42
+ 'E 15-Dec-2021 14:14:41.311;   0:< 
+ Jrn.MouseMove    1 ,    656 ,    254
+ 'E 15-Dec-2021 14:14:41.311;   0:< 
+ Jrn.LButtonUp    0 ,    656 ,    254
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004579A4C0 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])Snap(185266-5-6L [185266-5-FACE])] MoveElemSnap[Snap(184506-5-2L [184506-5-FACE])] MoveElemSnap[Snap(185266-5-6L [185266-5-FACE])] NoSnap  
+ 'E 15-Dec-2021 14:14:44.866;   0:< 
+ Jrn.MouseMove    0 ,    655 ,    305
+ 'E 15-Dec-2021 14:14:44.866;   0:< 
+ Jrn.LButtonDown    1 ,    655 ,    305
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 192876-2147483647 (-34.551173, +15.741898, +0.000000) 192880-32977 (-31.055256, +15.318695, +0.000000) 192881-32977 (-30.805256, +15.318695, +0.000000) 192885-32974 (-32.423638, +18.259151, +0.000000) MoveElemSnap[Snap(184506-5-6L [184506-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:14:44.867;   0:< 
+ Jrn.Data "Control"  _
+         , "LinearDimString", 1.00000000000000
+ ' 0:< Unnecessary nesting;ACommandRouter_1;-1;ID_LDS_EDIT_LENGTH ;N++EB(NB); 
+ 'E 15-Dec-2021 14:14:48.264;   0:< 
+ Jrn.MouseMove    0 ,    714 ,    332
+ 'E 15-Dec-2021 14:14:48.264;   0:< 
+ Jrn.Key    0 , "Escape" , 0
+ 'E 15-Dec-2021 14:14:51.443;   0:< 
+ Jrn.MouseMove    0 ,    708 ,    291
+ 'E 15-Dec-2021 14:14:51.443;   0:< 
+ Jrn.LButtonDown    1 ,    708 ,    291
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184650-5-5L [184650-5-FACE])Snap(184953-5-6L [184953-5-FACE])] MoveElemSnap[Snap(184650-5-5L [184650-5-FACE])] MoveElemSnap[Snap(184953-5-6L [184953-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:14:51.444;   0:< 
+ Jrn.Data "Selection action"  _
+         , "REPLACE",  _
+          "SEL RESULT: <empty>"
+ 'E 15-Dec-2021 14:14:51.659;   0:< 
+ Jrn.MouseMove    1 ,    708 ,    291
+ 'E 15-Dec-2021 14:14:51.659;   0:< 
+ Jrn.LButtonUp    0 ,    708 ,    291
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578E170 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): MoveElemSnap[Snap(184650-5-5L [184650-5-FACE])Snap(184953-5-6L [184953-5-FACE])] MoveElemSnap[Snap(184650-5-5L [184650-5-FACE])] MoveElemSnap[Snap(184953-5-6L [184953-5-FACE])] NoSnap  
+ 'H 15-Dec-2021 14:14:51.701;   1:< 
+ Jrn.Data "Transaction Successful"  _
+         , "Component"
+ 'H 15-Dec-2021 14:14:51.736;   2:< 
+ Jrn.Data "Restricted Propagation"  _
+         , 2, 9
+ 'E 15-Dec-2021 14:14:53.878;   0:< 
+ Jrn.MouseMove    0 ,    718 ,    306
+ 'E 15-Dec-2021 14:14:53.878;   0:< 
+ Jrn.LButtonDown    1 ,    718 ,    306
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 000000004578F910 0000000000000000 
+ ' 0:< Candidates (curIdx = 0): 193002-32977 (-18.930256, +12.403480, +0.000000) 193003-32977 (-18.555256, +12.403480, +0.000000) MoveElemSnap[Snap(184650-5-5L [184650-5-FACE])Snap(184650-641-0-0L [184650-641-LINE-0])] MoveElemSnap[Snap(184650-5-5L [184650-5-FACE])] MoveElemSnap[Snap(184650-641-0-0L [184650-641-LINE-0])] NoSnap  
+ 'H 15-Dec-2021 14:14:53.878;   0:< 
+ Jrn.Data "Control"  _
+         , "WtnsLnDragCtrl", 1.00000000000000
+ ' 0:< Unnecessary nesting;ACommandRouter_1;-1;ID_LDS_MOVE_WL ;N++EB(NB); 
+ 'E 15-Dec-2021 14:14:54.094;   0:< 
+ Jrn.LButtonUp    0 ,    718 ,    306
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D150 00000000512A99E0 0000000000000000 
+ ' 0:< Candidates (curIdx = -1):  
+ 'H 15-Dec-2021 14:14:54.102;   0:< 
+ Jrn.Data "Dimension reference action"  _
+         , "TOGGLE",  _
+          "GeomSegInPlaneRef; 1 GeomRefs:[ElementId: 192790; Tag: 1; SubTag: -1; in symbol]; Arc side: 0;"
+ 'E 15-Dec-2021 14:14:56.226;   0:< 
+ Jrn.MouseMove    0 ,    724 ,     12
+ 'E 15-Dec-2021 14:14:56.226;   0:< 
+ Jrn.PushButton "ToolBar , {}{} , Dialog_Family_ManyInstDbar" _
+          , "Load..., Control_Family_FamilyLoad"
+ 'H 15-Dec-2021 14:15:24.042;   0:< 
+ Jrn.Data "File Name"  _
+         , "IDOK", "$AllUsersAppData\Libraries\US Imperial\Furniture\Tables\Table-Dining Round.rfa"
+ 'H 15-Dec-2021 14:15:24.042;   0:< 
+ Jrn.Data "FileExternalTypes"  _
+         , ""
+ 'C 15-Dec-2021 14:15:24.043;   1:< File: Open 
+ ' 2:< DataStorageInterface created 0x0000000045FBF6F0 
+ ' 2:< Connecting session [$b80b3403] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+ '  0.000009     3:<<<WorksharingLog::getSlog [] 
+ ' 2:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+ ' 3:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FBF6F0 m_pDataStorage 0x0000000045FBF6F0 
+ ' 3:< DataStorageInterface created 0x0000000045FC6FF0 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FBF6F0 
+ ' 3:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FC6FF0 m_pDataStorage 0x0000000045FC6FF0 
+ '  0.000527---- 3:<<acquireFileLock 
+ ' 3:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FC6FF0 m_pDataStorage 0x0000000045FC6FF0 
+ ' 3:< DataStorageInterface created 0x0000000045FBF6F0 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FC6FF0 
+ ' 3:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FBF6F0 m_pDataStorage 0x0000000045FBF6F0 
+ ' 3:< MasterLocks 0x00000000512B8310 DummyStorage stole m_oDataStorage 0x0000000045FBF6F0 but left m_pDataStorage 0x0000000045FBF6F0 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x50fb1cf0, plpRootStg=0x50fb1db8, lpRootStg=0x50dda430 
+ '  0.003947     3:<<acquireFileLock 
+ '  0.005045    2:<<OpenDocumentTask::acquireFileLock 
+ '  0.013939       5:<<<loadAllClasses 
+ '  0.000019       5:<<<RegisterPreDocLoadCallback::invokeCallbacks 
+ '  0.000042        6:<<<LoadModel DSI 
+ '  0.000079       5:<<loading DocumentStorageIndex 
+  'E 15-Dec-2021 14:15:24.062;   5:< 
+  ' [Jrn.BasicFileInfo] Rvt.Attr.Worksharing: Not enabled Rvt.Attr.UserName:  Rvt.Attr.CentralModelPath:  Rvt.Attr.RevitBuildVersion: Autodesk Revit 2014 (Build: 20130123_1540(x64)) Rvt.Attr.LastSavePath: \\shacng035wqry\CCDP\App_Data\User\guanq\Requests\bc3878f47e16e717\O_P_SaveAsRfa\Imperial\Library\Furniture\Tables\Table-Dining Round.rfa Rvt.Attr.ProjectSpark: notProjectSpark Rvt.Attr.LocaleWhenSaved: ENU 
+  ' 6:< [ISL] On open, Adler Checksum: 0xde8258a1 [C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Furniture\Tables\Table-Dining Round.rfa] 
+  '  0.000372        6:<<<Checking Checksum 
+  ' 5:< [ISL] Read last modification time: 01-Feb-2013 16:50:06 (UTC: 01-Feb-2013 11:20:06) 
+  '  0.005222        6:<<<app infos and other global data 
+  ' 5:< File was saved in Autodesk Revit 2014 (Build: 20130123_1540(x64)) 
+  '  0.000015         7:<<<ET::repairModificationDatesOutOfSequence 
+  ' 6:< Loaded ElemTable: Size=1597 
+  '  0.001431        6:<<ElemTable 
+  '  0.000044        6:<<<ContentDocuments 
+  '  0.000511        6:<<<History 
+  '  0.000210        6:<<<increment table 
+  '  0.000035        6:<<<WorksetTable 
+  '  0.000004        6:<<<partitionStorageLock.open 
+  '  0.000016         7:<<<loadLatestVersionsEstimate 
+  ' 7:< ::211:: Delta VM: Avail -13 -> 134178586 MB, Used 645 MB; RAM: Avail +7 -> 3498 MB, Used 660 MB 
+  ' 7:< Loaded elemStream#61: uncompSize=784146, compSize=118085, count=1597 
+  '  0.005195         7:<<<loadLatestVersion 
+  '  0.000196          8:<<<ElementReceiver::commitSwapouts()  
+  '  0.000223         7:<<els.commit 
+  '  0.005527        6:<<loadSelectedPartitions 
+  '  0.014787       5:<<DocumentStorageIndexImpl::loadDocument()  
+  ' 6:< Current family ADocument version:2659 
+  '  0.015481          8:<<<updating dependencies in delayed deletion 
+  '  0.000030          8:<<<getAllNonexistentParents in delayed deletion 
+  '  0.001417          8:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.017059         7:<<delayed deletion 
+  '  0.000365         7:<<<forceResetOfElemRecOwnerCache 
+  '  0.022611        6:<<ADocumentUpgrade::docUpgrade 
+  '  0.051830     3:<<LoadSerialize 
+  '  0.051896    2:<<LoadFromStorage 
+  ' 2:< LPSTORAGE RELEASED: plpRootStg=0x50fb1db8, lpRootStg=0x50dda430 
+  ' 2:< DummyStorage destroying DataStorageInterface 0x0000000045FBF6F0 
+  ' 2:< DataStorageInterface destroyed 0x0000000045FBF6F0 
+  ' 2:< AFTER RELEASE: plpRootStg=0x50fb1db8, lpRootStg=0x00000000 
+  '  0.000529    2:<<<relinquishAllLocks 
+  '  0.000396     3:<<<forceResetOfElemRecOwnerCache 
+  ' 3:< Unnecessary nesting;Document\PostLoadDocument.cpp;160;String_Revit_DelayedPropagatoinRegen ;N++E(N); 
+  ' 4:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 4:< RAM Statistics:     3498 /     8044       660=InUse      663=Peak  
+  ' 4:< VM  Statistics: 134178587 / 134217727       645=InUse      686=Peak  
+  ' 4:< 000000000F146328 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< 000000000F146210 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< 000000000F1462D8 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146238 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146260 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146300 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F146288 CompactMemoryManager Memory Statistics: 2 MB with 2 MB view 
+  ' 4:< 000000000F1462B0 CompactMemoryManager Memory Statistics: 2 MB with 0 MB view 
+  ' 4:< Element Expansion Statistics: 
+  ' 4:<  1% Opening Plans                    (57828) 
+  ' 4:<  0% Opening RC Plans                 (0) 
+  ' 4:<  12% Opening 3d Views                 (679087) 
+  ' 4:<  0% Opening Elevations and Sections  (0) 
+  ' 4:<  8% In Regnerate                     (453133) 
+  ' 4:<  0% In Autojoin                      (0) 
+  ' 4:<  0% In Overlap Checking              (0) 
+  ' 4:<  0% Reviewing PostedWarnings         (0) 
+  ' 4:<  80% Other                            (4676530) 
+  ' 4:< total bytes expanded: 5866578 
+  ' 4:< ;EES;1;0;12;0;8;0;0;0;80; 
+  '  0.000004       5:<<<ppg constructor 
+  '  0.000005       5:<<<updating dependencies in dp 
+  '  0.000001        6:<<<updating dependencies in delayed deletion 
+  '  0.000056        6:<<<getAllNonexistentParents in delayed deletion 
+  '  0.001296        6:<<<findAppInfoNonexistentParents in delayed deletion 
+  '  0.001435       5:<<delayed deletion 
+  '  0.006476      4:<<ADocumentMerge::delayedPropagation 
+  '  0.000004       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000001        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  ' 5:< Connecting session [$95d5c7c6] to Worksharing Log [C:\Users\sandeep reddy\AppData\Local\Autodesk\Revit\Autodesk Revit 2014\Journals\journal.0003.txt] 
+  '  0.000010        6:<<<WorksharingLog::getSlog [] 
+  ' 5:< Additional IP address/name found for host LAPTOP-N69TS65B: 192.168.238.219  
+  '  0.000005         7:<<<;PERF;MISC;regenerating 
+  '  0.000594       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000578/TurnOff_GAPs 5% 
+  '  0.000762      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000163/TurnOff_GAPs 4% 
+  '  0.007502     3:<<delayed propagation on open 
+  '  0.000003     3:<<<updating dependencies on open 
+  '  0.000002       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002         7:<<<;PERF;MISC;regenerating 
+  '  0.000070       5:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000067/TurnOff_GAPs 35% 
+  '  0.000229      4:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000156/TurnOff_GAPs 2% 
+  '  0.000272     3:<<reloadLinkedInstances [0/0] 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000001       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000068      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000065/TurnOff_GAPs 35% 
+  '  0.000195     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000125/TurnOff_GAPs 3% 
+  ' 2:< Unnecessary nesting;Document\PostLoadDocument.cpp;398;ID_SETTINGS_SNAPPING ;N++E(N); 
+  '  0.000001      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000073      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000071/TurnOff_GAPs 36% 
+  '  0.000206     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000131/TurnOff_GAPs 3% 
+  '  0.000010     3:<<<pKeynoteTable->readFile 
+  '  0.000002      4:<<<;PERF;MISC;regenerating 
+  '  0.000002      4:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+  '  0.000000      4:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+  '  0.000000       5:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+  '  0.000002        6:<<<;PERF;MISC;regenerating 
+  '  0.000066      4:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000064/TurnOff_GAPs 36% 
+  '  0.000195     3:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000126/TurnOff_GAPs 3% 
+  ' 2:< Document save history --> : 
+  ' 2:<   Revit 2013 - Preview Pre-Release 2013 (2013.000) : 20120111_1515(x64) 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20120705_2230 
+  ' 2:<   Revit 2014 - Preview Pre-Release 2014 (2014.000) : 20130123_1540(x64) 
+  ' 2:< Document save history <-- 
+  '  0.009351    2:<<[Cloud]postLoadDocument 
+  '  0.067040   1:<<DocumentStorage::onOpenDocument [C:\ProgramData\Autodesk\RVT 2014\Libraries\US Imperial\Furniture\Tables\Table-Dining Round.rfa] 
+  ' 0:< DBG_INFO: Expected GenSweep: line 165 of Elem\FamilyGeomCombination.cpp. 
+  ' 0:< Before : Destroy Display Manager 
+  ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 0:< RAM Statistics:     3495 /     8044       662=InUse      663=Peak  
+  ' 0:< VM  Statistics: 134178587 / 134217727       646=InUse      686=Peak  
+  ' 0:< After : Destroy Display Manager 
+  ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+  ' 0:< RAM Statistics:     3495 /     8044       662=InUse      663=Peak  
+  ' 0:< VM  Statistics: 134178587 / 134217727       646=InUse      686=Peak  
+  ' 0:< ::211:: Delta VM: Avail +11 -> 134178597 MB, Used +0 -> 646 MB; RAM: Avail -3 -> 3495 MB, Used +0 -> 661 MB 
+  ' 0:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 498 elements need cache update 
+  'H 15-Dec-2021 14:15:24.307;   1:< 
+  Jrn.Data "Transaction Successful"  _
+          , "Load Family"
+ 'E 15-Dec-2021 14:15:24.314;   0:< 
+ Jrn.LButtonUp    0 ,    460 ,    201
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000000000000 0000000000000000 0000000000000000 
+ 'H 15-Dec-2021 14:15:24.314;   0:< 
+ Jrn.Data "DroppedMouseAction"  _
+         , "no active editor"
+'C 15-Dec-2021 14:15:24.363;   0:< idle0_doc 
+' 0:< Unnecessary nesting;InsertableInstUI_6;-1;ID_CHANGE_SYMBOL ;N++EB(NB); 
+' 1:< ;PERF;MISC;FullUpdateGraphicCacheUpdater::updateAll() DBViewProject id=3651: 498 elements need cache update 
+'H 15-Dec-2021 14:15:24.438;   1:< 
+Jrn.Data "Transaction Successful"  _
+        , "Set up Placement Tool"
+ 'E 15-Dec-2021 14:15:33.978;   0:< 
+ Jrn.MouseMove    0 ,    830 ,    235
+ 'E 15-Dec-2021 14:15:33.978;   0:< 
+ Jrn.Command "AccelKey" , "Cancel the current operation , ID_CANCEL_EDITOR"
+'C 15-Dec-2021 14:15:33.998;   0:< idle0_doc 
+' 0:< <<Begin build CT>>
+'
+'Edit mode: IDR_COMMON
+'Command: ID_BUTTON_SELECT
+'Category: 0
+'Bar list: 
+'	Dialog_Revit_DynamicLabelDBar
+'	Dialog_Essentials_FilterSelectionNew
+'Presenter list: 
+'	PP_DebugTab_Binding_Demo
+'Product: Revit
+'
+'
+'***********************************************************
+'***********************************************************
+'<<End build CT>> 
+ 'E 15-Dec-2021 14:15:35.822;   0:< 
+ Jrn.MouseMove    0 ,    859 ,    245
+ 'E 15-Dec-2021 14:15:35.822;   0:< 
+ Jrn.Wheel      0 ,   37 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.830;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 456.72188047695130 _
+         , 456.72188047695130, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 456.72188047695130, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 456.72188047695130 _
+         , 807.76626077973322, -375.54616589853856, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.830;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 456.72188047695130 _
+         , 456.72188047695130, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 456.72188047695130, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 456.72188047695130 _
+         , 805.51016960641243, -381.29480062785876, 0.00000000000000
+ 'E 15-Dec-2021 14:15:35.847;   0:< 
+ Jrn.Wheel      0 ,   10 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.847;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 462.07233936221797 _
+         , 462.07233936221797, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 462.07233936221797, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 462.07233936221797 _
+         , 805.51016960641243, -381.29480062785876, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.847;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 462.07233936221797 _
+         , 462.07233936221797, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 462.07233936221797, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 462.07233936221797 _
+         , 804.88354068729461, -382.89148289382211, 0.00000000000000
+ 'E 15-Dec-2021 14:15:35.860;   0:< 
+ Jrn.Wheel      0 ,   32 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.861;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 479.61864993346489 _
+         , 479.61864993346489, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 479.61864993346489, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 479.61864993346489 _
+         , 804.88354068729461, -382.89148289382211, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.861;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 479.61864993346489 _
+         , 479.61864993346489, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 479.61864993346489, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 479.61864993346489 _
+         , 802.82857197086457, -388.12764740287776, 0.00000000000000
+ 'E 15-Dec-2021 14:15:35.869;   0:< 
+ Jrn.Wheel      0 ,   14 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.869;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 487.50320694963136 _
+         , 487.50320694963136, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 487.50320694963136, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 487.50320694963136 _
+         , 802.82857197086457, -388.12764740287776, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.870;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 487.50320694963136 _
+         , 487.50320694963136, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 487.50320694963136, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 487.50320694963136 _
+         , 801.90515744760387, -390.48055443994627, 0.00000000000000
+ 'E 15-Dec-2021 14:15:35.880;   0:< 
+ Jrn.Wheel      0 ,    4 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.880;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 489.77965200931214 _
+         , 489.77965200931214, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 489.77965200931214, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 489.77965200931214 _
+         , 801.90515744760387, -390.48055443994627, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.880;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 489.77965200931214 _
+         , 489.77965200931214, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 489.77965200931214, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 489.77965200931214 _
+         , 801.63854736092378, -391.15989046217817, 0.00000000000000
+ 'E 15-Dec-2021 14:15:35.894;   0:< 
+ Jrn.Wheel      0 ,    5 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.894;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 492.64016270740706 _
+         , 492.64016270740706, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 492.64016270740706, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 492.64016270740706 _
+         , 801.63854736092378, -391.15989046217817, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.894;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 492.64016270740706 _
+         , 492.64016270740706, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 492.64016270740706, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 492.64016270740706 _
+         , 801.30353334337678, -392.01352316942564, 0.00000000000000
+ 'E 15-Dec-2021 14:15:35.902;   0:< 
+ Jrn.Wheel      0 ,    2 ,   1149 ,    463
+ 'H 15-Dec-2021 14:15:35.902;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 493.78903936540593 _
+         , 493.78903936540593, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 493.78903936540593, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 493.78903936540593 _
+         , 801.30353334337678, -392.01352316942564, 0.00000000000000
+ 'H 15-Dec-2021 14:15:35.903;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 493.78903936540593 _
+         , 493.78903936540593, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 493.78903936540593, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 493.78903936540593 _
+         , 801.16898052205067, -392.35637058213212, 0.00000000000000
+ 'E 15-Dec-2021 14:15:37.601;   0:< 
+ Jrn.MouseMove    0 ,    877 ,      7
+ 'E 15-Dec-2021 14:15:37.601;   0:< 
+ Jrn.RibbonEvent "TabActivated:Manage"
+ ' 0:< ::224:: Delta VM: Avail -2 -> 134178595 MB, Used 646 MB; RAM: Avail -13 -> 3483 MB, Used +3 -> 665 MB, Peak +2 -> 665 MB 
+ 'E 15-Dec-2021 14:15:40.667;   0:< 
+ Jrn.RibbonEvent "TabActivated:View"
+ 'E 15-Dec-2021 14:15:43.092;   0:< 
+ Jrn.Command "Internal" , "Create a default 3D orthographic view. , ID_VIEW_DEFAULT_3DVIEW"
+ ' 0:< Unnecessary nesting;ArrowUI_4;-1;ID_VIEW_DEFAULT_3DVIEW ;N++EB(NB); 
+ 'H 15-Dec-2021 14:15:43.109;   0:< 
+ Jrn.Directive "WindowSize"  _
+         , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+         , 1361, 489
+  'H 15-Dec-2021 14:15:43.110;   0:< 
+  Jrn.Directive "WindowSize"  _
+          , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+          , 1336, 464
+   'H 15-Dec-2021 14:15:43.114;   0:< 
+   Jrn.Directive "WindowSize"  _
+           , "[sandeep project.rvt]", "3D View: {3D}" _
+           , 1603, 760
+    'H 15-Dec-2021 14:15:43.114;   0:< 
+    Jrn.Directive "WindowSize"  _
+            , "[sandeep project.rvt]", "3D View: {3D}" _
+            , 1578, 735
+     ' 0:< Activate "[sandeep project.rvt]" , 3D View: {3D} 
+' 0:< ::226:: Delta VM: Avail -27 -> 134178569 MB, Used +27 -> 674 MB; RAM: Avail -6 -> 3478 MB, Used +13 -> 678 MB, Peak +12 -> 678 MB 
+'C 15-Dec-2021 14:15:43.241;   0:< idle0_doc 
+ 'E 15-Dec-2021 14:15:46.785;   0:< 
+ Jrn.MouseMove    0 ,    573 ,    187
+ 'E 15-Dec-2021 14:15:46.785;   0:< 
+ Jrn.Key    4 , "VK_SHIFT" , 42
+ ' 0:< ::228:: Delta VM: Avail +27 -> 134178597 MB, Used -32 -> 643 MB; RAM: Avail -4 -> 3474 MB, Used -10 -> 668 MB 
+ 'E 15-Dec-2021 14:15:47.089;   0:< 
+ Jrn.MouseMove    4 ,    573 ,    202
+ 'E 15-Dec-2021 14:15:47.089;   0:< 
+ Jrn.MButtonDown    6 ,    573 ,    187
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D170 00000000512DDEE0 0000000045CD6910 
+ 'E 15-Dec-2021 14:15:56.908;   0:< 
+ Jrn.MouseMove    6 ,    631 ,   -171
+ 'E 15-Dec-2021 14:15:56.908;   0:< 
+ Jrn.Key    0 , "VK_SHIFT" , 49194
+ ' 0:< ::232:: Delta VM: Avail -10 -> 134178587 MB, Used +13 -> 656 MB; RAM: Avail +0 -> 3475 MB, Used -2 -> 667 MB 
+ 'E 15-Dec-2021 14:15:56.993;   0:< 
+ Jrn.MouseMove    2 ,    630 ,   -173
+ 'E 15-Dec-2021 14:15:56.993;   0:< 
+ Jrn.MButtonUp    0 ,    630 ,   -173
+ ' 0:< getPrioritizedActiveEditMgr() = 0000000007C3D170 00000000512DDEE0 0000000045CD6910 
+ 'H 15-Dec-2021 14:15:57.000;   0:< 
+ Jrn.Data "ViewManipPanFlag"  _
+         , 1
+ 'H 15-Dec-2021 14:15:57.000;   0:< 
+ Jrn.Directive "GlobalToProj"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 0.01041666666667 _
+         , 0.07579563171309, -0.30123103052232, 0.95053400173990 _
+         , 0.99712337361693, 0.02289786485218, -0.07225417338811 _
+         , -0.00000000000000, 0.95327622126835, 0.30210005952388 _
+         , -16.20768278810251, -13.51663297513896, -30.83688970822980
+ 'H 15-Dec-2021 14:15:57.000;   0:< 
+ Jrn.Directive "ProjToPage"  _
+         , "[sandeep project.rvt]", "3D View: {3D}" _
+         , 1532.91349224639480 _
+         , 1532.91349224639480, 0.00000000000000, 0.00000000000000 _
+         , 0.00000000000000, 1532.91349224639480, 0.00000000000000 _
+         , 0.00000000000000, 0.00000000000000, 1532.91349224639480 _
+         , 788.00000000000000, -365.49999999999983, 0.00000000000000
+ 'H 15-Dec-2021 14:15:57.001;   0:< 
+ Jrn.Data "ViewManipZoomFlag"  _
+         , 0
+ 'H 15-Dec-2021 14:15:57.001;   0:< 
+ Jrn.Data "ViewManipRotateFlag"  _
+         , 1
+ 'H 15-Dec-2021 14:15:57.001;   0:< 
+ Jrn.Data "ViewManipRotate"  _
+         , 0.01041666666667, 26.46835445081221, 14.24246739957873 _
+         , 22.20091102319909, 0.07579563171309, 0.99712337361693 _
+         , -0.00000000000000, -0.30123103052232, 0.02289786485218 _
+         , 0.95327622126835
+ ' 0:< ::234:: Delta VM: Avail +8 -> 134178596 MB, Used -15 -> 642 MB; RAM: Avail +1 -> 3476 MB, Used 667 MB 
+ 'E 15-Dec-2021 14:16:01.027;   0:< 
+ Jrn.MouseMove    0 ,    353 ,      2
+ 'E 15-Dec-2021 14:16:01.027;   0:< 
+ Jrn.RibbonEvent "TabActivated:Architecture"
+ 'E 15-Dec-2021 14:16:06.387;   0:< 
+ Jrn.Command "SystemMenu" , "Quit the application; prompts to save projects , ID_APP_EXIT"
+ ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 1:< RAM Statistics:     3481 /     8044       668=InUse      678=Peak  
+ ' 1:< VM  Statistics: 134178596 / 134217727       642=InUse      686=Peak  
+ ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 1:< RAM Statistics:     3482 /     8044       668=InUse      678=Peak  
+ ' 1:< VM  Statistics: 134178596 / 134217727       642=InUse      686=Peak  
+ ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 1:< RAM Statistics:     3482 /     8044       668=InUse      678=Peak  
+ ' 1:< VM  Statistics: 134178596 / 134217727       642=InUse      686=Peak  
+ ' 1:< TaskDialog "Do you want to save changes to sandeep project?"
+ 'Id : TaskDialog_Save_File
+ 'CommonButtons : Yes, No, Cancel
+ 'DefaultButton : Yes 
+ 'H 15-Dec-2021 14:16:08.864;   1:< 
+ Jrn.Data "TaskDialogResult"  _
+         , "Do you want to save changes to sandeep project?",  _
+          "Yes", "IDYES"
+ ' 1:<  0 ModelServerState "Created": Current server = "Not Queried", Model server = "", Model server state = "Not Applicable" 
+ '  2.443668!!! 2:!!!BIG_GAP Save Document 
+ '  0.000030    2:<<<saveModifiedRvtLinkSymbols 
+ '  0.000003    2:<<<saveModifiedImportSymbols 
+ ' 1:< DataStorageInterface created 0x0000000045FCA8F0 
+ '  0.000013    2:<<<getSaveFileName 
+ ' 1:< DataStorageInterface created 0x0000000045FCA970 
+ ' 1:< MasterLocks 0x000000000014C1D0 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FCA970 m_pDataStorage 0x0000000045FCA970 
+ ' 1:< DataStorageInterface created 0x0000000045FCA9F0 
+ ' 1:< DataStorageInterface destroyed 0x0000000045FCA970 
+ ' 1:< MasterLocks 0x000000000014C1D0 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FCA9F0 m_pDataStorage 0x0000000045FCA9F0 
+ '  0.000002    2:<<<relinquishAllLocks 
+ ' 1:< DataStorageInterface destroyed 0x0000000045FCA9F0 
+ '  0.000016     3:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+ '  0.000001     3:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
+ '  0.000001      4:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
+ '  0.000006       5:<<<;PERF;MISC;regenerating 
+ '  0.000098     3:<<EndOrAbortUndoTransaction()--end of transaction checks;DOPT;/ALL_GAPS   0.000091/TurnOff_GAPs 28% 
+ '  0.000548    2:<<EndOrAbortUndoTransaction();DOPT;/ALL_GAPS   0.000433/TurnOff_GAPs 1% 
+ ' 2:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FCA8F0 m_pDataStorage 0x0000000045FCA8F0 
+ ' 2:< DataStorageInterface created 0x0000000045FCB8F0 
+ ' 2:< DataStorageInterface destroyed 0x0000000045FCA8F0 
+ ' 2:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FCB8F0 m_pDataStorage 0x0000000045FCB8F0 
+ ' 2:< MasterLocks 0x00000000512B8310 useSameStorage switch DataStorageInterface 0x0000000045FCB8F0 --> 0x0000000045FB0EF0 
+ ' 3:< DataStorageInterface created 0x0000000045FCBCF0 
+ ' 3:< compare GUIDs; creation ab691057-1beb-4e32-b7e7-eb2728ab9754; detach ab691057-1beb-4e32-b7e7-eb2728ab9754; upgrade ab691057-1beb-4e32-b7e7-eb2728ab9754; DIFF prevUpgrade null != ab691057-1beb-4e32-b7e7-eb2728ab9754 
+ '  0.000001      4:<<<relinquishAllLocks 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FCBCF0 
+ '  0.000273     3:<<historyComparison/ALL_GAPS   0.000272/TurnOff_GAPs 45% 
+ '  0.000260     3:<<<preStoreDocument 
+ ' 3:< Unnecessary nesting;ManageDocTemplatesPreview_1;-1;IDS_PREVIEW ;N++OB(NAB); 
+ '  0.021352        6:<<<;PERF;MISC;drawing 
+ '  0.000014       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
+ '  0.000274      4:<<EndOrAbortUndoTransaction();DOPT; 
+ '  0.048519     3:<<createPreviewImage/ALL_GAPS   0.026894/TurnOff_GAPs 7% 
+ '  0.000034     3:<<<end episode 
+ '  0.005144     3:<<<;PERF;MISC;drawing 
+ '  0.000877      4:<<<tmpDeleteElements TransientElement 
+ '  0.000697      4:<<tmpDeleteElements BadHistoryElement 
+ '  0.000002      4:<<tmpDeleteElements BadHistoryGraveyard 
+ '  0.001716     3:<<putAsideTransientElements 
+ '  0.008970     3:<<<forceResetOfElemRecOwnerCache 
+ '  0.087972    2:<<OpenFileForSave::openFileForSave 
+ ' 2:< DataStorageInterface created 0x0000000045FCACF0 
+ ' 3:< MasterLocks 0x0000000051327DF8 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FCACF0 m_pDataStorage 0x0000000045FCACF0 
+ ' 3:< DataStorageInterface created 0x0000000045FD2BF0 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FCACF0 
+ ' 3:< MasterLocks 0x0000000051327DF8 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FD2BF0 m_pDataStorage 0x0000000045FD2BF0 
+ ' 3:< MasterLocks 0x0000000051327DF8 DummyStorage stole m_oDataStorage 0x0000000045FD2BF0 but left m_pDataStorage 0x0000000045FD2BF0 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x455c6730, plpRootStg=0x455c67f8, lpRootStg=0x50ddc790 
+ '  0.006000     3:<<acquireFileLock 
+ '  0.009948    2:<<saveToTempFile().acquire 
+ '  0.000990      4:<<storePreviewImage 
+ '  0.001127      4:<<<storeValidation 
+ '  0.008177       5:<<<ElementSender::createDocSaveSwapout 
+ '  0.000093         7:<<<Reconsolidater::getAllLiveElementCounts 
+ '  0.000144        6:<<Reconsolidater::getStreamsToReconsolidate 
+ '  0.000176       5:<<pre-swapout reconsolidate 
+ '  0.003888       5:<<<ElemTable::updateETforSave 
+ '  0.000001       5:<<<ElementSender::swapOut()  
+ ' 5:< updateDITforSave increment 1C has 789 (+1) episodes 
+ '  0.000050       5:<<Updating increment and partition tables for save (quick) 
+ '  0.000157        6:<<<Storing increment table  [#obsolete=0, first#=0, last#=1] 
+ '  0.000613        6:<<<Storing DocumentHistory  [#episodes=790, #valid=790, max ep id#=789] 
+ '  0.000127        6:<<<Storing PartitionTable  [#partitions=1, #deleted=0, max id#=0] 
+ '  0.000086        6:<<<Storing Content Documents 
+ '  0.012209        6:<<<Storing ElemTable  [#elts=25394, #graveyard=0, max id#=193855] 
+ '  0.003837        6:<<<Storing global stream 
+ '  0.000009         7:<<<OLEStgLock::commit overwrite=yes consolidate=no 
+ '  0.000952        6:<<commitAllGlobalStreams/ALL_GAPS   0.000943/TurnOff_GAPs 95% 
+ '  0.019550       5:<<Storing tables 
+ '  0.000007          8:<<<OLEStgLock::commit overwrite=yes consolidate=no 
+ '  0.053665       5:<<ModelStorer::storeStreams() /ALL_GAPS   0.053659/TurnOff_GAPs 100% 
+ '  0.085964      4:<<ModelStorer::storeDocument()  
+ ' 3:< GETLOADSTOREOPTIONS in GET Project\OleStorage.cpp(240) despite m_dontFetch 
+ '  0.000009       5:<<<storeSelf DocumentStorageIndexBackup 
+ '  0.000006       5:<<<storeSelf updateDSIforSave 
+ '  0.000097      4:<<DocumentStorageIndex::storeSelf [788] 
+ ' 3:< GETLOADSTOREOPTIONS in GET n:\build\2014_ship_x64_inst_20130308_1515\source\revit\revitdb\document\Document.cpp(6024) despite m_dontFetch 
+ ' 3:< GETLOADSTOREOPTIONS in GET Project\ProjectExtras.cpp(122) despite m_dontFetch 
+ ' 4:< GETLOADSTOREOPTIONS in GET Project\OleStorage.cpp(240) despite m_dontFetch 
+ ' 4:< GETLOADSTOREOPTIONS in GET Project\ProjectExtras.cpp(159) despite m_dontFetch 
+ '  0.000209      4:<<storeBasicFileInfoStream 
+ '  0.000001      4:<<<storePartAtomStream 
+ '  0.014637      4:<<storeProjectXMLInfoStream 
+ '  0.105279     3:<<TrustedUtility::SaveToStorage - serialize block 
+ '  0.000053     3:<<TrustedUtility::SaveToStorage - commit format/contents locks 
+ ' 3:< GETLOADSTOREOPTIONS in GET Project\ProjectAgent.cpp(35) despite m_dontFetch 
+ '  0.002965      4:<<<OLEStgLock::commit overwrite=yes consolidate=no 
+ '  0.003062     3:<<TrustedUtility::SaveToStorage - commitStorage 
+ '  0.108509    2:<<TrustedUtility::saveToStorage 
+ 'H 15-Dec-2021 14:16:09.085;   1:< 
+ Jrn.Directive "DocSymbol"  _
+         , "[sandeep project.rvt]"
+ '  0.000004    2:<<<BackupFileManager::preUnlockPreCommit 
+ '  0.000457     3:<<<relinquishAllLocks 
+ ' 2:< DataStorageInterface created 0x0000000045FCAE70 
+ ' 2:< DataStorageInterface destroyed 0x0000000045FCB8F0 
+ ' 2:< DummyStorage destroying DataStorageInterface 0x0000000045FB0EF0 
+ ' 2:< DataStorageInterface destroyed 0x0000000045FB0EF0 
+ '  0.000709    2:<<saveToTempFile()->preCommit 
+ '  0.000551    2:<<<BackupFileManager::postUnlockPreCommit 
+ ' 3:< LPSTORAGE RELEASED: plpRootStg=0x455c67f8, lpRootStg=0x50ddc790 
+ ' 3:< DummyStorage destroying DataStorageInterface 0x0000000045FD2BF0 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FD2BF0 
+ ' 3:< AFTER RELEASE: plpRootStg=0x455c67f8, lpRootStg=0x00000000 
+ '  0.000856     3:<<<relinquishAllLocks 
+ ' 2:< DataStorageInterface created 0x0000000045FD21F0 
+ ' 2:< [ISL] On save, Adler Checksum: 0x31fe3c2d [C:\Users\sandeep reddy\Documents\sandeep project.rvt] 
+ ' 2:< [ISL] Saved last modification time: 15-Dec-2021 14:16:09 (UTC: 15-Dec-2021 08:46:09) 
+ ' 2:< DataStorageInterface created 0x0000000045FD2170 
+ ' 3:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FCAE70 m_pDataStorage 0x0000000045FCAE70 
+ ' 3:< DataStorageInterface created 0x0000000045FD2970 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FCAE70 
+ ' 3:< MasterLocks 0x00000000512B8310 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FD2970 m_pDataStorage 0x0000000045FD2970 
+ ' 3:< GETLOADSTOREOPTIONS in GET Project\ProjectAgent.cpp(35) despite m_dontFetch 
+ ' 3:< MasterLocks 0x00000000512B8310 DummyStorage stole m_oDataStorage 0x0000000045FD2970 but left m_pDataStorage 0x0000000045FD2970 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x455c6730, plpRootStg=0x455c67f8, lpRootStg=0x50ddc670 
+ '  0.006228     3:<<acquireFileLock 
+ '  0.000003     3:<<<relinquishAllLocks 
+ ' 2:< DataStorageInterface destroyed 0x0000000045FD2170 
+ ' 3:< MasterLocks 0x0000000051327DF8 ensureAppropriateStorage DataStorageInterface WAS m_oDataStorage 0x0000000045FD21F0 m_pDataStorage 0x0000000045FD21F0 
+ ' 3:< DataStorageInterface created 0x0000000045FD40F0 
+ ' 3:< DataStorageInterface destroyed 0x0000000045FD21F0 
+ ' 3:< MasterLocks 0x0000000051327DF8 ensureAppropriateStorage DataStorageInterface m_oDataStorage 0x0000000045FD40F0 m_pDataStorage 0x0000000045FD40F0 
+ ' 3:< GETLOADSTOREOPTIONS in GET Project\ProjectAgent.cpp(35) despite m_dontFetch 
+ ' 3:< ::237:: Delta VM: Avail -11 -> 134178585 MB, Used +4 -> 646 MB; RAM: Avail +9 -> 3485 MB, Used +5 -> 672 MB 
+ ' 3:< MasterLocks 0x0000000051327DF8 DummyStorage stole m_oDataStorage 0x0000000045FD40F0 but left m_pDataStorage 0x0000000045FD40F0 
+ ' 3:< LPSTORAGE ACQUIRED: DocumentStorage=0x455c6730, plpRootStg=0x455c6808, lpRootStg=0x50ddc410 
+ '  0.001542     3:<<acquireFileLock 
+ '  0.022517    2:<<saveToTempFile()->commit 
+ '  0.000113    2:<<<BackupFileManager::commit 
+ '  0.000002    2:<<<temporaryEffects.destroy(DoSave) 
+ '  0.000048    2:<<<commit/cleanup 
+ ' 1:<  0 ModelServerState "Destroyed": Current server = "Not Queried", Model server = "", Model server state = "Not Applicable" 
+ ' 1:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 1:< RAM Statistics:     3481 /     8044       672=InUse      678=Peak  
+ ' 1:< VM  Statistics: 134178585 / 134217727       645=InUse      686=Peak  
+ '  3.095203   1:<<Save Document 
+ ' 0:< CrsTimer event occurred for 0 times in DesktopMFCView [Structural Plan: Level 2] 
+ ' 0:< ::237:: Delta VM: Avail +4 -> 134178590 MB, Used -6 -> 641 MB; RAM: Avail -11 -> 3475 MB, Used -6 -> 667 MB, Peak +1 -> 679 MB 
+ ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 0:< RAM Statistics:     3474 /     8044       667=InUse      679=Peak  
+ ' 0:< VM  Statistics: 134178590 / 134217727       641=InUse      686=Peak ;oCD; 
+ ' 0:< Before : Destroy Display Manager 
+ ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 0:< RAM Statistics:     3474 /     8044       667=InUse      679=Peak  
+ ' 0:< VM  Statistics: 134178590 / 134217727       641=InUse      686=Peak  
+ ' 0:< After : Destroy Display Manager 
+ ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+ ' 0:< RAM Statistics:     3474 /     8044       667=InUse      679=Peak  
+ ' 0:< VM  Statistics: 134178590 / 134217727       641=InUse      686=Peak  
+  ' 0:< ::237:: Delta VM: Avail +16 -> 134178606 MB, Used 641 MB; RAM: Avail 3475 MB, Used -2 -> 665 MB 
+  'H 15-Dec-2021 14:16:09.596;   0:< 
+  Jrn.Directive "WindowSize"  _
+          , "[sandeep project.rvt]", "3D View: {3D}" _
+          , 1361, 489
+   'H 15-Dec-2021 14:16:09.597;   0:< 
+   Jrn.Directive "WindowSize"  _
+           , "[sandeep project.rvt]", "3D View: {3D}" _
+           , 1336, 464
+    'H 15-Dec-2021 14:16:09.598;   0:< 
+    Jrn.Directive "WindowSize"  _
+            , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+            , 1603, 760
+     'H 15-Dec-2021 14:16:09.598;   0:< 
+     Jrn.Directive "WindowSize"  _
+             , "[sandeep project.rvt]", "Floor Plan: Level 1" _
+             , 1578, 735
+      ' 0:< Activate "[sandeep project.rvt]" , Floor Plan: Level 1 
+      ' 0:< CrsTimer event occurred for 2 times in DesktopMFCView [3D View: {3D}] 
+      ' 0:< CrsTimer event occurred for 2 times in DesktopMFCView [Floor Plan: Level 1] 
+      ' 0:< ::237:: Delta VM: Avail +9 -> 134178615 MB, Used -11 -> 631 MB; RAM: Avail +10 -> 3485 MB, Used -10 -> 655 MB 
+      ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+      ' 0:< RAM Statistics:     3485 /     8044       655=InUse      679=Peak  
+      ' 0:< VM  Statistics: 134178615 / 134217727       631=InUse      686=Peak ;oCD; 
+      ' 0:< Before : Destroy Display Manager 
+      ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+      ' 0:< RAM Statistics:     3485 /     8044       656=InUse      679=Peak  
+      ' 0:< VM  Statistics: 134178607 / 134217727       631=InUse      686=Peak  
+      ' 0:< After : Destroy Display Manager 
+      ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+      ' 0:< RAM Statistics:     3486 /     8044       656=InUse      679=Peak  
+      ' 0:< VM  Statistics: 134178607 / 134217727       631=InUse      686=Peak  
+      ' 0:< DummyStorage destroying DataStorageInterface 0x0000000045FD40F0 
+      ' 0:< DataStorageInterface destroyed 0x0000000045FD40F0 
+      ' 0:< ::237:: Delta VM: Avail +17 -> 134178633 MB, Used -3 -> 629 MB; RAM: Avail +5 -> 3490 MB, Used -4 -> 652 MB 
+      ' 0:< DummyStorage destroying DataStorageInterface 0x0000000045FD2970 
+      ' 0:< DataStorageInterface destroyed 0x0000000045FD2970 
+    ' 0:<  ->desktop ExitManagedInstance 
+    ' 0:<  <-desktop ExitManagedInstance 
+    ' 0:<  ->desktop ExitNativeInstance 
+    ' 0:< ::237:: Delta VM: Avail +6 -> 134178640 MB, Used -33 -> 596 MB; RAM: Avail +33 -> 3524 MB, Used -32 -> 621 MB 
+    ' 0:< Forcibly removing all update triggers for all Updaters 
+    ' 0:< Unregistering all external services. 
+    'C 15-Dec-2021 14:16:10.131;   0:< Protein : Unload plug-ins 
+    'C 15-Dec-2021 14:16:10.131;   0:< Protein : Release Plugins 
+    ' 0:< ::237:: Delta VM: Avail +30 -> 134178670 MB, Used -14 -> 583 MB; RAM: Avail +13 -> 3537 MB, Used -11 -> 610 MB 
+    'C 15-Dec-2021 14:16:10.138;   0:< Protein : Release Renderer Module 
+    'C 15-Dec-2021 14:16:10.138;   0:< Protein : Destroy RenderingAsset Library Manager 
+    'C 15-Dec-2021 14:16:10.141;   0:< Protein : ProteinSdkManager has been destroyed successfully 
+    ' 0:< ::237:: Delta VM: Avail +155 -> 134178825 MB, Used -94 -> 490 MB; RAM: Avail +41 -> 3579 MB, Used -45 -> 565 MB 
+    'C 15-Dec-2021 14:16:10.179;   0:< License cleanup complete: 0, 0 
+    ' 0:< Journal Exit 
+    ' 0:< Log Summary 
+    ' 0:< .Count 
+    ' 0:< ...CloseHiddenWindowsInAllDocuments = 142 
+    ' 0:< ...CloseHiddenWindowsInDocumentStorage = 265 
+    ' 0:< ...DBG_SOMETHING = 4 
+    ' 0:< ...getADocuments_Arr = 126 
+    ' 0:< ...getADocuments_Set = 2363 
+    ' 0:< ...onUpdateWindowCloseHidden = 142 
+    ' 0:< ...ProjectRecsCreated = 7 
+    ' 0:< ...ProjectRecsLeaked = 1 
+    ' 0:< ...resolveJoinStructure = 76 
+    ' 0:< ...tweakGRepsInView = 38 
+    ' 0:< Total session time spent reclaiming memory: 0.000000 seconds.  Averaged 0.000000 seconds/call for 0 calls. 
+    ' 0:< Total expansion time: 0.123318 seconds, averaging 0.000000 seconds/expansion for 761674 expansions. 
+    ' 0:<               BackgroundLoader exec=     1 (parallel=     1)   
+    ' 0:<         ConsumeArchive_Element exec=   218 (parallel=   218)   self=    0.245579 sec (avg=  0.001) 
+    ' 0:<            ConsumeArchive_GRep exec=    42 (parallel=    42)   self=    0.078181 sec (avg=  0.002) 
+    ' 0:<          ConsumeArchive_Header exec=    60 (parallel=    60)   self=    0.442286 sec (avg=  0.007) 
+    ' 0:<      ConsumeElementVisitBucket exec=    39 (parallel=    30)   self=    0.027143 sec (avg=  0.001) 
+    ' 0:<         ConsumeGRepVisitBucket exec=     4 (parallel=     3)   self=    0.004812 sec (avg=  0.001) 
+    ' 0:<             CreatePreviewImage exec=     4 (parallel=     0)   self=    0.247649 sec (avg=  0.062) 
+    ' 0:<                  FormOrAbandon exec=    10 (parallel=     0)   self=    7.579438 sec (avg=  0.758) rollup=   7.597114 (avg=  0.760) 
+    ' 0:<                   JoinTweaking exec=    12 (parallel=     6)   self=    0.003039 sec (avg=  0.000) 
+    ' 0:<                 ProduceArchive exec=   325 (parallel=   325)   self=    0.019849 sec (avg=  0.000) 
+    ' 0:<      ProduceElementVisitBucket exec=    77 (parallel=    63)   self=    0.000923 sec (avg=  0.000) rollup=   0.000922 (avg=  0.000) 
+    ' 0:<         ProduceGRepVisitBucket exec=     8 (parallel=     7)   self=    0.000103 sec (avg=  0.000) 
+    ' 0:<    ReadFileAndPerformOperation exec=    71 (parallel=    19)   self=    0.019252 sec (avg=  0.000) 
+    ' 0:<             RunPipelineContext exec=    42 (parallel=    32)   self=    0.000515 sec (avg=  0.000) rollup=   0.032362 (avg=  0.001) 
+    ' 0:<          SetClassMapsAndHeader exec=     6 (parallel=     0)   
+    ' 0:<                 TaskFileExists exec=   246 (parallel=   239)   self=    0.042266 sec (avg=  0.000) 
+    ' 0:<                   TaskOpenFile exec=     2 (parallel=     2)   self=    0.006015 sec (avg=  0.003) 
+    ' 0:<                    TaskScatter exec=     5 (parallel=     5)   
+    ' 0:<                 TaskWaitCursor exec=     1 (parallel=     1)   
+    ' 0:< ::237:: Delta VM: Avail +51 -> 134178877 MB, Used -96 -> 394 MB; RAM: Avail -7 -> 3573 MB, Used -28 -> 537 MB 
+    ' 0:<  <-desktop ExitNativeInstance 
+    'C 15-Dec-2021 14:16:10.710;   0:< finished recording journal file 

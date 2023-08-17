@@ -1,0 +1,94 @@
+﻿2022-04-08 19:49:04.223 39144:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-08 19:49:04.225 39144:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-08 19:49:04.233 39144:00000001 (BlueStacksInstaller) INFO: Finding closest locale match to en-US
+2022-04-08 19:49:04.234 39144:00000001 (BlueStacksInstaller) INFO: Match found by region: en-US
+2022-04-08 19:49:05.263 39144:00000001 (BlueStacksInstaller) INFO: UserCountry resp: {"country": "IN", "latlong": "17.385044,78.486671"}
+2022-04-08 19:49:05.363 39144:00000001 (BlueStacksInstaller) INFO: Launching C:\Users\sandeep reddy\AppData\Local\Temp\7zSCFAE6EB7\:BlueStacksInstaller.exe "BlueStacksInstaller_5.6.110.1002_native_8600af4d78a7532d310311345f361f3a_0_SG90c3Rhcg==.exe"
+2022-04-08 19:49:12.307 29288:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-08 19:49:12.308 29288:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-08 19:49:12.311 29288:00000001 (BlueStacksInstaller) INFO: Finding closest locale match to en-US
+2022-04-08 19:49:12.311 29288:00000001 (BlueStacksInstaller) INFO: Match found by region: en-US
+2022-04-08 19:49:13.254 29288:00000001 (BlueStacksInstaller) INFO: UserCountry resp: {"country": "IN", "latlong": "17.385044,78.486671"}
+2022-04-08 19:49:13.284 29288:00000001 (BlueStacksInstaller) INFO: Application Main
+2022-04-08 19:49:13.288 29288:00000001 (BlueStacksInstaller) INFO: Using cloud host: https://cloud.bluestacks.com
+2022-04-08 19:49:13.289 29288:00000001 (BlueStacksInstaller) INFO: Old BGP version: 
+2022-04-08 19:49:13.290 29288:00000001 (BlueStacksInstaller) INFO: Arabica version: 
+2022-04-08 19:49:13.372 29288:00000005 (BlueStacksInstaller) INFO: Parent FileName: BlueStacksInstaller_5.6.110.1002_native_8600af4d78a7532d310311345f361f3a_0_SG90c3Rhcg==.exe
+2022-04-08 19:49:13.372 29288:00000005 (BlueStacksInstaller) INFO: Parsing: 8600af4d78a7532d310311345f361f3a_0_SG90c3Rhcg==
+2022-04-08 19:49:13.374 29288:00000005 (BlueStacksInstaller) INFO: Updating DefaultImageName to Nougat32
+2022-04-08 19:49:13.374 29288:00000005 (BlueStacksInstaller) INFO: Updating ImageToLaunch to Nougat32
+2022-04-08 19:49:13.374 29288:00000005 (BlueStacksInstaller) INFO: Campaign: 8600af4d78a7532d310311345f361f3a, AppName: SG90c3Rhcg==, Image: Nougat32
+2022-04-08 19:49:13.434 29288:00000001 (BlueStacksInstaller) INFO: Application OnStartup
+2022-04-08 19:49:14.040 29288:00000007 (BlueStacksInstaller) INFO: Checking hyperv enabled
+2022-04-08 19:49:14.042 29288:00000007 (BlueStacksInstaller) INFO: RunCmd: Starting: C:\Users\sandeep reddy\AppData\Local\Temp\7zSCFAE6EB7\HD-CheckCpu.exe --cmd checkHypervEnabled
+2022-04-08 19:49:14.145 29288:00000007 (BlueStacksInstaller) INFO: RunCmd for pid: 38332, exited with ExitCode: -1 
+2022-04-08 19:49:14.146 29288:00000007 (BlueStacksInstaller) INFO: Checking SSE4 Available
+2022-04-08 19:49:14.146 29288:00000007 (BlueStacksInstaller) INFO: RunCmd: Starting: C:\Users\sandeep reddy\AppData\Local\Temp\7zSCFAE6EB7\HD-CheckCpu.exe --cmd checkSSE4
+2022-04-08 19:49:14.179 29288:00000007 (BlueStacksInstaller) INFO: RunCmd for pid: 1728, exited with ExitCode: 1 
+2022-04-08 19:49:14.179 29288:00000007 (BlueStacksInstaller) INFO: Initializing mi
+2022-04-08 19:49:14.181 29288:00000007 (BlueStacksInstaller) INFO: Fetching bsx details
+2022-04-08 19:49:14.498 29288:00000005 (BlueStacksInstaller) INFO: Response for event mi_launched: {"fle_obj": {"app_url": "", "app_name": "Hotstar", "incompatible": "false", "app_icon_url": "http://cloud.bluestacks.com/app/icon?pkg=in.startv.hotstar", "fle_tag": "", "campaign_name": "ap-hotstar-us", "exit_utm_campaign": "ap-hotstar-us", "app_pkg": "in.startv.hotstar", "promoter_id": ""}}
+2022-04-08 19:49:15.156 29288:00000007 (BlueStacksInstaller) INFO: Install response: {"url": "https://cdn3.bluestacks.com/downloads/windows/bsx-launcher/0.14.3.5/73cce7b1-3d19-43f8-b9ac-5132ae9b9ff8/BlueStacksX-Installer_0.14.3.5.exe", "bsx_version": "0.14.3.5", "default_installation": "bsx,bs5", "default_launch": "bs5"}
+2022-04-08 19:49:15.164 29288:00000007 (BlueStacksInstaller) INFO: Getting installed images from conf
+2022-04-08 19:49:15.164 29288:00000007 (BlueStacksInstaller) INFO: Installed images: 
+2022-04-08 19:49:15.164 29288:00000007 (BlueStacksInstaller) INFO: Getting installed images from conf
+2022-04-08 19:49:15.164 29288:00000007 (BlueStacksInstaller) INFO: Installed images: 
+2022-04-08 19:49:15.164 29288:00000007 (BlueStacksInstaller) INFO: DetectGuestImagesToDownload initializing
+2022-04-08 19:49:15.165 29288:00000007 (BlueStacksInstaller) INFO: Installation type is fresh: True
+2022-04-08 19:49:15.165 29288:00000007 (BlueStacksInstaller) INFO: Image List to be downloaded: Nougat32
+2022-04-08 19:49:15.166 29288:00000007 (BlueStacksInstaller) INFO: Initialization completed
+2022-04-08 19:49:15.169 29288:00000001 (BlueStacksInstaller) INFO: Returning PDDir: C:\ProgramData\BlueStacks_nxt
+2022-04-08 19:49:15.170 29288:00000001 (BlueStacksInstaller) INFO: Returning PFDir: C:\Program Files\BlueStacks_nxt
+2022-04-08 19:49:15.351 29288:00000001 (BlueStacksInstaller) INFO: Showing mainwindow
+2022-04-08 19:49:19.104 29288:00000001 (BlueStacksInstaller) INFO: Checking for supported OS
+2022-04-08 19:49:19.108 29288:00000001 (BlueStacksInstaller) INFO: Operating system details: Windows 10 64-bit
+2022-04-08 19:49:19.108 29288:00000001 (BlueStacksInstaller) INFO: OS Info: Name: 10, Service Pack: , Arch: 64-bit, Ver: 10.0
+2022-04-08 19:49:19.236 29288:00000001 (BlueStacksInstaller) INFO: Checking for physical memory
+2022-04-08 19:49:19.256 29288:00000001 (BlueStacksInstaller) INFO: Available: 8044 MB, Required: 1024 MB
+2022-04-08 19:49:19.277 29288:00000001 (BlueStacksInstaller) INFO: HDD space available InstallDir: 355572 MB
+2022-04-08 19:49:19.280 29288:00000001 (BlueStacksInstaller) INFO: Data and InstallDir same: True
+2022-04-08 19:49:19.280 29288:00000001 (BlueStacksInstaller) INFO: Space required InstallDir: 1300 MB
+2022-04-08 19:49:19.280 29288:00000001 (BlueStacksInstaller) INFO: Space required DataDir: 5120 MB
+2022-04-08 19:49:19.280 29288:00000001 (BlueStacksInstaller) INFO: Space required total: 6420
+2022-04-08 19:49:19.280 29288:00000001 (BlueStacksInstaller) INFO: Space available: 355572 MB
+2022-04-08 19:49:19.286 29288:00000001 (BlueStacksInstaller) INFO: Temp download path: C:\Users\sandeep reddy\AppData\Local\Temp\BlueStacksInstaller_5.6.110.1002_native_8600af4d78a7532d310311345f361f3a_0_SG90c3Rhcg==.exe
+2022-04-08 19:49:19.286 29288:00000001 (BlueStacksInstaller) INFO: Installer file path: C:\Users\sandeep reddy\AppData\Local\BlueStacksSetup\BlueStacksInstaller_5.6.110.1002_native_8600af4d78a7532d310311345f361f3a_0_SG90c3Rhcg==.exe
+2022-04-08 19:49:19.287 29288:00000015 (BlueStacksInstaller) INFO: Will download images later: Nougat32
+2022-04-08 19:49:19.287 29288:00000015 (BlueStacksInstaller) INFO: Starting downloader of BSX
+2022-04-08 19:49:19.291 29288:00000015 (BlueStacksInstaller) INFO: Downloading BSX installer at C:\Users\sandeep reddy\AppData\Local\BlueStacksSetup\BSX-Setup-5.6.110.1002.exe
+2022-04-08 19:49:20.361 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 0, Downloaded: 570272
+2022-04-08 19:49:25.369 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 570272, Downloaded: 8141688
+2022-04-08 19:49:30.385 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 8141688, Downloaded: 16728408
+2022-04-08 19:49:35.393 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 16728408, Downloaded: 22373920
+2022-04-08 19:49:40.405 29288:0000000A (BlueStacksInstaller) INFO: LastRecorded: 22373920, Downloaded: 28103288
+2022-04-08 19:49:45.419 29288:00000008 (BlueStacksInstaller) INFO: LastRecorded: 28103288, Downloaded: 34478872
+2022-04-08 19:49:50.426 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 34478872, Downloaded: 40592744
+2022-04-08 19:49:55.429 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 40609128, Downloaded: 47679736
+2022-04-08 19:50:00.445 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 47679736, Downloaded: 55038272
+2022-04-08 19:50:05.459 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 55038272, Downloaded: 59936864
+2022-04-08 19:50:10.460 29288:0000000A (BlueStacksInstaller) INFO: LastRecorded: 59936864, Downloaded: 65806416
+2022-04-08 19:50:15.461 29288:00000008 (BlueStacksInstaller) INFO: LastRecorded: 65806416, Downloaded: 69209776
+2022-04-08 19:50:20.463 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 69209776, Downloaded: 72659192
+2022-04-08 19:50:25.472 29288:00000008 (BlueStacksInstaller) INFO: LastRecorded: 72659192, Downloaded: 76245024
+2022-04-08 19:50:30.481 29288:0000000A (BlueStacksInstaller) INFO: LastRecorded: 76245024, Downloaded: 79758296
+2022-04-08 19:50:35.494 29288:0000000E (BlueStacksInstaller) INFO: LastRecorded: 79758296, Downloaded: 84637104
+2022-04-08 19:50:40.498 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 84637104, Downloaded: 89420336
+2022-04-08 19:50:45.509 29288:00000008 (BlueStacksInstaller) INFO: LastRecorded: 89420336, Downloaded: 94595528
+2022-04-08 19:50:50.512 29288:0000000A (BlueStacksInstaller) INFO: LastRecorded: 94595528, Downloaded: 101027624
+2022-04-08 19:50:55.513 29288:00000008 (BlueStacksInstaller) INFO: LastRecorded: 101027624, Downloaded: 108815904
+2022-04-08 19:51:00.523 29288:0000000A (BlueStacksInstaller) INFO: LastRecorded: 108815904, Downloaded: 116630016
+2022-04-08 19:51:05.535 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 116630016, Downloaded: 127439544
+2022-04-08 19:51:10.549 29288:0000000E (BlueStacksInstaller) INFO: LastRecorded: 127439544, Downloaded: 137879000
+2022-04-08 19:51:15.558 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 137879000, Downloaded: 142989832
+2022-04-08 19:51:20.571 29288:0000000E (BlueStacksInstaller) INFO: LastRecorded: 142989832, Downloaded: 147000168
+2022-04-08 19:51:22.115 29288:00000015 (BlueStacksInstaller) INFO: Downloading Nougat32 at C:\ProgramData\Nougat32_5.6.110.1002.7z
+2022-04-08 19:51:22.115 29288:00000014 (BlueStacksInstaller) INFO: Starting installation of BSX
+2022-04-08 19:51:22.116 29288:00000014 (BlueStacksInstaller) INFO: C:\Users\sandeep reddy\AppData\Local\BlueStacksSetup\BSX-Setup-5.6.110.1002.exe -s
+2022-04-08 19:51:25.572 29288:00000008 (BlueStacksInstaller) INFO: LastRecorded: 147000168, Downloaded: 8202912
+2022-04-08 19:51:30.574 29288:00000009 (BlueStacksInstaller) INFO: LastRecorded: 8202912, Downloaded: 18334062
+2022-04-08 19:51:35.589 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 18334062, Downloaded: 24131902
+2022-04-08 19:51:36.686 29288:00000014 (BlueStacksInstaller) INFO: C:\Users\sandeep reddy\AppData\Local\BlueStacksSetup\BSX-Setup-5.6.110.1002.exe exited with ExitCode: 0
+2022-04-08 19:51:40.605 29288:0000000B (BlueStacksInstaller) INFO: LastRecorded: 24131902, Downloaded: 33176642
+2022-04-08 19:51:45.613 29288:0000000E (BlueStacksInstaller) INFO: LastRecorded: 33176642, Downloaded: 42777602
+2022-04-08 19:51:48.545 29288:00000001 (BlueStacksInstaller) INFO: ExitApplication 0
+2022-04-08 19:51:48.643 39144:00000001 (BlueStacksInstaller) INFO: ExitApplication 1073807364

@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Errors>
+	<Error Archived="false" Code="4401" Flags="2" Id="486" SubCode="0">
+	  <Text>Citrix Workspace exits.</Text>
+	  <TimeStamp>Wednesday, February 22, 2023 9:26:06 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="485" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 22, 2023 9:24:18 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="484" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 21, 2023 10:44:02 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="483" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 21, 2023 3:27:12 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="482" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 21, 2023 12:40:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="481" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 17, 2023 3:26:06 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="480" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 15, 2023 2:56:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="479" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 14, 2023 9:49:54 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="478" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 11, 2023 8:51:44 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="477" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 9, 2023 6:16:50 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="476" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 8, 2023 11:23:14 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="475" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 7, 2023 1:15:15 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="474" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 6, 2023 5:21:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="473" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 6, 2023 11:11:12 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="472" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, February 5, 2023 10:06:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="471" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 3, 2023 10:57:05 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="470" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 23, 2023 6:58:26 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="469" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 30, 2022 12:14:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="468" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, December 29, 2022 10:35:18 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="467" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 28, 2022 2:15:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="466" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 23, 2022 10:36:36 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="465" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, December 22, 2022 9:26:42 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="464" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 20, 2022 6:10:37 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="463" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, December 18, 2022 7:31:15 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="462" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, December 17, 2022 4:05:19 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="461" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, December 15, 2022 6:14:12 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="460" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, December 15, 2022 11:13:05 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="459" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 9, 2022 4:00:43 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="458" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 7, 2022 10:51:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="457" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 6, 2022 1:01:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="456" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 6, 2022 12:06:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="455" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, December 3, 2022 4:24:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="454" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, December 1, 2022 9:43:32 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="453" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, November 26, 2022 9:07:58 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="452" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, November 25, 2022 9:02:40 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="451" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, November 17, 2022 9:24:46 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="450" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, November 13, 2022 6:38:48 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="449" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, November 13, 2022 11:16:44 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="448" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, November 13, 2022 10:33:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="447" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, November 12, 2022 8:19:29 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="446" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, November 12, 2022 7:56:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="445" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, November 12, 2022 7:38:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="444" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, November 12, 2022 10:07:15 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="443" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, November 12, 2022 9:35:21 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="442" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, November 1, 2022 10:43:19 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="441" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, October 31, 2022 8:51:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="440" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 30, 2022 9:34:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="439" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, October 29, 2022 10:11:19 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="438" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, October 24, 2022 10:15:10 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="437" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 23, 2022 9:51:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4401" Flags="2" Id="436" SubCode="0">
+	  <Text>Citrix Workspace exits.</Text>
+	  <TimeStamp>Sunday, October 23, 2022 9:49:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="435" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 23, 2022 9:48:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="434" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 23, 2022 9:48:34 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="433" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 23, 2022 10:33:49 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="432" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, October 21, 2022 7:19:20 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="431" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, October 20, 2022 2:24:42 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="430" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, October 18, 2022 8:34:50 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="429" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, October 17, 2022 10:23:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="428" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, October 15, 2022 9:40:45 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="427" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, October 13, 2022 2:46:44 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="426" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, October 12, 2022 7:54:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="425" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, October 11, 2022 4:00:50 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="424" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 9, 2022 7:11:07 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="423" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, October 7, 2022 1:19:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="422" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, October 6, 2022 1:09:20 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="421" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, October 4, 2022 7:04:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="420" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, October 4, 2022 6:18:10 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="419" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, October 4, 2022 11:14:40 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="418" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, October 3, 2022 9:50:06 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="417" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, October 3, 2022 12:50:03 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="416" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, October 2, 2022 12:37:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="415" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, October 1, 2022 9:01:37 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="414" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, September 29, 2022 9:57:58 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="413" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, September 28, 2022 9:57:59 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="412" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, September 24, 2022 2:01:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="411" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, September 24, 2022 1:31:21 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="410" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, September 24, 2022 11:03:08 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="409" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, September 23, 2022 8:32:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="408" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, September 18, 2022 11:03:49 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="407" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, September 14, 2022 10:57:46 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="406" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, September 13, 2022 5:51:37 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="405" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, September 13, 2022 2:56:59 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="404" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, September 12, 2022 11:39:41 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="403" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, September 11, 2022 1:08:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="402" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, September 9, 2022 4:09:55 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="401" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, September 6, 2022 3:34:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="400" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, August 29, 2022 9:13:49 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="399" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, August 27, 2022 10:16:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="398" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, August 27, 2022 9:42:05 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="397" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, August 27, 2022 9:40:10 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="396" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, August 27, 2022 8:58:50 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="395" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, August 26, 2022 8:31:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="394" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, August 26, 2022 8:21:52 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="393" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 25, 2022 8:48:47 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="392" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 25, 2022 8:39:21 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="391" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 25, 2022 8:35:47 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="390" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 25, 2022 8:31:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="389" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 25, 2022 8:25:50 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="388" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, August 24, 2022 8:21:42 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="387" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 23, 2022 9:14:02 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="386" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 23, 2022 8:17:29 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="385" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, August 19, 2022 9:23:08 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="384" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 18, 2022 3:21:56 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="383" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, August 17, 2022 5:51:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="382" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, August 17, 2022 10:36:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="381" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 16, 2022 10:03:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="380" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 16, 2022 10:02:00 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="379" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 16, 2022 9:44:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="378" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 11, 2022 8:40:32 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="377" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, August 5, 2022 5:35:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="376" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, August 5, 2022 10:14:34 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="375" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, August 5, 2022 9:54:50 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="374" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 4, 2022 5:15:24 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="373" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 4, 2022 5:06:49 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="372" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, August 4, 2022 9:23:29 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="371" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, August 3, 2022 8:59:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="370" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 2, 2022 10:03:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="369" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 2, 2022 9:56:10 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="368" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 2, 2022 9:51:45 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="367" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, August 2, 2022 9:47:36 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="366" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, August 1, 2022 8:33:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="365" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, August 1, 2022 8:32:16 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="364" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, August 1, 2022 8:27:01 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="363" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 31, 2022 11:32:08 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="362" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 31, 2022 11:26:13 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="361" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 31, 2022 10:25:11 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="360" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 31, 2022 6:41:58 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="359" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 31, 2022 6:39:45 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="358" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 31, 2022 6:32:07 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="357" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 29, 2022 10:09:50 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="356" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 29, 2022 9:08:36 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="355" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 28, 2022 11:00:41 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="354" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 27, 2022 11:08:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="353" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, July 26, 2022 5:07:47 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="352" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, July 26, 2022 9:41:27 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="351" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 25, 2022 11:40:47 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="350" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 25, 2022 11:25:27 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="349" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 25, 2022 9:00:48 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="348" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 24, 2022 11:43:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="347" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, July 23, 2022 10:03:41 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="346" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 22, 2022 6:08:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="345" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 22, 2022 2:29:41 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="344" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 22, 2022 8:52:00 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="343" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 21, 2022 9:25:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="342" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, July 19, 2022 10:23:52 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="341" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 17, 2022 6:28:45 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="340" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 17, 2022 9:49:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="339" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 15, 2022 4:39:47 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="338" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 15, 2022 10:22:27 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="337" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 15, 2022 10:00:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="336" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 14, 2022 7:23:33 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="335" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 14, 2022 5:39:17 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="334" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 14, 2022 1:48:20 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="333" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 14, 2022 12:14:16 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="332" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, July 14, 2022 11:59:24 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="331" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 13, 2022 3:25:58 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="330" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 13, 2022 3:20:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="329" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 13, 2022 9:50:22 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="328" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 13, 2022 9:17:26 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="327" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 13, 2022 9:03:55 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="326" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, July 12, 2022 2:45:55 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="325" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, July 12, 2022 2:24:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="324" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, July 12, 2022 8:59:42 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="323" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 11, 2022 6:52:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="322" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 11, 2022 10:16:49 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="321" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 10, 2022 3:26:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="320" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, July 9, 2022 11:27:46 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="319" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, July 9, 2022 9:49:34 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="318" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, July 9, 2022 9:32:49 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="317" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, July 9, 2022 9:28:22 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="316" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 6, 2022 1:10:37 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="315" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, July 6, 2022 9:02:30 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="314" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 4, 2022 6:58:17 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="313" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, July 4, 2022 9:14:21 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="312" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, July 3, 2022 12:02:03 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="311" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, July 2, 2022 9:43:20 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="310" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 1, 2022 2:27:43 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="309" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, July 1, 2022 9:23:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="308" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 30, 2022 7:57:36 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="307" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 30, 2022 7:28:56 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="306" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 30, 2022 9:46:46 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="305" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, June 29, 2022 7:03:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="304" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, June 28, 2022 9:36:42 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="303" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, June 28, 2022 11:09:09 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="302" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, June 26, 2022 8:55:38 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="301" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, June 25, 2022 9:46:37 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="300" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, June 24, 2022 8:59:20 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="299" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 23, 2022 7:09:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="298" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 23, 2022 4:55:12 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="297" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 23, 2022 4:41:01 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="296" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 23, 2022 2:31:03 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="295" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 23, 2022 12:48:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="294" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, June 20, 2022 9:39:24 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="293" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, June 19, 2022 12:02:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="292" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, June 17, 2022 9:34:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="291" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 16, 2022 8:56:42 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="290" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, June 15, 2022 9:39:44 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="289" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, June 15, 2022 6:53:58 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="288" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, June 14, 2022 7:14:10 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="287" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, June 13, 2022 9:20:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="286" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, June 12, 2022 9:44:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="285" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, June 11, 2022 9:48:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="284" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, June 10, 2022 1:10:40 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="283" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, June 7, 2022 2:55:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="282" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, June 6, 2022 8:28:40 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="281" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, June 6, 2022 7:12:32 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="280" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, June 5, 2022 10:10:44 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="279" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, June 4, 2022 8:22:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="278" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, June 4, 2022 11:23:41 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="277" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, June 3, 2022 9:55:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="276" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 2, 2022 9:51:32 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="275" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, June 2, 2022 7:20:45 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="274" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 31, 2022 10:57:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="273" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 31, 2022 8:25:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="272" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, May 30, 2022 9:09:01 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="271" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, May 30, 2022 7:21:52 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="270" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 29, 2022 7:38:13 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="269" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, May 28, 2022 8:11:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="268" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, May 27, 2022 8:57:16 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="267" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, May 27, 2022 8:34:38 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="266" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, May 26, 2022 8:55:44 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="265" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, May 25, 2022 8:07:16 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="264" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 24, 2022 8:50:50 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="263" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, May 20, 2022 7:58:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="262" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, May 19, 2022 8:06:06 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="261" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, May 18, 2022 9:01:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="260" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, May 18, 2022 7:22:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="259" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 17, 2022 9:32:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="258" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, May 16, 2022 8:11:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="257" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 15, 2022 1:46:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="256" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 15, 2022 8:58:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="255" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, May 14, 2022 8:46:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="254" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, May 13, 2022 5:45:57 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="253" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, May 11, 2022 4:20:02 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="252" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 10, 2022 8:30:10 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="251" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 10, 2022 6:54:37 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="250" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 10, 2022 9:24:13 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="249" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, May 9, 2022 5:44:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="248" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, May 7, 2022 6:19:20 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="247" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, May 4, 2022 8:02:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="246" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, May 4, 2022 7:23:42 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="245" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, May 3, 2022 4:33:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="244" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, May 2, 2022 9:08:26 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="243" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 3:30:30 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="242" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 11:51:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="241" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 11:12:03 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="240" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 10:54:38 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="239" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 9:34:30 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="238" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 9:25:51 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="237" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 9:20:29 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="236" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 9:08:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="235" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, May 1, 2022 9:04:17 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="234" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 28, 2022 10:00:28 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="233" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 27, 2022 10:13:43 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="232" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 27, 2022 8:31:58 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="231" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 26, 2022 6:02:41 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="230" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 26, 2022 8:51:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="229" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, April 25, 2022 12:57:51 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="228" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, April 24, 2022 3:47:01 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="227" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, April 24, 2022 10:51:26 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="226" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, April 23, 2022 8:10:17 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="225" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, April 22, 2022 9:16:47 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="224" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 21, 2022 2:03:34 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="223" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 21, 2022 8:20:17 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="222" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 20, 2022 9:33:58 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="221" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 20, 2022 8:46:54 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="220" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 19, 2022 9:54:30 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="219" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 19, 2022 7:36:40 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="218" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, April 18, 2022 8:56:27 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="217" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, April 17, 2022 7:51:52 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="216" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, April 16, 2022 8:49:37 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="215" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 14, 2022 6:54:05 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="214" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 13, 2022 10:42:24 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="213" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 12, 2022 7:56:25 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="212" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 12, 2022 9:32:14 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="211" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, April 9, 2022 1:27:17 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="210" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, April 9, 2022 10:47:24 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="209" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, April 8, 2022 7:41:58 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="208" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, April 8, 2022 7:28:41 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="207" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, April 8, 2022 8:45:24 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="206" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 7, 2022 8:40:22 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="205" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 7, 2022 3:01:21 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="204" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, April 7, 2022 9:43:32 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="203" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 6, 2022 11:14:22 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="202" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, April 6, 2022 9:48:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="201" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, April 5, 2022 9:59:26 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="200" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, April 4, 2022 9:59:14 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="199" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, April 2, 2022 1:56:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="198" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, April 1, 2022 11:29:27 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="197" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, March 31, 2022 9:55:51 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="196" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, March 30, 2022 10:07:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="195" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, March 29, 2022 12:27:23 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="194" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, March 28, 2022 10:29:36 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="193" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, March 26, 2022 9:51:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="192" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, March 25, 2022 10:12:19 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="191" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, March 20, 2022 4:05:48 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="190" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, March 19, 2022 12:51:37 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="189" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, March 19, 2022 8:36:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="188" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, March 18, 2022 2:27:57 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="187" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, March 7, 2022 1:17:20 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="186" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, March 6, 2022 9:22:24 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="185" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, March 5, 2022 10:42:12 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="184" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, March 4, 2022 10:19:32 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="183" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, March 3, 2022 9:28:06 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="182" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, March 2, 2022 5:22:44 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="181" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, March 2, 2022 12:19:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="180" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, March 2, 2022 10:13:32 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="179" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, March 1, 2022 8:22:46 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="178" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 28, 2022 6:23:58 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="177" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 28, 2022 11:45:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="176" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, February 27, 2022 8:52:06 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="175" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 26, 2022 7:51:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="174" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 26, 2022 3:31:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="173" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 26, 2022 12:57:16 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="172" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 25, 2022 8:31:07 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="171" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 24, 2022 6:13:11 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="170" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 24, 2022 9:05:13 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="169" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 23, 2022 9:49:16 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="168" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 23, 2022 6:53:48 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="167" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 23, 2022 4:58:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="166" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 23, 2022 10:14:16 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="165" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 23, 2022 6:55:54 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="164" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 22, 2022 8:28:25 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="163" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 22, 2022 4:11:46 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="162" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 22, 2022 8:25:03 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="161" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 21, 2022 7:53:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="160" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 19, 2022 3:24:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="159" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 19, 2022 8:20:21 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="158" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 18, 2022 2:34:58 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="157" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 18, 2022 1:05:16 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="156" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 18, 2022 10:55:13 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="155" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 18, 2022 10:00:55 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="154" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 18, 2022 7:16:12 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="153" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 17, 2022 10:08:41 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="152" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 16, 2022 5:56:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="151" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 16, 2022 2:48:22 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="150" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 16, 2022 10:54:06 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="149" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 16, 2022 7:40:37 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="148" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 15, 2022 6:38:20 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="147" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 15, 2022 12:39:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="146" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 15, 2022 9:34:18 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="145" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 14, 2022 9:14:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="144" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 14, 2022 12:09:56 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="143" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 14, 2022 7:28:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="142" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, February 13, 2022 3:06:19 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="141" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, February 13, 2022 11:49:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="140" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, February 13, 2022 8:27:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="139" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 12, 2022 10:23:29 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="138" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, February 12, 2022 7:41:48 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="137" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 11, 2022 7:22:19 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="136" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 11, 2022 11:31:08 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="135" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 11, 2022 9:05:44 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="134" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 10, 2022 7:52:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="133" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 10, 2022 12:16:44 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="132" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 10, 2022 9:02:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="131" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 10, 2022 7:09:23 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="130" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 9, 2022 7:22:11 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="129" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 9, 2022 4:07:21 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="128" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 9, 2022 2:02:33 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="127" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 9, 2022 9:17:20 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="126" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 9, 2022 7:11:18 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="125" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 8, 2022 8:19:57 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="124" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 8, 2022 5:42:37 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="123" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 8, 2022 1:46:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="122" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 8, 2022 11:45:35 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="121" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 8, 2022 8:26:42 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="120" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, February 7, 2022 12:35:29 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="119" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, February 6, 2022 7:32:53 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="118" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 4, 2022 7:30:08 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="117" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 4, 2022 5:50:36 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="116" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 4, 2022 2:07:42 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="115" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 4, 2022 11:49:12 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="114" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, February 4, 2022 10:30:20 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="113" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 3, 2022 7:33:45 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="112" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 3, 2022 10:53:16 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="111" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 3, 2022 9:08:39 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="110" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, February 3, 2022 7:58:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="109" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 8:56:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="108" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 6:57:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="107" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 5:10:34 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="106" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 2:30:04 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="105" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 12:25:52 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="104" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 8:25:06 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="103" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, February 2, 2022 7:52:26 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="102" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 1, 2022 7:38:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="101" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 1, 2022 6:25:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="100" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 1, 2022 3:30:29 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="99" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, February 1, 2022 10:28:03 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="98" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 5:48:45 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="97" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 1:42:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="96" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 12:47:30 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="95" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 11:55:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="94" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 11:19:00 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="93" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 9:08:03 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="92" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 31, 2022 7:29:52 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="91" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 30, 2022 9:52:44 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="90" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 30, 2022 6:52:56 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="89" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 30, 2022 4:48:40 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="88" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 28, 2022 2:16:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="87" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 28, 2022 1:10:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="86" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 28, 2022 1:07:10 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="85" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 28, 2022 7:54:03 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="84" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 25, 2022 5:27:23 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="83" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 25, 2022 12:58:13 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="82" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 25, 2022 12:34:24 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="81" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 25, 2022 12:18:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="80" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 25, 2022 11:20:14 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="79" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 24, 2022 9:26:38 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="78" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 23, 2022 2:34:26 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="77" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 23, 2022 1:10:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="76" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 23, 2022 12:47:03 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="75" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 23, 2022 8:57:15 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="74" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 22, 2022 6:01:42 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="73" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 22, 2022 1:13:17 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="72" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 22, 2022 12:14:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="71" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 22, 2022 11:40:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="70" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 21, 2022 8:25:32 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="69" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 21, 2022 2:46:19 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="68" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 21, 2022 10:54:09 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="67" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 21, 2022 8:50:46 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="66" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, January 20, 2022 3:24:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="65" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, January 20, 2022 10:09:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="64" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 19, 2022 5:53:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="63" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 19, 2022 4:48:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="62" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 19, 2022 3:48:53 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="61" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 19, 2022 10:17:16 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="60" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 19, 2022 8:24:43 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="59" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 19, 2022 6:59:29 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="58" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 5:45:28 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="57" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 5:30:51 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="56" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 5:29:34 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="55" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 5:21:20 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="54" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 5:19:33 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="53" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 5:15:52 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="52" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 3:02:39 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="51" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 12:02:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="50" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 18, 2022 8:38:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="49" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 17, 2022 6:24:40 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="48" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 17, 2022 8:38:49 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="47" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 17, 2022 8:08:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="46" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 16, 2022 2:56:06 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="45" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 16, 2022 11:27:55 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="44" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 16, 2022 10:57:45 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="43" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Sunday, January 16, 2022 7:45:20 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="42" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 15, 2022 6:33:40 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="41" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 15, 2022 4:41:34 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="40" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 15, 2022 1:11:24 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="39" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 12, 2022 3:08:02 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="38" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 12, 2022 10:02:26 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="37" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 11, 2022 9:07:34 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="36" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, January 10, 2022 3:27:46 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="35" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 8, 2022 9:19:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="34" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, January 8, 2022 12:54:55 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="33" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 7, 2022 8:11:12 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="32" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 7, 2022 3:06:15 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="31" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 7, 2022 3:02:43 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="30" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 7, 2022 2:03:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="29" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 7, 2022 9:19:58 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="28" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, January 7, 2022 7:37:33 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="27" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, January 6, 2022 10:20:50 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="26" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, January 6, 2022 2:25:01 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="25" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, January 5, 2022 10:37:56 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="24" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, January 4, 2022 11:43:25 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="23" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 31, 2021 7:32:57 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="22" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 28, 2021 3:29:14 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="21" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 28, 2021 7:15:58 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="20" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Saturday, December 25, 2021 7:01:18 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="19" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 24, 2021 1:10:02 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="18" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 22, 2021 2:11:05 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="17" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, December 20, 2021 2:33:00 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="16" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 17, 2021 10:04:31 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="15" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 15, 2021 3:08:23 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="14" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 15, 2021 2:00:35 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="13" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 15, 2021 9:59:12 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="12" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 14, 2021 6:56:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="11" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 14, 2021 8:36:08 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="10" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 14, 2021 8:02:01 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="9" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 10, 2021 2:34:54 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="8" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 10, 2021 12:54:33 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="7" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 10, 2021 12:40:29 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="6" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Friday, December 10, 2021 7:27:04 AM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="5" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Thursday, December 9, 2021 3:49:55 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="4" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Wednesday, December 8, 2021 3:47:19 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="3" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Tuesday, December 7, 2021 10:22:27 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="2" Id="2" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, December 6, 2021 3:56:07 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+	<Error Archived="false" Code="4400" Flags="9" Id="1" SubCode="0">
+	  <Text>Citrix Workspace started.</Text>
+	  <TimeStamp>Monday, December 6, 2021 1:07:31 PM</TimeStamp>
+	  <Message/>
+	  <Parameter/>
+	</Error>
+</Errors>

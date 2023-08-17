@@ -1,0 +1,8 @@
+"Preparing to clone inside a volume\n"
+"Installing credential helpers... "
+"done\n"
+"Cloning into '/code'...\r\n"
+"fatal: unable to access 'http://modugusandeep2/': Could not resolve host: modugusandeep2\r\n"
+"exit code 128"
+"error while executing 'docker pull docker/dev-environments-default:stable-1' : context canceled"
+"not found"
